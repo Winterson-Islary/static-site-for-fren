@@ -1,3 +1,5 @@
+import DisplayServiceImage from "@/components/DisplayServiceImage";
+
 const Home = () => {
 	return (
 		<>
@@ -7,11 +9,10 @@ const Home = () => {
 			<div className=" h-screen bg-red-300 text-center text-2xl font-bold">
 				Section2
 			</div>
-			<div className=" h-screen bg-green-300 text-center text-2xl font-bold">
-				Section3
+			<div className=" h-screen text-center text-2xl font-bold overflow-hidden">
+				<DisplayServiceImage />
 			</div>
 		</>
 	);
 };
-
 export default Home;
