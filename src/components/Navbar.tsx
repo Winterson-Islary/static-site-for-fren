@@ -13,8 +13,9 @@ export const Navbar = () => {
 };
 
 const navItems = [
-	{ label: "services", link: "/services" },
-	{ label: "blogs", link: "/blogs" },
+	{ label: "Services", link: "/services" },
+	{ label: "Blogs", link: "/blogs" },
+	{ label: "About us", link: "/about us" },
 ];
 
 function MobileNavbar() {
@@ -38,7 +39,7 @@ function DesktopNavbar() {
 		<div className="hidden md:block border-separate border-b bg-background">
 			<nav className="container flex items-center justify-between px-8">
 				<div className="flex h-[80px] min-h-[60px] items-center justify-between gap-x-4 w-full">
-					<div className="">
+					<div className="font-montserrat font-semibold">
 						<Link to="/">LOGO</Link>
 					</div>
 					<div className="flex h-full">
@@ -70,7 +71,7 @@ function NavbarItem({
 				to={link}
 				className={cn(
 					buttonVariants({ variant: "ghost" }),
-					"w-full justify-start text-lg text-muted-foreground hover:text-foreground",
+					"font-roboto font-bold w-full justify-start text-md text-muted-foreground hover:text-foreground",
 					isActive && "text-foreground",
 				)}
 				onClick={() => {
