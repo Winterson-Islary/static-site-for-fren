@@ -1,6 +1,7 @@
 import Lenis from "lenis";
 import { useEffect } from "react";
-import Home from "@/pages/Home.tsx";
+import { Navbar } from "./components/Navbar";
+import { Outlet } from "react-router-dom";
 
 function App() {
 	useEffect(() => {
@@ -14,7 +15,8 @@ function App() {
 
 	return (
 		<>
-			<Home />
+			<Navbar />
+			<Outlet />
 		</>
 	);
 }
