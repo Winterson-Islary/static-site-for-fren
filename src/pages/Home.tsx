@@ -6,11 +6,11 @@ const Home = () => {
 		<>
 			<div className="pt-[3rem] md:pt-[5rem] h-[55rem] md:h-screen bg-black">
 				<section className="flex flex-col text-white mx-auto h-full w-[80%] lg:w-[50%] justify-center items-center">
-					<span className="font-roboto text-5xl md:text-7xl">
+					<span className=" font-tanker text-5xl md:text-7xl">
 						Professional <span className="underline ">Errands</span> running
 						service at your fingertips...
 					</span>
-					<span className="font-montserrat pt-5 md:text-xl">
+					<span className="font-roboto font-semibold pt-5 md:text-xl">
 						Get your errands done with professional errand runners, everything
 						from finding, booking, fixing, buying and delivering. One stop
 						solution for any task
@@ -18,7 +18,7 @@ const Home = () => {
 				</section>
 			</div>
 			<div className=" min-h-[10rem] py-10 text-center text-2xl font-bold flex flex-col justify-center">
-				<span className="font-montserrat text-3xl border-b-4 border-b-black mx-auto">
+				<span className="font-tanker text-4xl border-b-4 border-b-black mx-auto">
 					CLIENTS
 				</span>
 				<section className="pt-5">

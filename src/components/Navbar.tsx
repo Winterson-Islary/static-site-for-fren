@@ -25,7 +25,7 @@ function MobileNavbar() {
 			<nav className="container flex items-center justify-between px-8 py-2">
 				<div
 					id="logo-container-mobile"
-					className="text-2xl text-white font-semibold"
+					className="font-tanker text-3xl text-white font-semibold"
 				>
 					<Link to="/">LOGO</Link>
 				</div>
@@ -45,7 +45,7 @@ function DesktopNavbar() {
 		<div className="hidden md:block border-separate border-b bg-transparent absolute w-full">
 			<nav className="container flex items-center justify-between px-8">
 				<div className="flex h-[80px] min-h-[60px] items-center justify-between gap-x-4 w-full">
-					<div className="font-montserrat font-semibold text-white">
+					<div className="font-tanker text-3xl font-semibold text-white">
 						<Link to="/">LOGO</Link>
 					</div>
 					<div className="flex h-full items-center gap-5">
@@ -76,7 +76,7 @@ function NavbarItem({
 			<Link
 				to={link}
 				className={cn(
-					"font-roboto font-bold w-full justify-start text-md text-white hover:border-t-2 hover:border-orange-500 hover:text-orange-500 ",
+					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-orange-500 hover:text-orange-500 ",
 					isActive && "text-orange-500 border-t-2 border-orange-500",
 				)}
 				onClick={() => {
