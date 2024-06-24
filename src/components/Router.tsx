@@ -2,6 +2,7 @@ import App from "@/App.tsx";
 import Blogs from "@/pages/Blogs";
 import Home from "@/pages/Home";
 import Services from "@/pages/Services";
+import About from "@/pages/About";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
 			{
 				path: "/services",
 				element: <Services />,
+				index: true,
+			},
+			{
+				path: "/about",
+				element: <About />,
 				index: true,
 			},
 		],

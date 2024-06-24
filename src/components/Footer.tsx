@@ -6,14 +6,14 @@ function Footer() {
 			<div className="w-[80%] mx-auto border-t-4 border-white xl:flex md:gap-48 justify-between">
 				<section className="md:flex md:gap-48">
 					<section className="text-white font-roboto text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap flex-shrink">
-						<Link to="" className="hover:underline">
+						<Link to="/about" className="hover:underline">
 							ABOUT WEBSITE
 						</Link>
 						<Link to="" className="hover:underline">
 							CONTACT US
 						</Link>
 
-						<Link to="" className="hover:underline">
+						<Link to="/blogs" className="hover:underline">
 							BLOGS
 						</Link>
 						<Link to="" className="hover:underline">
