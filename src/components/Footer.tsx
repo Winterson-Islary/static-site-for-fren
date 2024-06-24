@@ -7,7 +7,7 @@ function Footer() {
 				<section className="md:flex md:gap-48">
 					<section className="text-white font-roboto text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap flex-shrink">
 						<Link to="/about" className="hover:underline">
-							ABOUT WEBSITE
+							ABOUT US
 						</Link>
 						<Link to="" className="hover:underline">
 							CONTACT US
@@ -68,7 +68,7 @@ function Footer() {
 						2024 © WINTERSON, ALL RIGHTS RESERVED
 					</span>
 				</section>
-				<section className="font-montserrat text-white text-center mx-auto w-[70%]">
+				<section className="font-roboto font-medium text-md text-white text-center mx-auto w-[70%]">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore,
 					provident. Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Exercitationem animi nemo praesentium quod vitae. Vitae aliquid non
