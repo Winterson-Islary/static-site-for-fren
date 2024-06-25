@@ -1,6 +1,7 @@
 import DisplayClients from "@/components/DisplayClients";
 import DisplayFeatures from "@/components/DisplayFeatures";
 import DisplayServiceImage from "@/components/DisplayServiceImage";
+import DisplayServices from "@/components/DisplayServices";
 
 const Home = () => {
 	return (
@@ -18,9 +19,12 @@ const Home = () => {
 						Your Premier Professional{" "}
 						<span className="underline ">Errands</span> running service...
 					</span>
-					<span className="font-roboto font-semibold pt-5 md:text-xl md:w-[70%] xl:w-[55%] ">
-						Professional Errand Runners for All Your Needs: Finding, Booking,
-						Fixing, Buying, and Delivering. Your One-Stop Solution for Any Task.
+					<span className="font-roboto font-semibold pt-5 md:text-2xl md:w-[70%] xl:w-[55%]">
+						<p className="tracking-tight leading-snug">
+							Professional Errand Runners for All Your Needs: Finding, Booking,
+							Fixing, Buying, and Delivering. Your One-Stop Solution for Any
+							Task.
+						</p>
 					</span>
 				</section>
 			</div>
@@ -39,11 +43,14 @@ const Home = () => {
 			</div>
 			<div
 				id="services-container"
-				className=" h-screen bg-red-300 text-center py-10 flex flex-col"
+				className=" h-full bg-red-300 py-10 flex flex-col"
 			>
 				<span className="font-tanker tracking-wide text-4xl md:text-7xl font-bold border-b-4 border-b-black mx-auto">
 					What we do
 				</span>
+				<section className="pt-10">
+					<DisplayServices />
+				</section>
 			</div>
 			<div
 				id="clients-container"
