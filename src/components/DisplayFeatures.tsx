@@ -47,8 +47,8 @@ function DisplayFeatures() {
 						<section className="text-left md:pt-5 font-tanker text-2xl md:text-4xl underline">
 							{feature.title}
 						</section>
-						<section className="text-left md:pb-2 md:pt-4 font-roboto font-semibold md:text-md">
-							{feature.desc}
+						<section className="text-left md:pb-2 md:pt-4 font-roboto font-semibold text-sm border-l-2 md:border-none rounded-l rounded-r-full px-1 border-black md:text-base ">
+							<p className="leading-tight tracking-tighter">{feature.desc}</p>
 						</section>
 					</div>
 				);
