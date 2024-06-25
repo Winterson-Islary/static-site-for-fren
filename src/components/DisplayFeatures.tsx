@@ -5,37 +5,37 @@ function DisplayFeatures() {
 		{
 			icon: "icon1",
 			title: "Find",
-			desc: "Your personal search assistant",
+			desc: "Our service helps you find exactly what you need, quickly and efficiently.",
 			color: "#af9159",
 		},
 		{
 			icon: "icon2",
-			title: "Book",
-			desc: "We will help you book anything with ease",
+			title: "Booking",
+			desc: "Easily book appointments and reservations with our streamlined, hassle-free process.",
 			color: "#efe9dd",
 		},
 		{
 			icon: "icon3",
 			title: "Buy",
-			desc: "Buy anything with our assistance",
+			desc: "Purchase items seamlessly with our reliable and secure buying service.",
 			color: "#af9159",
 		},
 		{
 			icon: "icon4",
 			title: "Delivery",
-			desc: "Get anything delivered fast",
+			desc: "Get your items delivered promptly and safely right to your doorstep.",
 			color: "#efe9dd",
 		},
 	];
 	return (
-		<section className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-[2rem] w-[80%] mx-auto">
+		<section className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-[2rem] w-[90%] xl:w-[80%] mx-auto">
 			{featureList.map((feature) => {
 				return (
 					<div
 						key={feature.title}
 						style={{ backgroundColor: `${feature.color}` }}
 						className={
-							"flex md:flex-col flex-1 border-2 rounded-l-full rounded-r-full md:rounded-lg p-3 gap-4 md:gap-0 items-center md:items-start min-w-[10em]"
+							"flex md:flex-col flex-1 border-2 rounded-l-full rounded-r-full md:rounded-[1rem] p-3 gap-4 md:gap-0 items-center md:items-start min-w-[13em]"
 						}
 					>
 						<img
@@ -47,7 +47,7 @@ function DisplayFeatures() {
 						<section className="text-left md:pt-5 font-tanker text-2xl md:text-4xl underline">
 							{feature.title}
 						</section>
-						<section className="text-left md:py-2 font-roboto font-semibold md:text-xl">
+						<section className="text-left md:pb-2 md:pt-4 font-roboto font-semibold md:text-md">
 							{feature.desc}
 						</section>
 					</div>
