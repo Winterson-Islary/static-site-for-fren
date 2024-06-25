@@ -33,13 +33,13 @@ function DisplayFeatures() {
 				return (
 					<div
 						key={feature.title}
-						style={{ backgroundColor: `${feature.color}` }}
+						// style={{ backgroundColor: `${feature.color}` }}
 						className={
-							"flex md:flex-col flex-1 border-2 rounded-l-full rounded-r-full md:rounded-[1rem] p-3 gap-4 md:gap-0 items-center md:items-start min-w-[13em]"
+							"flex md:flex-col flex-1 border-2 border-gray-300 md:border-none rounded-l-full rounded-r-full md:rounded-[1rem] p-3 gap-4 md:gap-0 items-center md:items-start min-w-[13em]"
 						}
 					>
 						<img
-							className="h-[50px] w-[50px] object-cover border-4 rounded-full"
+							className="h-[50px] w-[50px] object-cover border-4 border-gray-300 rounded-full"
 							src={`./src/assets/features/${feature.icon}.webp`}
 							alt={`feature ${feature.title}`}
 							key={feature.title}

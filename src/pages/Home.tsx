@@ -2,6 +2,7 @@ import DisplayClients from "@/components/DisplayClients";
 import DisplayFeatures from "@/components/DisplayFeatures";
 import DisplayServiceImage from "@/components/DisplayServiceImage";
 import DisplayServices from "@/components/DisplayServices";
+import HeroImg from "@/components/HeroImg";
 
 const Home = () => {
 	return (
@@ -10,10 +11,7 @@ const Home = () => {
 				id="hero-section"
 				className="pt-[3rem] md:pt-[5rem] h-[55rem] md:h-screen"
 			>
-				<section
-					id="hero-img-container"
-					className=" -top-0 h-[75%] md:h-full w-full absolute bg-[url('./src/assets/hero-section.webp')] brightness-[30%] bg-cover xl:bg-[center_top_-10rem] -z-50 pointer-events-none"
-				/>
+				<HeroImg />
 				<section className="flex flex-col text-white mx-auto h-full w-[80%] lg:w-[50%] justify-center items-start">
 					<span className=" font-tanker text-5xl md:text-7xl">
 						Your Premier Professional{" "}
@@ -29,7 +27,10 @@ const Home = () => {
 				</section>
 			</div>
 
-			<div id="features-container" className=" h-full flex flex-col py-20">
+			<div
+				id="features-container"
+				className=" h-full flex flex-col py-20 bg-[#f8f6ef]"
+			>
 				<span className=" font-tanker text-4xl md:text-7xl text-center border-b-4 border-b-black mx-auto font-bold tracking-wide">
 					Features
 				</span>
@@ -43,10 +44,14 @@ const Home = () => {
 			</div>
 			<div
 				id="services-container"
-				className=" h-full bg-red-300 py-10 flex flex-col"
+				className=" h-full bg-[#f5f3e8] py-10 flex flex-col"
 			>
 				<span className="font-tanker tracking-wide text-4xl md:text-7xl font-bold border-b-4 border-b-black mx-auto">
 					What we do
+				</span>
+				<span className="text-black text-center pt-5 font-roboto font-light text-xl italic">
+					<strong>"</strong>Simplifying life, one task at a time.
+					<strong>"</strong>
 				</span>
 				<section className="pt-10">
 					<DisplayServices />
