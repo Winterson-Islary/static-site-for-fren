@@ -7,50 +7,60 @@ const Home = () => {
 		<>
 			<div
 				id="hero-section"
-				className="pt-[3rem] md:pt-[5rem] h-[55rem] md:h-screen bg-black"
+				className="pt-[3rem] md:pt-[5rem] h-[55rem] md:h-screen"
 			>
+				<section
+					id="hero-img-container"
+					className=" -top-0 h-[75%] md:h-full w-full absolute bg-[url('./src/assets/hero-section.webp')] brightness-[30%] bg-cover xl:bg-[center_top_-10rem] -z-50 pointer-events-none"
+				/>
 				<section className="flex flex-col text-white mx-auto h-full w-[80%] lg:w-[50%] justify-center items-start">
 					<span className=" font-tanker text-5xl md:text-7xl">
-						Professional <span className="underline ">Errands</span> running
-						service at your fingertips...
+						Your Premier Professional{" "}
+						<span className="underline ">Errands</span> running service...
 					</span>
-					<span className="font-roboto font-semibold pt-5 md:text-xl md:w-[70%] xl:w-[55%]">
-						Get your errands done with professional errand runners, everything
-						from finding, booking, fixing, buying and delivering. One stop
-						solution for any task
+					<span className="font-roboto font-semibold pt-5 md:text-xl md:w-[70%] xl:w-[55%] ">
+						Professional Errand Runners for All Your Needs: Finding, Booking,
+						Fixing, Buying, and Delivering. Your One-Stop Solution for Any Task.
 					</span>
 				</section>
 			</div>
+
+			<div id="features-container" className=" h-full flex flex-col py-20">
+				<span className=" font-tanker text-4xl md:text-7xl text-center border-b-4 border-b-black mx-auto font-bold tracking-wide">
+					Features
+				</span>
+				<span className="text-black text-center pt-5 font-roboto font-light text-xl italic">
+					<strong>"</strong>Want to simplify your life with errand runners?{" "}
+					<strong>Go-Eazy </strong>is here to help.<strong>"</strong>
+				</span>
+				<section className="pt-14">
+					<DisplayFeatures />
+				</section>
+			</div>
+			<div
+				id="services-container"
+				className=" h-screen bg-red-300 text-center py-10 flex flex-col"
+			>
+				<span className="font-tanker tracking-wide text-4xl md:text-7xl font-bold border-b-4 border-b-black mx-auto">
+					What we do
+				</span>
+			</div>
 			<div
 				id="clients-container"
-				className=" min-h-[10rem] py-10 flex flex-col justify-center border-b-4"
+				className=" min-h-[10rem] py-10 flex flex-col justify-center border-b-4 border-b-slate-100"
 			>
-				<span className="font-tanker font-bold text-center text-4xl border-b-4 border-b-black mx-auto">
+				<span className="font-tanker font-bold text-center text-4xl border-b-4 border-b-black mx-auto tracking-wide">
 					CLIENTS
 				</span>
 				<section className="pt-5">
 					<DisplayClients />
 				</section>
 			</div>
-			<div id="features-container" className=" h-screen flex flex-col py-10">
-				<span className="font-tanker text-4xl text-center border-b-4 border-b-black mx-auto font-bold">
-					Features
-				</span>
-				<span className="text-black text-center pt-4 font-roboto font-semibold text-lg">
-					Life made easier one task at a time.
-				</span>
-				<section className="pt-10">
-					<DisplayFeatures />
-				</section>
-			</div>
 			<div
-				id="services-container"
+				id="place-holder"
 				className=" h-screen text-center text-2xl font-bold overflow-hidden"
 			>
 				<DisplayServiceImage />
-			</div>
-			<div className=" h-screen bg-red-300 text-center text-2xl font-bold">
-				Section4
 			</div>
 		</>
 	);
