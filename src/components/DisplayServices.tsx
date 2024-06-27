@@ -53,7 +53,7 @@ function DisplayServices() {
 			{serviceList.map((service) => {
 				return (
 					<div
-						className="flex flex-col items-start justify-end border-2 rounded-[1.5rem] p-3 h-full min-h-[11em] md:min-h-[15em] w-full"
+						className="flex flex-col items-start justify-end border-2 rounded-sm p-3 h-full min-h-[11em] md:min-h-[15em] w-full"
 						key={service.title}
 					>
 						<section className="font-tanker text-2xl">{service.title}</section>

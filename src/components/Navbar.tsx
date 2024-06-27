@@ -21,7 +21,7 @@ const navItems = [
 function MobileNavbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<div className="block md:hidden border-separate bg-transparent absolute w-full">
+		<div className="block md:hidden mx-auto border-separate bg-black absolute w-full">
 			<nav className="container flex items-center justify-between px-8">
 				<div
 					id="logo-container-mobile"
@@ -29,7 +29,7 @@ function MobileNavbar() {
 				>
 					<Link to="/">
 						<img
-							className="w-[7rem] h-[5rem]"
+							className="w-[9rem] h-[6rem]"
 							src="./src/assets/logo.png"
 							alt="go eazy logo"
 						/>
@@ -48,13 +48,13 @@ function MobileNavbar() {
 
 function DesktopNavbar() {
 	return (
-		<div className="hidden md:block border-separate bg-transparent absolute m-auto left-0 right-0 w-[70%]">
+		<div className="hidden md:block border-separate rounded-lg  bg-black absolute m-auto left-0 right-0 w-[70%] mt-5">
 			<nav className="container flex items-center justify-between px-8">
-				<div className="flex h-[80px] min-h-[60px] items-center justify-between gap-x-4 w-full">
+				<div className="flex h-[65px] min-h-[60px] items-center justify-between gap-x-4 w-full">
 					<div className="font-tanker text-3xl font-semibold text-white">
 						<Link to="/" className="text-orange-500">
 							<img
-								className="w-[10rem] h-[7rem]"
+								className="w-[9rem] h-[6.5rem]"
 								src="./src/assets/logo.png"
 								alt="go eazy logo"
 							/>
