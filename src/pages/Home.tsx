@@ -12,12 +12,13 @@ const Home = () => {
 				className="pt-[3rem] md:pt-[5rem] h-[55rem] md:h-screen"
 			>
 				<HeroImg />
-				<section className="flex flex-col text-white mx-auto h-full w-[80%] lg:w-[50%] justify-center items-start">
-					<span className=" font-tanker text-5xl md:text-7xl">
+				<section className="flex flex-col text-white mx-auto h-full w-[80%] lg:w-[50%] justify-center text-center items-center">
+					<span className=" font-tanker text-5xl md:text-7xl ">
 						Your Premier Professional{" "}
-						<span className="underline ">Errands</span> running service...
+						<span className="underline text-orange-500">Errands</span> running
+						service...
 					</span>
-					<span className="font-roboto font-semibold pt-5 md:text-2xl md:w-[70%] xl:w-[55%]">
+					<span className="font-montserrat font-thin pt-5 md:text-2xl md:w-[70%] xl:w-[55%]">
 						<p className="tracking-tight leading-snug">
 							Professional Errand Runners for All Your Needs: Finding, Booking,
 							Fixing, Buying, and Delivering. Your One-Stop Solution for Any
@@ -26,12 +27,22 @@ const Home = () => {
 					</span>
 				</section>
 			</div>
-
+			<div
+				id="clients-container"
+				className=" min-h-[10rem] py-10 flex flex-col justify-center  "
+			>
+				<span className="font-tanker font-bold text-center text-4xl tracking-widest">
+					CLIENTS
+				</span>
+				<section className="pt-5">
+					<DisplayClients />
+				</section>
+			</div>
 			<div
 				id="features-container"
-				className=" h-full flex flex-col py-20 bg-[#f8f6ef]"
+				className=" h-full flex flex-col py-20 md:pt-[10rem] md:pb-[5rem] bg-[#f8f6ef] border-y-[0.1em] border-slate-200 "
 			>
-				<span className=" font-tanker text-4xl md:text-7xl text-center border-b-4 border-b-black mx-auto font-bold tracking-wide">
+				<span className=" font-tanker text-4xl md:text-7xl text-center font-bold tracking-widest">
 					Features
 				</span>
 				<span className="text-black text-center pt-5 font-roboto font-light text-xl italic">
@@ -44,9 +55,9 @@ const Home = () => {
 			</div>
 			<div
 				id="services-container"
-				className=" h-full bg-[#f5f3e8] py-10 flex flex-col"
+				className=" h-full bg-white py-20 md:pt-[10rem] md:pb-[5rem] flex flex-col"
 			>
-				<span className="font-tanker tracking-wide text-4xl md:text-7xl font-bold border-b-4 border-b-black mx-auto">
+				<span className="font-tanker tracking-widest text-4xl md:text-7xl font-bold text-center">
 					What we do
 				</span>
 				<span className="text-black text-center pt-5 font-roboto font-light text-xl italic">
@@ -57,17 +68,7 @@ const Home = () => {
 					<DisplayServices />
 				</section>
 			</div>
-			<div
-				id="clients-container"
-				className=" min-h-[10rem] py-10 flex flex-col justify-center border-b-4 border-b-slate-100"
-			>
-				<span className="font-tanker font-bold text-center text-4xl border-b-4 border-b-black mx-auto tracking-wide">
-					CLIENTS
-				</span>
-				<section className="pt-5">
-					<DisplayClients />
-				</section>
-			</div>
+
 			<div
 				id="place-holder"
 				className=" h-screen text-center text-2xl font-bold overflow-hidden"
