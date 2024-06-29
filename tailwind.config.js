@@ -23,6 +23,8 @@ module.exports = {
 				montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans],
 				roboto: ['"Roboto Condensed"', ...defaultTheme.fontFamily.sans],
 				tanker: ["Tanker Regular", ...defaultTheme.fontFamily.sans],
+				poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
+				playfair: ["Playfair Display", ...defaultTheme.fontFamily.sans],
 			},
 			colors: {
 				border: "hsl(var(--border))",
