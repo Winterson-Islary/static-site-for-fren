@@ -1,5 +1,3 @@
-import { cn } from "@/utils/tailwindUtils";
-
 function DisplayFeatures() {
 	const featureList = [
 		{
@@ -28,26 +26,26 @@ function DisplayFeatures() {
 		},
 	];
 	return (
-		<section className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-[2rem] w-[90%] xl:w-[80%] mx-auto">
+		<section className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-[0.5rem] w-[90%] xl:w-[80%] mx-auto">
 			{featureList.map((feature) => {
 				return (
 					<div
 						key={feature.title}
 						// style={{ backgroundColor: `${feature.color}` }}
 						className={
-							"flex md:flex-col flex-1 border-2 border-gray-300 md:border-none rounded-l-full rounded-r-full md:rounded-[1rem] p-3 gap-4 md:gap-0 items-center md:items-start min-w-[13em]"
+							"flex md:flex-col flex-1 border-2 border-gray-300 md:border-slate-100  rounded-l-full rounded-r-full md:rounded-[0rem] p-3 gap-4 md:gap-0 items-center md:items-start min-w-[13em]"
 						}
 					>
 						<img
-							className="h-[50px] w-[50px] object-cover border-4 border-gray-300 rounded-full"
+							className="h-[50px] w-[50px] object-cover border-4 border-slate-200 rounded-full"
 							src={`./src/assets/features/${feature.icon}.webp`}
 							alt={`feature ${feature.title}`}
 							key={feature.title}
 						/>
-						<section className="text-left md:pt-5 font-tanker text-2xl md:text-4xl underline">
+						<section className="text-left md:pt-5 font-playfair text-2xl md:text-3xl ">
 							{feature.title}
 						</section>
-						<section className="text-left md:pb-2 md:pt-4 font-roboto font-semibold text-sm border-l-2 md:border-none rounded-l rounded-r-full px-1 border-black md:text-base ">
+						<section className="text-left md:pb-2 md:pt-4 font-playfair font-light text-sm border-l-2 md:border-none rounded-l rounded-r-full px-1 border-black md:text-base ">
 							<p className="leading-tight tracking-tighter">{feature.desc}</p>
 						</section>
 					</div>
