@@ -1,10 +1,10 @@
 function DisplayServices() {
 	const serviceList = [
 		{
-			title: "Personal Shopper",
+			title: "Personal Shopping",
 			description:
 				"Need to purchase something? Let us buy and deliver it to you.",
-			image: "img1",
+			image: "img2",
 		},
 		{
 			title: "Personal Assistance",
@@ -13,39 +13,39 @@ function DisplayServices() {
 			image: "img2",
 		},
 		{
-			title: "Gift Procurement and Delivery",
+			title: "Gift Procurement & Delivery",
 			description:
 				"We procure the perfect gift for your loved ones and ensure prompt delivery.",
-			image: "img3",
+			image: "img2",
 		},
 		{
-			title: "Returns and Exchanges",
+			title: "Returns & Exchanges",
 			description:
 				"Need to return or exchange items? Count on us for swift and efficient service.",
-			image: "img4",
+			image: "img2",
 		},
 		{
 			title: "Booking & Reservations",
 			description:
 				"Planning vacations? Let us find and book the perfect holiday for you with ease and expertise.",
-			image: "img5",
+			image: "img2",
 		},
 		{
 			title: "Furniture Delivery",
 			description:
 				"Need furniture? We find it, buy it, deliver it and even assemble it for you.",
-			image: "img6",
+			image: "img2",
 		},
 		{
-			title: "Flowers",
+			title: "Flower Delivery",
 			description:
 				"Express your feelings with elegance. Let us deliver flowers to your loved ones effortlessly.",
-			image: "img7",
+			image: "img2",
 		},
 		{
 			title: "Much More...",
 			description: "Anything, anywhere, anytime. Ready to simplify your life.",
-			image: "img8",
+			image: "img2",
 		},
 	];
 	return (
@@ -56,7 +56,7 @@ function DisplayServices() {
 						style={{
 							backgroundImage: `url(./src/assets/${service.image}.webp)`,
 						}}
-						className="flex flex-col items-start justify-end min-h-[11em] md:min-h-[15em] xl:h-[20rem] w-full bg-cover bg-center lg:last-of-type:col-span-2 xl:last-of-type:col-span-1"
+						className="border-[0.05rem] border-black flex flex-col items-start justify-end min-h-[11em] md:min-h-[15em] xl:h-[20rem] w-full bg-cover bg-center lg:last-of-type:col-span-2 xl:last-of-type:col-span-1"
 						key={service.title}
 					>
 						<div className="bg-[#faf8f8] p-[1rem] w-full flex flex-col items-start justify-end min-h-[5rem] md:min-h-[7rem]">
