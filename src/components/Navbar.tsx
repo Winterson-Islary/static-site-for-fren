@@ -52,7 +52,7 @@ function DesktopNavbar() {
 			<nav className="container flex items-center justify-between px-8">
 				<div className="flex h-[65px] min-h-[60px] items-center justify-between gap-x-4 w-full">
 					<div className="font-tanker text-3xl font-semibold text-white">
-						<Link to="/" className="text-orange-500">
+						<Link to="/" className="text-[#cbfa40]">
 							<img
 								className="w-[9rem] h-[6.5rem]"
 								src="./src/assets/logo.png"
@@ -88,8 +88,8 @@ function NavbarItem({
 			<Link
 				to={link}
 				className={cn(
-					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-orange-500 hover:text-orange-500 ",
-					isActive && "text-orange-500 border-t-2 border-orange-500",
+					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-[#cbfa40] hover:text-[#cbfa40] ",
+					isActive && "text-[#cbfa40] border-t-2 border-[#cbfa40]",
 				)}
 				onClick={() => {
 					if (onLinkClick) onLinkClick();
