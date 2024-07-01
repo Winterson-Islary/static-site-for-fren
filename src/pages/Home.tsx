@@ -32,9 +32,9 @@ const Home = () => {
 			</div>
 			<div
 				id="clients-container"
-				className=" min-h-[10rem] py-10 flex flex-col justify-center  "
+				className=" min-h-[10rem] py-10 flex flex-col justify-center bg-gray-100 "
 			>
-				<span className="font-playfair font-bold text-center text-4xl tracking-tight">
+				<span className="font-playfair font-bold text-center text-5xl tracking-tight">
 					Clients.
 				</span>
 				<section className="pt-5">
@@ -43,25 +43,27 @@ const Home = () => {
 			</div>
 			<div
 				id="features-container"
-				className=" h-full flex flex-col py-20 md:pt-[7rem] md:pb-[7rem] bg-[#ffffff] border-t-[0.1em] border-slate-200 "
+				className=" h-full flex flex-col py-20 md:pt-[10rem] md:pb-[10rem] mx-auto w-[100%] bg-white"
 			>
-				<span className=" font-playfair text-4xl md:text-7xl text-center font-bold tracking-tight">
-					Features.
-				</span>
-				<span className="text-black text-center pt-2 font-playfair text-lg font-light italic">
-					<strong>" </strong>Want to simplify your life with errand runners?{" "}
-					<strong>Go-Eazy </strong>is here to help.<strong> "</strong>
-				</span>
-				<section className="pt-[7rem]">
+				<section className="flex flex-col justify-center w-full">
+					<span className=" font-playfair text-5xl md:text-7xl text-center font-bold tracking-tight">
+						Features.
+					</span>
+					<span className=" text-center pt-2 font-playfair text-lg font-light italic">
+						<strong>" </strong>Want to simplify your life with errand runners?{" "}
+						<strong>Go-Eazy </strong>is here to help.<strong> "</strong>
+					</span>
+				</section>
+				<section className="pt-[3rem]">
 					<DisplayFeatures />
 				</section>
 			</div>
 			<div
 				id="services-container"
-				className=" h-full w-full mx-auto bg-white flex flex-col xl:flex-row "
+				className=" h-full w-full mx-auto bg-white flex flex-col xl:flex-row border-y-[0.05rem] border-black"
 			>
-				<section className="flex flex-col w-full xl:w-[45%] bg-black item-center justify-center text-white py-10 md:px-1 xl:border-r-2 border-white">
-					<span className="font-playfair tracking-tight text-4xl md:text-7xl font-bold text-center">
+				<section className="flex flex-col w-full xl:w-[45%] bg-black justify-center text-white py-10 md:px-1">
+					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center">
 						What we do.
 					</span>
 					<span className="text-white text-center pt-2 font-playfair font-light text-lg italic">
