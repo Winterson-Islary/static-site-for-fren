@@ -1,53 +1,60 @@
 function DisplayFeatures() {
 	const featureList = [
 		{
-			icon: "icon1",
+			icon: "img2",
 			title: "Find",
 			desc: "Our service helps you find exactly what you need, quickly and efficiently.",
 			color: "#af9159",
+			number: 1,
 		},
 		{
-			icon: "icon2",
-			title: "Booking",
+			icon: "img2",
+			title: "Book",
 			desc: "Easily book appointments and reservations with our streamlined, hassle-free process.",
 			color: "#efe9dd",
+			number: 2,
 		},
 		{
-			icon: "icon3",
+			icon: "img2",
 			title: "Buy",
 			desc: "Purchase items seamlessly with our reliable and secure buying service.",
 			color: "#af9159",
+			number: 3,
 		},
 		{
-			icon: "icon4",
+			icon: "img2",
 			title: "Delivery",
 			desc: "Get your items delivered promptly and safely right to your doorstep.",
 			color: "#efe9dd",
+			number: 4,
 		},
 	];
 	return (
-		<section className="flex flex-col md:flex-row flex-wrap gap-2 md:gap-[0.5rem] w-[90%] xl:w-[80%] mx-auto">
+		<section className=" flex flex-col md:flex-row flex-wrap gap-2 md:gap-[1rem] xl:gap-[2rem] w-[95%] md:w-[80%] mx-auto">
 			{featureList.map((feature) => {
 				return (
 					<div
 						key={feature.title}
 						// style={{ backgroundColor: `${feature.color}` }}
 						className={
-							"flex md:flex-col flex-1 border-2 border-gray-300 md:border-slate-100  rounded-l-full rounded-r-full md:rounded-[0rem] p-3 gap-4 md:gap-0 items-center md:items-start min-w-[13em]"
+							"flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13em] md:min-h-[25rem] "
 						}
 					>
 						<img
-							className="h-[50px] w-[50px] object-cover border-4 border-slate-200 rounded-full"
-							src={`./src/assets/features/${feature.icon}.webp`}
+							className="h-[200px] w-full object-cover"
+							src={`./src/assets/${feature.icon}.webp`}
 							alt={`feature ${feature.title}`}
 							key={feature.title}
 						/>
-						<section className="text-left md:pt-5 font-playfair text-2xl md:text-3xl ">
-							{feature.title}
-						</section>
-						<section className="text-left md:pb-2 md:pt-4 font-playfair font-light text-sm border-l-2 md:border-none rounded-l rounded-r-full px-1 border-black md:text-base ">
-							<p className="leading-tight tracking-tighter">{feature.desc}</p>
-						</section>
+						<div className="flex flex-col gap-2 items-start md:pt-5  w-full">
+							<section className="text-left font-tanker flex flex-col gap-2">
+								<span className=" text-sm">[{feature.number}]</span>
+								<span className="text-3xl md:text-4xl">{feature.title}</span>
+							</section>
+							<section className="font-playfair ">
+								<p className="leading-tight tracking-tighter">{feature.desc}</p>
+							</section>
+						</div>
 					</div>
 				);
 			})}
