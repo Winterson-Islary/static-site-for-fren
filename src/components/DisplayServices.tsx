@@ -53,13 +53,15 @@ function DisplayServices() {
 			{serviceList.map((service) => {
 				return (
 					<div
-						style={{
-							backgroundImage: `url(./src/assets/${service.image}.webp)`,
-						}}
-						className="border-[0.05rem] border-black flex flex-col items-start justify-end min-h-[11em] md:min-h-[15em] xl:h-[20rem] w-full bg-cover bg-center lg:last-of-type:col-span-2 xl:last-of-type:col-span-1"
+						style={
+							{
+								// backgroundImage: `url(./src/assets/${service.image}.webp)`,
+							}
+						}
+						className="border-[0.05rem] border-black lg:last-of-type:col-span-2 xl:last-of-type:col-span-1"
 						key={service.title}
 					>
-						<div className="bg-[#faf8f8] p-[1rem] w-full flex flex-col items-start justify-end min-h-[5rem] md:min-h-[7rem]">
+						<div className="bg-white p-[1rem] w-full flex flex-col items-start justify-end min-h-[5rem] md:min-h-[7rem]">
 							<section className="font-playfair text-xl uppercase font-semibold">
 								{service.title}
 							</section>
