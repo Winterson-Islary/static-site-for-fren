@@ -46,8 +46,8 @@ function DisplayFeatures() {
 							alt={`feature ${feature.title}`}
 							key={feature.title}
 						/>
-						<div className="flex flex-col gap-2 items-start md:pt-5  w-full">
-							<section className="text-left font-tanker flex flex-col gap-2">
+						<div className="flex flex-col gap-2 items-start  w-full">
+							<section className="text-left font-playfair flex flex-col gap-2">
 								<span className=" text-sm">[{feature.number}]</span>
 								<span className="text-3xl md:text-4xl">{feature.title}</span>
 							</section>
