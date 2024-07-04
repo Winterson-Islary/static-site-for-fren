@@ -20,11 +20,15 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				montserrat: ['"Montserrat"', ...defaultTheme.fontFamily.sans],
+				bigShoulders: [
+					'"Big Shoulders Display"',
+					...defaultTheme.fontFamily.sans,
+				],
 				roboto: ['"Roboto Condensed"', ...defaultTheme.fontFamily.sans],
 				tanker: ["Tanker Regular", ...defaultTheme.fontFamily.sans],
 				poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
 				playfair: ["Playfair Display", ...defaultTheme.fontFamily.sans],
+				clash: ["Clash Grotesk", ...defaultTheme.fontFamily.serif],
 			},
 			colors: {
 				border: "hsl(var(--border))",
