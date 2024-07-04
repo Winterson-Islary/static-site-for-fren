@@ -30,14 +30,14 @@ function DisplayFeatures() {
 		},
 	];
 	return (
-		<section className=" flex flex-col md:flex-row flex-wrap gap-2 md:gap-[1rem] xl:gap-[2rem] w-[95%] md:w-[80%] mx-auto">
+		<section className=" flex flex-col md:flex-row flex-wrap gap-2 md:gap-[1rem] xl:gap-[1rem] w-[95%] xl:w-[70%] mx-auto">
 			{featureList.map((feature) => {
 				return (
 					<div
 						key={feature.title}
 						// style={{ backgroundColor: `${feature.color}` }}
 						className={
-							"flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13em] md:min-h-[25rem] "
+							" flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13em] md:min-h-[25rem] "
 						}
 					>
 						<img
