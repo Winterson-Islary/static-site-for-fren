@@ -21,7 +21,7 @@ const navItems = [
 function MobileNavbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<div className="block md:hidden mx-auto border-separate bg-black absolute w-full">
+		<div className="block md:hidden mx-auto border-separate bg-black fixed w-full">
 			<nav className="container flex items-center justify-between px-8">
 				<div
 					id="logo-container-mobile"
@@ -48,11 +48,11 @@ function MobileNavbar() {
 
 function DesktopNavbar() {
 	return (
-		<div className="hidden md:block border-separate rounded-lg  bg-black absolute m-auto left-0 right-0 w-[70%] mt-5">
-			<nav className="container flex items-center justify-between px-8">
+		<div className="hidden md:block  border-separate rounded-lg  fixed m-auto left-0 right-0 w-[90%] mt-5 bg-black">
+			<nav className=" flex items-center justify-between px-8">
 				<div className="flex h-[65px] min-h-[60px] items-center justify-between gap-x-4 w-full">
 					<div className="font-tanker text-3xl font-semibold text-white">
-						<Link to="/" className="text-[#cbfa40]">
+						<Link to="/" className="text-[#cc3115]">
 							<img
 								className="w-[9rem] h-[6.5rem]"
 								src="./src/assets/logo.png"
@@ -88,8 +88,8 @@ function NavbarItem({
 			<Link
 				to={link}
 				className={cn(
-					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-[#cbfa40] hover:text-[#cbfa40] ",
-					isActive && "text-[#cbfa40] border-t-2 border-[#cbfa40]",
+					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115] ",
+					isActive && "text-[#cc3115] border-t-2 border-[#cc3115]",
 				)}
 				onClick={() => {
 					if (onLinkClick) onLinkClick();
