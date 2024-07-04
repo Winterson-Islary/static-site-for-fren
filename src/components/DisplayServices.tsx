@@ -49,7 +49,7 @@ function DisplayServices() {
 		},
 	];
 	return (
-		<div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[0.2rem] xl:gap-0 w-full mx-auto xl:mx-0 xl:w-full">
+		<div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[0.2rem] xl:gap-0 w-full mx-auto xl:w-[70%]">
 			{serviceList.map((service) => {
 				return (
 					<div
