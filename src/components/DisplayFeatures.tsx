@@ -41,7 +41,7 @@ function DisplayFeatures() {
 						}
 					>
 						<img
-							className="h-[200px] w-full object-cover"
+							className="h-[200px] w-full object-cover rounded-lg"
 							src={`./src/assets/${feature.icon}.webp`}
 							alt={`feature ${feature.title}`}
 							key={feature.title}
