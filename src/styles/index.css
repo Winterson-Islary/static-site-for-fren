@@ -3,7 +3,7 @@
   @tailwind utilities;
   @font-face {
     font-family: "Tanker Regular";
-    src: url("./src/assets/fonts/Tanker-Regular.otf");
+    src: url("/public/assets/fonts/Tanker-Regular.otf");
   }
   @layer base {
     :root {
