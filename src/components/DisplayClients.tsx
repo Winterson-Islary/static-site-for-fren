@@ -6,7 +6,7 @@ function DisplayClients() {
 				return (
 					<img
 						className=" h-[50px] w-[125px] object-contain px-1"
-						src={`./src/assets/clients/${image}.webp`}
+						src={`/assets/clients/${image}.webp`}
 						alt="client-image"
 						key={image}
 					/>
