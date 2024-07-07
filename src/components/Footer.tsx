@@ -44,19 +44,15 @@ function Footer() {
 							<section className="flex gap-2">
 								<img
 									className="h-8"
-									src="./src/assets/american-express.png"
+									src="/assets/american-express.png"
 									alt="american-express-card"
 								/>
 								<img
 									className="h-8"
-									src="./src/assets/mastercard.png"
+									src="/assets/mastercard.png"
 									alt="mastercard"
 								/>
-								<img
-									className="h-8"
-									src="./src/assets/visa.png"
-									alt="visa card"
-								/>
+								<img className="h-8" src="/assets/visa.png" alt="visa card" />
 							</section>
 						</div>
 					</section>
