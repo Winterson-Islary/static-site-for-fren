@@ -1,5 +1,4 @@
 import { cn } from "@/utils/tailwindUtils";
-import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 export const Navbar = () => {
@@ -19,9 +18,8 @@ const navItems = [
 ];
 
 function MobileNavbar() {
-	const [isOpen, setIsOpen] = useState(false);
 	return (
-		<div className="block md:hidden mx-auto border-separate bg-black fixed w-full">
+		<div className="block md:hidden mx-auto border-separate bg-black fixed w-full z-20">
 			<nav className="container flex items-center justify-between px-8">
 				<div
 					id="logo-container-mobile"
@@ -30,7 +28,7 @@ function MobileNavbar() {
 					<Link to="/">
 						<img
 							className="w-[9rem] h-[6rem]"
-							src="./src/assets/logo.png"
+							src="/assets/logo.PNG"
 							alt="go eazy logo"
 						/>
 					</Link>
@@ -48,14 +46,14 @@ function MobileNavbar() {
 
 function DesktopNavbar() {
 	return (
-		<div className="hidden md:block  border-separate rounded-lg  fixed m-auto left-0 right-0 w-[90%] mt-5 bg-black">
+		<div className="hidden md:block  border-separate rounded-lg  fixed m-auto left-0 right-0 w-[90%] mt-5 bg-black z-20">
 			<nav className=" flex items-center justify-between px-8">
 				<div className="flex h-[65px] min-h-[60px] items-center justify-between gap-x-4 w-full">
 					<div className="font-tanker text-3xl font-semibold text-white">
 						<Link to="/" className="text-[#cc3115]">
 							<img
 								className="w-[9rem] h-[6.5rem]"
-								src="./src/assets/logo.png"
+								src="/assets/logo.PNG"
 								alt="go eazy logo"
 							/>
 						</Link>
@@ -88,7 +86,7 @@ function NavbarItem({
 			<Link
 				to={link}
 				className={cn(
-					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115] ",
+					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115]",
 					isActive && "text-[#cc3115] border-t-2 border-[#cc3115]",
 				)}
 				onClick={() => {
