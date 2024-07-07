@@ -22,8 +22,8 @@ const Home = () => {
 						<p className="tracking-tight leading-snug text-background font-tanker">
 							<span className="bg-black">
 								Professional Errand Runners for All Your Needs : Finding,
-								Booking, Fixing, Buying, and Delivering. Your One-Stop Solution
-								for Any Task.
+								Booking, Fixing, Buying, and Delivering anything ASAP. Your
+								One-Stop Solution for Any Task.
 							</span>
 						</p>
 					</span>
@@ -31,7 +31,7 @@ const Home = () => {
 				<section className="hidden lg:block">
 					<img
 						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px]"
-						src="./src/assets/delivery.svg"
+						src="/assets/delivery.svg"
 						alt="delivery illustration"
 					/>
 					<span className="text-slate-600 italic flex items-end justify-end -rotate-90 absolute bottom-[50%] -right-[5rem]">
@@ -44,47 +44,56 @@ const Home = () => {
 
 			<div
 				id="features-container"
-				className=" h-full flex flex-col py-20 md:pt-[10rem] md:pb-[10rem] mx-auto w-[100%] bg-white border border-slate-100"
+				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%] bg-white border border-slate-100"
 			>
-				<section className="flex flex-col justify-center w-full">
-					<span className=" font-playfair text-5xl md:text-7xl text-center font-bold tracking-tight">
+				<section className="flex flex-col items-center justify-center w-full relative">
+					<span className=" font-playfair text-5xl md:text-7xl font-bold tracking-tight z-10">
 						Features.
 					</span>
-					<span className=" text-center pt-2 font-playfair text-lg font-light italic">
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+						{""}
+					</span>
+					<span className=" text-center pt-2 font-playfair text-lg font-light italic underline z-10">
 						<strong>" </strong>Want to simplify your life with errand runners?{" "}
 						<strong>Go-Eazy </strong>is here to help.<strong> "</strong>
 					</span>
 				</section>
-				<section className="pt-[3rem]">
+				<section className="pt-[5rem]">
 					<DisplayFeatures />
 				</section>
 			</div>
 			<div
 				id="services-container"
-				className=" h-full w-full mx-auto bg-white flex flex-col items-center py-20 md:py-[5rem]"
+				className=" h-full w-full mx-auto bg-gray-100 flex flex-col items-center py-20 md:py-[10rem]"
 			>
-				<section className="flex flex-col w-full xl:w-[45%] justify-center md:px-1 rounded-lg">
-					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center ">
+				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
+					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center z-10">
 						What we do.
 					</span>
-					<span className=" text-center pt-2 font-playfair font-light text-lg italic">
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+						{""}
+					</span>
+					<span className=" text-center pt-2 font-playfair font-light text-lg italic underline z-10">
 						<strong>" </strong>Simplifying life, one task at a time.
 						<strong> "</strong>
 					</span>
 				</section>
-				<section className="pt-5">
+				<section className="pt-[5rem]">
 					<DisplayServices />
 				</section>
 			</div>
 			<div
 				id="process-holder"
-				className=" h-full overflow-hidden py-20 md:py-[5rem] border-t border-slate-100"
+				className=" h-full overflow-hidden py-20 md:py-[10rem] border-t border-slate-100"
 			>
-				<section className="text-center flex flex-col">
-					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight">
+				<section className="text-center flex flex-col relative justify-center items-center">
+					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight z-10">
 						Our Process.
 					</span>
-					<span className="font-playfair text-center italic text-lg pt-2">
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+						{""}
+					</span>
+					<span className="font-playfair text-center italic text-lg pt-2 underline z-10">
 						<strong>" </strong>Life made easy in 3 simple steps.
 						<strong> "</strong>
 					</span>
@@ -95,13 +104,13 @@ const Home = () => {
 			</div>
 			<div
 				id="clients-container"
-				className=" min-h-[10rem] pb-2 flex flex-col justify-center bg-gray-100 "
+				className=" min-h-[10rem] py-5 flex flex-col justify-center bg-gray-100 "
 			>
-				<section className="flex flex-col justify-center w-full bg-black">
-					<span className="font-playfair font-bold text-center text-5xl tracking-tight text-white pt-2">
+				<section className="flex flex-col justify-center w-full text-black ">
+					<span className="font-playfair font-bold text-center text-5xl tracking-tight pt-2">
 						Clients.
 					</span>
-					<span className="font-playfair italic text-white text-lg font-light text-center pb-3">
+					<span className="font-playfair italic text-lg font-light text-center pb-3 underline">
 						<strong>" </strong>We are proud to work with our exceptional
 						clients!<strong> "</strong>
 					</span>
@@ -112,14 +121,17 @@ const Home = () => {
 			</div>
 			<div
 				id="about-holder"
-				className=" h-full overflow-hidden py-20 md:py-[5rem] border-t border-slate-100"
+				className=" h-full overflow-hidden py-20 md:py-[10rem] border-t border-slate-100"
 			>
-				<section className="text-center flex flex-col">
-					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight">
-						About Us.
+				<section className="text-center flex flex-col relative justify-center items-center">
+					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight z-10">
+						Why Choose Go-Eazy?
 					</span>
-					<span className="font-playfair text-center italic text-lg pt-2">
-						<strong>" </strong>Your satisfaction, our Goal.
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+						{""}
+					</span>
+					<span className="font-playfair text-center italic text-lg pt-2 underline z-10">
+						<strong>" </strong>Errands Done Right, Every Time
 						<strong> "</strong>
 					</span>
 				</section>
@@ -128,29 +140,46 @@ const Home = () => {
 						<section className="">
 							<img
 								className=" h-[200px] md:h-[400px] w-[700px] object-cover rounded-lg"
-								src="./src/assets/about.svg"
+								src="/assets/about.svg"
 								alt=""
 							/>
 						</section>
 						<section className=" w-full lg:w-[60%] xl:w-[50%] ">
-							<span className=" font-playfair text-sm md:text-xl">
-								<p className="">
-									At <strong>Go-Eazy</strong>, we believe that time is precious.
-									That's why we're dedicated to helping busy individuals like
-									you manage your to-do list, one errand at a time.
-								</p>{" "}
-								<p className="pt-5 ">
-									Our platform connects you with trusted and reliable errand
-									runners who can help you with anything from grocery shopping
-									to personal assistance, and everything in between. Our mission
-									is to provide a seamless and convenient experience that saves
-									you time and energy.{" "}
-								</p>
-								<p className="pt-5 ">
-									Our team is passionate about helping you regain control of
-									your schedule, so you can focus on what matters most. Let us
-									handle your errands, so you can handle your life.
-								</p>
+							<span className=" font-playfair text-sm md:text-lg ">
+								<ul>
+									<li className="">
+										<strong className="text-xl underline">
+											Take Back Your Time:
+										</strong>{" "}
+										At Go-Eazy, we know your time is valuable. That's why we
+										exist - to help busy people like you conquer your to-do
+										list, one errand at a time.{" "}
+									</li>
+									<li className="pt-5 ">
+										<strong className="text-xl underline">
+											Effortless Errands:
+										</strong>{" "}
+										Our platform connects you with pre-vetted, reliable errand
+										runners who can tackle anything from grocery shopping to
+										personal errands and beyond.{" "}
+									</li>
+									<li className="pt-5">
+										<strong className="text-xl underline">
+											Seamless Convenience:
+										</strong>{" "}
+										We prioritize a smooth and convenient experience. Get back
+										your time and energy - let Go-Eazy handle the errands, so
+										you can focus on what truly matters.{" "}
+									</li>
+									<li className="pt-5">
+										<strong className="text-xl underline">
+											Focus on What Matters:
+										</strong>{" "}
+										Our passionate team is dedicated to helping you reclaim
+										control of your schedule. Leave the errands to us, and
+										handle your life with ease.
+									</li>
+								</ul>
 							</span>
 						</section>
 					</div>
