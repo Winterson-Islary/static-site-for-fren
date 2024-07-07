@@ -4,11 +4,11 @@ function DisplayProcess() {
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
 					className="w-[200px] h-[150px] rounded-lg object-cover"
-					src="./src/assets/img2.webp"
+					src="/assets/img2.webp"
 					alt="step 1 of process"
 				/>
 				<section className="flex flex-col justify-center pt-5 pb-2 font-playfair text-center sm:text-left">
-					<span>
+					<span className="underline">
 						STEP <span className="font-montserrat">1.</span>
 					</span>
 					<span className="font-semibold text-xl uppercase">
@@ -23,11 +23,11 @@ function DisplayProcess() {
 			<section className="flex flex-col sm:flex-row-reverse gap-6 items-center sm:items-start">
 				<img
 					className="w-[200px] h-[150px] object-cover rounded-lg"
-					src="./src/assets/img2.webp"
+					src="/assets/img2.webp"
 					alt="step 1 of process"
 				/>
 				<section className="flex flex-col justify-center text-center sm:text-right pt-5 pb-2 font-playfair">
-					<span>
+					<span className="underline">
 						STEP <span className="font-montserrat">2.</span>
 					</span>
 					<span className="font-semibold text-xl uppercase">
@@ -43,11 +43,11 @@ function DisplayProcess() {
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
 					className="w-[200px] h-[150px] object-cover rounded-lg"
-					src="./src/assets/img2.webp"
+					src="/assets/img2.webp"
 					alt="step 1 of process"
 				/>
 				<section className="flex flex-col justify-center text-center sm:text-left py-2 lg:py-0 px-2 font-playfair">
-					<span className="">
+					<span className="underline">
 						STEP <span className="font-montserrat">3.</span>{" "}
 					</span>
 					<span className="text-xl font-semibold uppercase">
