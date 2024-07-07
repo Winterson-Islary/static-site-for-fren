@@ -49,23 +49,21 @@ function DisplayServices() {
 		},
 	];
 	return (
-		<div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[0.2rem] xl:gap-0 w-full mx-auto xl:w-[70%]">
+		<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-[0.5rem] xl:gap-5 w-full mx-auto xl:w-[75%] ">
 			{serviceList.map((service) => {
 				return (
 					<div
-						style={
-							{
-								// backgroundImage: `url(./src/assets/${service.image}.webp)`,
-							}
-						}
-						className="border-[0.05rem] border-black lg:last-of-type:col-span-2 xl:last-of-type:col-span-1"
+						style={{
+							backgroundImage: `url(/assets/${service.image}.webp)`,
+						}}
+						className="bg-cover h-[320px] border-[0.05rem] xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end shadow-sm hover:shadow-xl ease-in-out duration-500 hover:cursor-pointer"
 						key={service.title}
 					>
-						<div className="bg-white p-[1rem] w-full flex flex-col items-start justify-end min-h-[5rem] md:min-h-[7rem]">
-							<section className="font-playfair text-xl uppercase font-semibold">
+						<div className="bg-white p-[1rem] w-full flex flex-col items-start justify-end min-h-[5rem] md:min-h-[7rem] ">
+							<section className="font-playfair text-xl uppercase font-bold">
 								{service.title}
 							</section>
-							<section className="font-playfair font-medium text-sm md:text-base ">
+							<section className="font-playfair font-semibold text-sm md:text-base ">
 								<p className="leading-tight tracking-tighter">
 									{service.description}
 								</p>
