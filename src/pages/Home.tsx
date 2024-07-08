@@ -2,25 +2,23 @@ import DisplayClients from "@/components/DisplayClients";
 import DisplayFeatures from "@/components/DisplayFeatures";
 import DisplayProcess from "@/components/DisplayProcess";
 import DisplayServices from "@/components/DisplayServices";
-import HeroImg from "@/components/HeroImg";
 
 const Home = () => {
 	return (
 		<>
 			<div
 				id="hero-section"
-				className="pt-[3rem] md:pt-[5rem] h-[55rem] lg:h-screen flex w-[100%] items-center  overflow-hidden"
+				className=" py-[10rem] h-full sm:py-[23rem] sm:h-screen lg:h-screen flex w-[100%] items-center  overflow-hidden bg-black relative z-0"
 			>
-				<HeroImg />
-				<section className="flex flex-col  text-white h-full w-[80%] lg:w-[50%] ml-10 sm:ml-[5rem] md:px-8 justify-center text-left">
-					<span className=" font-clash font-black text-5xl md:text-7xl xl:text-9xl">
+				<section className="flex flex-col  text-white h-full w-[80%] lg:w-[50%] ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
+					<span className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl">
 						YOUR PREMIER PROFESSIONAL{" "}
 						<span className="underline text-[#cc3115]">ERRANDS</span> RUNNING
 						SERVICE.
 					</span>
 					<span className="font-thin pt-5 md:text-xl xl:text-3xl">
 						<p className="tracking-tight leading-snug text-background font-tanker">
-							<span className="bg-black">
+							<span className="">
 								Professional Errand Runners for All Your Needs : Finding,
 								Booking, Fixing, Buying, and Delivering anything ASAP. Your
 								One-Stop Solution for Any Task.
@@ -28,9 +26,9 @@ const Home = () => {
 						</p>
 					</span>
 				</section>
-				<section className="hidden lg:block">
+				<section className=" hidden lg:block absolute z-0 right-0 ">
 					<img
-						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px]"
+						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px] md:brightness-[80%] 2xl:brightness-[95%]"
 						src="/assets/delivery.svg"
 						alt="delivery illustration"
 					/>
@@ -53,7 +51,7 @@ const Home = () => {
 					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className=" text-center pt-2 font-playfair text-lg font-light italic underline z-10">
+					<span className=" text-center pt-2 font-playfair text-sm  md:text-lg font-light italic underline z-10">
 						<strong>" </strong>Want to simplify your life with errand runners?{" "}
 						<strong>Go-Eazy </strong>is here to help.<strong> "</strong>
 					</span>
@@ -73,7 +71,7 @@ const Home = () => {
 					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className=" text-center pt-2 font-playfair font-light text-lg italic underline z-10">
+					<span className=" text-center pt-2 font-playfair font-light text-sm md:text-lg italic underline z-10">
 						<strong>" </strong>Simplifying life, one task at a time.
 						<strong> "</strong>
 					</span>
@@ -93,7 +91,7 @@ const Home = () => {
 					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className="font-playfair text-center italic text-lg pt-2 underline z-10">
+					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
 						<strong>" </strong>Life made easy in 3 simple steps.
 						<strong> "</strong>
 					</span>
@@ -110,7 +108,7 @@ const Home = () => {
 					<span className="font-playfair font-bold text-center text-5xl tracking-tight pt-2">
 						Clients.
 					</span>
-					<span className="font-playfair italic text-lg font-light text-center pb-3 underline">
+					<span className="font-playfair italic text-sm md:text-lg font-light text-center pb-3 underline">
 						<strong>" </strong>We are proud to work with our exceptional
 						clients!<strong> "</strong>
 					</span>
@@ -124,13 +122,13 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] border-t border-slate-100"
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-7xl font-playfair font-bold tracking-tight z-10">
 						Why Choose Go-Eazy?
 					</span>
 					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className="font-playfair text-center italic text-lg pt-2 underline z-10">
+					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
 						<strong>" </strong>Errands Done Right, Every Time
 						<strong> "</strong>
 					</span>
