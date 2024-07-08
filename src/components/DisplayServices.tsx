@@ -49,18 +49,18 @@ function DisplayServices() {
 		},
 	];
 	return (
-		<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-[0.5rem] xl:gap-5 w-full mx-auto xl:w-[75%] ">
+		<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-[0.5rem] xl:gap-5 w-full mx-auto md:w-[95%] xl:w-[80%] ">
 			{serviceList.map((service) => {
 				return (
 					<div
 						style={{
 							backgroundImage: `url(/assets/${service.image}.webp)`,
 						}}
-						className="bg-cover h-[320px] border-[0.05rem] xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end shadow-sm hover:shadow-xl ease-in-out duration-500 hover:cursor-pointer"
+						className="bg-cover h-[320px] border-[0.05rem] xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-xl ease-in-out duration-500 hover:cursor-pointer"
 						key={service.title}
 					>
-						<div className="bg-white p-[1rem] w-full flex flex-col items-start justify-end min-h-[5rem] md:min-h-[7rem] ">
-							<section className="font-playfair text-xl uppercase font-bold">
+						<div className="bg-white p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] max-w-[25rem] gap-2 ">
+							<section className="font-playfair text-xl uppercase font-bold underline">
 								{service.title}
 							</section>
 							<section className="font-playfair font-semibold text-sm md:text-base ">
