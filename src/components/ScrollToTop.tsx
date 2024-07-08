@@ -1,7 +1,7 @@
 function ScrollToTop() {
 	return (
 		<div
-			className="hidden sm:block bg-[#cc3115] h-[100px] w-[100px] rounded-full fixed right-5 bottom-5  hover:cursor-pointer hover:scale-105 duration-300 ease-in-out select-none"
+			className="hidden sm:block bg-[#cc3115] h-[100px] w-[100px] rounded-full fixed right-5 bottom-5  hover:cursor-pointer hover:scale-105 duration-300 ease-in-out select-none z-20"
 			onClick={() => {
 				window.scrollTo({ top: 0, behavior: "smooth" });
 			}}
