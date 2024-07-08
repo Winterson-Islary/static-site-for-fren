@@ -51,7 +51,7 @@ function Services() {
 		},
 	];
 	return (
-		<div className="pt-[10rem] h-full w-[95%] md:w-[80%] mx-auto pb-11">
+		<div className="pt-[10rem] h-full w-[95%] md:w-[95%] xl:w-[70%] mx-auto pb-11">
 			<section className="flex flex-col">
 				<span className="font-playfair text-7xl w-full text-center pb-10 font-black">
 					SERVICES
@@ -69,7 +69,7 @@ function Services() {
 									className="w-[20%] rounded-md object-cover hidden md:block"
 								/>
 								<div className="font-playfair flex flex-col items-left justify-center gap-5">
-									<section className="text-3xl font-black underline">
+									<section className="text-3xl font-bold underline uppercase">
 										{item.title}
 									</section>
 									<section className="text-xl font-bold">
