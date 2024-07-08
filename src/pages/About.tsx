@@ -26,23 +26,19 @@ function About() {
 						/>
 					</section>
 					<section className=" w-full lg:w-[60%] xl:w-[50%] ">
-						<span className=" font-playfair text-sm md:text-lg text-center">
+						<span className="md:leading-loose font-playfair text-sm md:text-xl">
 							<p className="">
-								At <strong>Go-Eazy</strong>, we believe that time is precious.
-								That's why we're dedicated to helping busy individuals like you
-								manage your to-do list, one errand at a time.
+								<strong>Go-Eazy </strong>is the new personal assistant of choice
+								for thousands of users across the UAE. With bunch of positive
+								reviews on google, we always ensure you get what you want!
 							</p>{" "}
-							<p className="pt-5 ">
-								Our platform connects you with trusted and reliable errand
-								runners who can help you with anything from grocery shopping to
-								personal assistance, and everything in between. Our mission is
-								to provide a seamless and convenient experience that saves you
-								time and energy.{" "}
-							</p>
-							<p className="pt-5 ">
-								Our team is passionate about helping you regain control of your
-								schedule, so you can focus on what matters most. Let us handle
-								your errands, so you can handle your life.
+							<p className="pt-5">
+								Simply text <strong>Go-Eazy </strong>in whatsapp with your
+								requirements and sit back while we handle it all! Whether its
+								arranging the perfect day, buying an item, taking care of your
+								pet, cleaning your home, renting a car or taking a car to the
+								garage anddeliveringanything else asap that comes to your mind,
+								Go-Eazy can handle it all!
 							</p>
 						</span>
 					</section>
