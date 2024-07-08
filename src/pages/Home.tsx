@@ -1,7 +1,9 @@
+import ClientsCarousel from "@/components/ClientsCarousel";
 import DisplayClients from "@/components/DisplayClients";
 import DisplayFeatures from "@/components/DisplayFeatures";
 import DisplayProcess from "@/components/DisplayProcess";
 import DisplayServices from "@/components/DisplayServices";
+import MessageUs from "@/components/MessageUs";
 
 const Home = () => {
 	return (
@@ -24,6 +26,9 @@ const Home = () => {
 								One-Stop Solution for Any Task.
 							</span>
 						</p>
+					</span>
+					<span className="pt-10">
+						<MessageUs />
 					</span>
 				</section>
 				<section className=" hidden lg:block absolute z-0 right-0 ">
@@ -52,8 +57,8 @@ const Home = () => {
 						{""}
 					</span>
 					<span className=" text-center pt-2 font-playfair text-sm  md:text-lg font-light italic underline z-10">
-						<strong>" </strong>Want to simplify your life with errand runners?{" "}
-						<strong>Go-Eazy </strong>is here to help.<strong> "</strong>
+						<strong>"</strong>Want to simplify your life with errand runners?{" "}
+						<strong>Go-Eazy </strong>is here to help.<strong>"</strong>
 					</span>
 				</section>
 				<section className="pt-[5rem]">
@@ -72,8 +77,8 @@ const Home = () => {
 						{""}
 					</span>
 					<span className=" text-center pt-2 font-playfair font-light text-sm md:text-lg italic underline z-10">
-						<strong>" </strong>Simplifying life, one task at a time.
-						<strong> "</strong>
+						<strong>"</strong>Simplifying life, one task at a time.
+						<strong>"</strong>
 					</span>
 				</section>
 				<section className="pt-[5rem]">
@@ -92,8 +97,8 @@ const Home = () => {
 						{""}
 					</span>
 					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
-						<strong>" </strong>Life made easy in 3 simple steps.
-						<strong> "</strong>
+						<strong>"</strong>Life made easy in 3 simple steps.
+						<strong>"</strong>
 					</span>
 				</section>
 				<section className="pt-16 md:pb-10">
@@ -109,8 +114,8 @@ const Home = () => {
 						Clients.
 					</span>
 					<span className="font-playfair italic text-sm md:text-lg font-light text-center pb-3 underline">
-						<strong>" </strong>We are proud to work with our exceptional
-						clients!<strong> "</strong>
+						<strong>"</strong>We are proud to work with our exceptional clients!
+						<strong>"</strong>
 					</span>
 				</section>
 				<section className="pt-3">
@@ -129,8 +134,8 @@ const Home = () => {
 						{""}
 					</span>
 					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
-						<strong>" </strong>Errands Done Right, Every Time
-						<strong> "</strong>
+						<strong>"</strong>Errands Done Right, Every Time
+						<strong>"</strong>
 					</span>
 				</section>
 				<section className=" w-full h-full pt-11">
@@ -147,7 +152,7 @@ const Home = () => {
 								<ul>
 									<li className="">
 										<strong className="text-xl underline">
-											Take Back Your Time:
+											#1. Take Back Your Time:
 										</strong>{" "}
 										At Go-Eazy, we know your time is valuable. That's why we
 										exist - to help busy people like you conquer your to-do
@@ -155,7 +160,7 @@ const Home = () => {
 									</li>
 									<li className="pt-5 ">
 										<strong className="text-xl underline">
-											Effortless Errands:
+											#2. Effortless Errands:
 										</strong>{" "}
 										Our platform connects you with pre-vetted, reliable errand
 										runners who can tackle anything from grocery shopping to
@@ -163,7 +168,7 @@ const Home = () => {
 									</li>
 									<li className="pt-5">
 										<strong className="text-xl underline">
-											Seamless Convenience:
+											#3. Seamless Convenience:
 										</strong>{" "}
 										We prioritize a smooth and convenient experience. Get back
 										your time and energy - let Go-Eazy handle the errands, so
@@ -171,7 +176,7 @@ const Home = () => {
 									</li>
 									<li className="pt-5">
 										<strong className="text-xl underline">
-											Focus on What Matters:
+											#4. Focus on What Matters:
 										</strong>{" "}
 										Our passionate team is dedicated to helping you reclaim
 										control of your schedule. Leave the errands to us, and
@@ -181,6 +186,26 @@ const Home = () => {
 							</span>
 						</section>
 					</div>
+				</section>
+			</div>
+			<div
+				id="carousel-holder"
+				className=" h-full overflow-hidden py-20 md:pt-[10rem] border-t border-slate-100"
+			>
+				<section className="text-center flex flex-col relative justify-center items-center">
+					<span className="text-4xl md:text-7xl font-playfair font-bold tracking-tight z-10">
+						Reviews From Clients.
+					</span>
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+						{""}
+					</span>
+					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
+						<strong>"</strong>Hear from our happy clients.
+						<strong>" </strong>
+					</span>
+				</section>
+				<section className="w-full h-full pt-20">
+					<ClientsCarousel />
 				</section>
 			</div>
 		</>
