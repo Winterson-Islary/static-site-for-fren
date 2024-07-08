@@ -10,7 +10,7 @@ function DisplayFeatures() {
 		{
 			icon: "img2",
 			title: "Book.",
-			desc: "Easily book appointments and reservations with our streamlined, hassle-free process.",
+			desc: "Hassle-free and easy appointment bookings and reservations.",
 			color: "#efe9dd",
 			number: 2,
 		},
@@ -37,7 +37,7 @@ function DisplayFeatures() {
 						key={feature.title}
 						// style={{ backgroundColor: `${feature.color}` }}
 						className={
-							" flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13em] md:min-h-[25rem] shadow-sm hover:shadow-xl ease-in-out duration-300 "
+							" flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13rem] md:min-h-[25rem] "
 						}
 					>
 						<img
