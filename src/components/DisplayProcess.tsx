@@ -1,6 +1,6 @@
 function DisplayProcess() {
 	return (
-		<div className="flex flex-col w-[95%] lg:w-[50%] 2xl:w-[35%] mx-auto gap-11">
+		<div className="flex flex-col w-[95%] lg:w-[60%] 2xl:w-[50%] mx-auto gap-11">
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
 					className="w-[200px] h-[150px] rounded-lg object-cover"
