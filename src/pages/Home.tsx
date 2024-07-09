@@ -10,30 +10,27 @@ const Home = () => {
 		<>
 			<div
 				id="hero-section"
-				className=" py-[10rem] h-full sm:py-[23rem] sm:h-screen lg:h-screen flex w-[100%] items-center  overflow-hidden bg-black relative z-0"
+				className=" py-[10rem] h-full lg:h-[115vh] sm:py-[15rem] md:py-[20rem] flex w-[100%] items-center  overflow-hidden bg-black relative z-0"
 			>
-				<section className="flex flex-col  text-white h-full w-[80%] lg:w-[50%] ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
+				<section className="flex flex-col  text-white h-full w-[80%] xl:w-[50%] ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
 					<span className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl">
 						YOUR PREMIER PROFESSIONAL{" "}
 						<span className="underline text-[#cc3115]">ERRANDS</span> RUNNING
 						SERVICE.
 					</span>
-					<span className="font-thin pt-5 md:text-xl xl:text-3xl">
+					<span className="font-thin py-5 md:text-xl xl:text-3xl">
 						<p className="tracking-tight leading-snug text-background font-tanker">
-							<span className="">
+							<span className=" bg-black">
 								Professional Errand Runners for All Your Needs : Finding,
-								Booking, Fixing, Buying, and Delivering anything ASAP. Your
-								One-Stop Solution for Any Task.
+								Booking, Fixing, Buying, and Delivering anything ASAP.
 							</span>
 						</p>
 					</span>
-					<span className="pt-10">
-						<MessageUs />
-					</span>
+					<MessageUs />
 				</section>
-				<section className=" hidden lg:block absolute z-0 right-0 ">
+				<section className=" hidden xl:block absolute z-0 right-0 ">
 					<img
-						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px] md:brightness-[80%] 2xl:brightness-[95%]"
+						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px]"
 						src="/assets/delivery.svg"
 						alt="delivery illustration"
 					/>
@@ -44,7 +41,23 @@ const Home = () => {
 					</span>
 				</section>
 			</div>
-
+			<div
+				id="clients-container"
+				className=" min-h-[10rem] pt-2 pb-5 flex flex-col justify-center bg-gray-100 "
+			>
+				<section className="flex flex-col justify-center w-full text-black ">
+					<span className="font-playfair font-bold text-center text-5xl tracking-tight pt-2">
+						Clients.
+					</span>
+					<span className="font-playfair italic text-sm md:text-lg font-light text-center pb-3 underline">
+						<strong>"</strong>Our exceptional clients.
+						<strong>"</strong>
+					</span>
+				</section>
+				<section className="pt-3">
+					<DisplayClients />
+				</section>
+			</div>
 			<div
 				id="features-container"
 				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%] bg-white border border-slate-100"
@@ -105,23 +118,7 @@ const Home = () => {
 					<DisplayProcess />
 				</section>
 			</div>
-			<div
-				id="clients-container"
-				className=" min-h-[10rem] py-5 flex flex-col justify-center bg-gray-100 "
-			>
-				<section className="flex flex-col justify-center w-full text-black ">
-					<span className="font-playfair font-bold text-center text-5xl tracking-tight pt-2">
-						Clients.
-					</span>
-					<span className="font-playfair italic text-sm md:text-lg font-light text-center pb-3 underline">
-						<strong>"</strong>We are proud to work with our exceptional clients!
-						<strong>"</strong>
-					</span>
-				</section>
-				<section className="pt-3">
-					<DisplayClients />
-				</section>
-			</div>
+
 			<div
 				id="about-holder"
 				className=" h-full overflow-hidden py-20 md:py-[10rem] border-t border-slate-100"
