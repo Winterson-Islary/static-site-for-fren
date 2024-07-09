@@ -1,4 +1,5 @@
 import { cn } from "@/utils/tailwindUtils";
+import { type Dispatch, type SetStateAction, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 export const Navbar = () => {
@@ -18,6 +19,7 @@ const navItems = [
 ];
 
 function MobileNavbar() {
+	const [active, setActive] = useState(false);
 	return (
 		<div className="block md:hidden mx-auto border-separate bg-black fixed w-full z-20">
 			<nav className="container flex items-center justify-between px-8">
@@ -35,9 +37,49 @@ function MobileNavbar() {
 				</div>
 				<div
 					id="sheet-container"
-					className="flex items-center gap-3 text-white"
+					className="flex items-center gap-3 text-white relative"
 				>
-					INCOMPLETE
+					{!active && (
+						<button
+							type="button"
+							className="w-full"
+							onClick={() => setActive((prev) => !prev)}
+						>
+							<img
+								src="/assets/hamburger.png"
+								alt="hamburger icon"
+								className="w-10 hover:cursor-pointer"
+							/>
+						</button>
+					)}
+					{active && (
+						<button
+							type="button"
+							className="w-full "
+							onClick={() => setActive((prev) => !prev)}
+						>
+							<img
+								src="/assets/close.png"
+								alt="hamburger icon"
+								className="w-10 hover:cursor-pointer"
+							/>
+						</button>
+					)}
+					{active && (
+						<section
+							id="menu-container"
+							className="flex flex-col gap-1 items-center justify-center w-[240px] h-[250px]  p-5 bg-black rounded-sm absolute -right-2 top-[4.5rem] duration-1000 ease-in-out -z-10"
+						>
+							{navItems.map((item) => (
+								<NavbarItem
+									key={item.label}
+									label={item.label}
+									link={item.link}
+									setActive={setActive}
+								/>
+							))}
+						</section>
+					)}
 				</div>
 			</nav>
 		</div>
@@ -77,7 +119,13 @@ function NavbarItem({
 	label,
 	link,
 	onLinkClick,
-}: { label: string; link: string; onLinkClick?: () => void }) {
+	setActive,
+}: {
+	label: string;
+	link: string;
+	onLinkClick?: () => void;
+	setActive?: Dispatch<SetStateAction<boolean>>;
+}) {
 	const location = useLocation();
 	const isActive = location.pathname === link;
 
@@ -86,11 +134,16 @@ function NavbarItem({
 			<Link
 				to={link}
 				className={cn(
-					"font-tanker w-full justify-start text-lg text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115]",
+					"font-tanker w-full justify-start text-3xl md:text-lg text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115]",
 					isActive && "text-[#cc3115] border-t-2 border-[#cc3115]",
 				)}
 				onClick={() => {
-					if (onLinkClick) onLinkClick();
+					if (onLinkClick) {
+						onLinkClick();
+					}
+					if (setActive) {
+						setActive((prev) => !prev);
+					}
 				}}
 			>
 				{label}
