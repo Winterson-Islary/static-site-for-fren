@@ -35,11 +35,17 @@ function ClientsCarousel() {
 			image: "reviewer4",
 			stars: "🌟🌟🌟🌟🌟",
 		},
+		{
+			name: "Bilal Ahmad Chattha",
+			review:
+				"Extremely satisfied with the support, cooperation, professionalism and services. I'm 100% sure that I will definitely recommend it to my family & friends. The Rider Ali was very professional and careful about the cake that was send to my Niece on her Birthday. Once again thanks a lot for the efforts and services.",
+			image: "reviewer5",
+			stars: "🌟🌟🌟🌟🌟",
+		},
 	];
 	return (
 		<>
 			<Swiper
-				style={{ "--swiper-pagination-color": "#cc3115" }}
 				spaceBetween={30}
 				centeredSlides={true}
 				autoplay={{
@@ -56,7 +62,7 @@ function ClientsCarousel() {
 					return (
 						<SwiperSlide
 							key={item.name}
-							className="font-playfair h-full w-full p-2 md:p-5"
+							className=" select-none font-playfair h-full w-full p-2 md:p-5 hover:cursor-grab active:cursor-grabbing"
 						>
 							<section className="flex flex-col items-center justify-center">
 								<span>
