@@ -9,9 +9,9 @@ function Footer() {
 						<Link to="/about" className="hover:underline">
 							ABOUT US
 						</Link>
-						<Link to="" className="hover:underline">
+						<a href="mailto:info@go-eazy.com" className="hover:underline">
 							CONTACT US
-						</Link>
+						</a>
 
 						<Link to="/terms" className="hover:underline">
 							TERMS OF SERVICES
