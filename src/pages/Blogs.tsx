@@ -1,6 +1,6 @@
 function Blogs() {
 	return (
-		<div className="h-full md:h-screen py-[10rem]">
+		<div className="h-full  py-[10rem]">
 			<section className=" flex flex-col gap-2 md:gap-5 items-center justify-center h-full">
 				<section className="relative">
 					<img
