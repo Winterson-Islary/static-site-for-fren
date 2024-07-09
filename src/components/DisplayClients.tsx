@@ -1,5 +1,5 @@
 function DisplayClients() {
-	const clientImages = ["img1", "img2", "img3", "img4", "img5"];
+	const clientImages = ["client1", "client2", "client3", "client4", "client5"];
 	return (
 		<section className="flex items-center gap-2 justify-evenly mx-auto w-full md:w-[70%] flex-wrap pointer-events-none">
 			{clientImages.map((image) => {
