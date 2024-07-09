@@ -37,8 +37,8 @@ function About() {
 								requirements and sit back while we handle it all! Whether its
 								arranging the perfect day, buying an item, taking care of your
 								pet, cleaning your home, renting a car or taking a car to the
-								garage anddeliveringanything else asap that comes to your mind,
-								Go-Eazy can handle it all!
+								garage and delivering anything else asap that comes to your
+								mind, Go-Eazy can handle it all!
 							</p>
 						</span>
 					</section>
