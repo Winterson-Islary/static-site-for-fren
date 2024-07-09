@@ -76,12 +76,19 @@ function Services() {
 										<span className="opacity-70">Description: </span>
 										{item.description}
 									</section>
-									<button
-										type="button"
-										className="bg-black w-[200px] p-2 rounded-md text-xl text-white  uppercase hover:w-[220px] duration-300 ease-in-out"
+									<a
+										href="https://wa.me/971508211455"
+										target="_blank"
+										rel="noreferrer"
+										className="w-[200px] bg-green-500"
 									>
-										Avail Service
-									</button>
+										<button
+											type="button"
+											className="bg-black w-[200px] p-2 rounded-md text-xl text-white  uppercase hover:w-[220px] duration-300 ease-in-out"
+										>
+											Avail Service
+										</button>
+									</a>
 								</div>
 							</div>
 						);
