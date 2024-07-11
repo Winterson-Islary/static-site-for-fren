@@ -59,7 +59,7 @@ function DisplayServices() {
 						className="bg-cover h-[320px] border-[0.05rem] xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-xl ease-in-out duration-500"
 						key={service.title}
 					>
-						<div className="bg-white p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem]  gap-2 ">
+						<div className="select-none bg-white p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem]  gap-2 ">
 							<section className="font-playfair text-xl uppercase font-bold underline">
 								{service.title}
 							</section>
