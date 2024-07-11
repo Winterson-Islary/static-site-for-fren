@@ -35,7 +35,7 @@ function Footer() {
 							<section className="text-white font-roboto text-2xl font-bold">
 								PAYMENTS
 							</section>
-							<section className="flex gap-2">
+							<section className="flex gap-2 flex-wrap">
 								<img
 									className="h-8"
 									src="/assets/american-express.png"
@@ -47,6 +47,21 @@ function Footer() {
 									alt="mastercard"
 								/>
 								<img className="h-8" src="/assets/visa.png" alt="visa card" />
+								<img
+									className="h-8 w-12 bg-white"
+									src="/assets/cod.png"
+									alt="visa card"
+								/>
+								<img
+									className="h-8 bg-white"
+									src="/assets/gpay.png"
+									alt="visa card"
+								/>
+								<img
+									className="h-8 bg-white"
+									src="/assets/upi.png"
+									alt="visa card"
+								/>
 							</section>
 						</div>
 					</section>
