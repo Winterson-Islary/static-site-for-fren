@@ -43,18 +43,9 @@ const Home = () => {
 			</div>
 			<div
 				id="clients-container"
-				className=" min-h-[10rem] pt-2 pb-5 flex flex-col justify-center bg-gray-100 "
+				className="h-full flex flex-col justify-center "
 			>
-				<section className="flex flex-col justify-center w-full text-black ">
-					<span className="font-playfair font-bold text-center text-5xl tracking-tight pt-2">
-						Clients.
-					</span>
-					<span className="font-playfair italic text-sm md:text-lg font-light text-center pb-3 underline">
-						<strong>"</strong>Our exceptional clients.
-						<strong>"</strong>
-					</span>
-				</section>
-				<section className="pt-3">
+				<section className="">
 					<DisplayClients />
 				</section>
 			</div>
