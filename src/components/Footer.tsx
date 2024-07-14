@@ -68,9 +68,13 @@ function Footer() {
 				</section>
 			</div>
 			<div className="w-[80%]  mx-auto border-t-4 border-white py-10">
-				<section className="flex justify-between items-center text-white pb-10">
+				<section className="flex flex-col md:flex-row gap-5 justify-between  text-white pb-10">
 					<span className=" font-montserrat ">
 						2024 © GO-EAZY, ALL RIGHTS RESERVED
+					</span>
+					<span className="font-montserrat uppercase">
+						The Binary by Omniyat - tower 1 32 Marasi Drive Street -
+						Business Bay - Dubai
 					</span>
 				</section>
 				<section className="font-roboto font-medium text-md text-white text-center mx-auto md:w-[70%]">
