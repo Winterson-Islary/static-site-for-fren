@@ -6,6 +6,7 @@ function Services() {
 				"Need to purchase something? Let us buy and deliver it to you.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
 		},
 		{
 			title: "Personal Assistance",
@@ -13,6 +14,7 @@ function Services() {
 				"Delegate your professional and personal tasks to us, ensuring invaluable family time.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
 		},
 		{
 			title: "Gift Procurement & Delivery",
@@ -20,6 +22,7 @@ function Services() {
 				"We procure the perfect gift for your loved ones and ensure prompt delivery.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
 		},
 		{
 			title: "Returns & Exchanges",
@@ -27,6 +30,7 @@ function Services() {
 				"Need to return or exchange items? Count on us for swift and efficient service.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
 		},
 		{
 			title: "Booking & Reservations",
@@ -34,6 +38,7 @@ function Services() {
 				"Planning vacations? Let us find and book the perfect holiday for you with ease and expertise.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
 		},
 		{
 			title: "Furniture Delivery",
@@ -41,6 +46,7 @@ function Services() {
 				"Need furniture? We find it, buy it, deliver it and even assemble it for you.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
 		},
 		{
 			title: "Flower Delivery",
@@ -48,6 +54,39 @@ function Services() {
 				"Express your feelings with elegance. Let us deliver flowers to your loved ones effortlessly.",
 			image: "img2",
 			link: "",
+			tag: "Personal",
+		},
+		{
+			title: "Efficient Document Logistics",
+			description:
+				"Streamline your workflow with reliable pick-up and drop-off of important documents.",
+			image: "img2",
+			link: "",
+			tag: "Corporate",
+		},
+		{
+			title: "Secure Cheque Delivery",
+			description:
+				"Guaranteed and efficient handling of Cheques, saving you time and resources.",
+			image: "img2",
+			link: "",
+			tag: "Corporate",
+		},
+		{
+			title: "Expedited Passport Delivery",
+			description:
+				"Get your passport where you need it, fast, for a seamless travel experience.",
+			image: "img2",
+			link: "",
+			tag: "Corporate",
+		},
+		{
+			title: "Secure Cash in Transit Service",
+			description:
+				"Eliminate risk and ensure peace of mind with secure cash handling services.",
+			image: "img2",
+			link: "",
+			tag: "Corporate",
 		},
 	];
 	return (
@@ -75,6 +114,10 @@ function Services() {
 									<section className="text-xl font-bold">
 										<span className="opacity-70">Description: </span>
 										{item.description}
+									</section>
+									<section className="text-xl font-bold">
+										<span className="opacity-70">Tag: </span>
+										{item.tag}
 									</section>
 									<a
 										href="https://wa.me/971508211455"
