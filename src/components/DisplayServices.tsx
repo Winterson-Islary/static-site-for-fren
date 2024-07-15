@@ -4,7 +4,7 @@ function DisplayServices() {
 			title: "Personal Shopping",
 			description:
 				"Need to purchase something? Let us buy and deliver it to you.",
-			image: "img2",
+			image: "img1",
 		},
 		{
 			title: "Personal Assistance",
@@ -16,36 +16,36 @@ function DisplayServices() {
 			title: "Gift Procurement & Delivery",
 			description:
 				"We procure the perfect gift for your loved ones and ensure prompt delivery.",
-			image: "img2",
+			image: "img3",
 		},
 		{
 			title: "Returns & Exchanges",
 			description:
 				"Need to return or exchange items? Count on us for swift and efficient service.",
-			image: "img2",
+			image: "img4",
 		},
 		{
 			title: "Booking & Reservations",
 			description:
 				"Planning vacations? Let us find and book the perfect holiday for you with ease and expertise.",
-			image: "img2",
+			image: "img5",
 		},
 		{
 			title: "Furniture Delivery",
 			description:
 				"Need furniture? We find it, buy it, deliver it and even assemble it for you.",
-			image: "img2",
+			image: "img6",
 		},
 		{
 			title: "Flower Delivery",
 			description:
 				"Express your feelings with elegance. Let us deliver flowers to your loved ones effortlessly.",
-			image: "img2",
+			image: "img7",
 		},
 		{
 			title: "Much More...",
 			description: "Anything, anywhere, anytime. Ready to simplify your life.",
-			image: "img2",
+			image: "img8",
 		},
 	];
 	const corporateServiceList = [
@@ -53,25 +53,25 @@ function DisplayServices() {
 			title: "Efficient Document Logistics",
 			description:
 				"Streamline your workflow with reliable pick-up and drop-off of important documents.",
-			image: "img2",
+			image: "img9",
 		},
 		{
 			title: "Secure Cheque Delivery",
 			description:
 				"Guaranteed and efficient handling of Cheques, saving you time and resources.",
-			image: "img2",
+			image: "img10",
 		},
 		{
 			title: "Expedited Passport Delivery",
 			description:
 				"Get your passport where you need it, fast, for a seamless travel experience.",
-			image: "img2",
+			image: "img11",
 		},
 		{
 			title: "Secure Cash in Transit Service",
 			description:
 				"Eliminate risk and ensure peace of mind with secure cash handling services.",
-			image: "img2",
+			image: "img12",
 		},
 	];
 
@@ -87,10 +87,10 @@ function DisplayServices() {
 							style={{
 								backgroundImage: `url(/assets/${service.image}.webp)`,
 							}}
-							className="bg-cover h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500"
+							className="bg-center bg-cover h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black"
 							key={service.title}
 						>
-							<div className="select-none bg-white p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem]  gap-2 border border-black">
+							<div className="select-none bg-gray-200 p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem]  gap-2 hover:h-[50%] transition-all duration-5000 ease-in-out bg-opacity-75 hover:bg-opacity-90">
 								<section className="font-playfair text-xl uppercase font-bold underline underline-offset-4">
 									{service.title}
 								</section>
@@ -114,10 +114,10 @@ function DisplayServices() {
 							style={{
 								backgroundImage: `url(/assets/${service.image}.webp)`,
 							}}
-							className="bg-cover h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500"
+							className="bg-cover bg-center h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black "
 							key={service.title}
 						>
-							<div className="select-none bg-white p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem]  gap-2  border border-black">
+							<div className="select-none bg-gray-200 p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem] gap-2 transition-all  duration-5000 ease-in-out hover:h-[50%] bg-opacity-75 hover:bg-opacity-90 ">
 								<section className="font-playfair text-xl uppercase font-bold underline underline-offset-4">
 									{service.title}
 								</section>
