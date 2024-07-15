@@ -71,7 +71,7 @@ const Home = () => {
 			</div>
 			<div
 				id="services-container"
-				className=" h-full w-full mx-auto bg-gray-100 flex flex-col items-center py-20 md:py-[10rem]"
+				className=" h-full w-full mx-auto bg-gray-100 flex flex-col items-center py-20 md:py-[5rem]"
 			>
 				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
 					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center z-10">
@@ -85,7 +85,7 @@ const Home = () => {
 						<strong>"</strong>
 					</span>
 				</section>
-				<section className="pt-[5rem]">
+				<section className="pt-[2rem]">
 					<DisplayServices />
 				</section>
 			</div>

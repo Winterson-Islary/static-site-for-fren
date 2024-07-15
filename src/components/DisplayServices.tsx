@@ -87,7 +87,7 @@ function DisplayServices() {
 							style={{
 								backgroundImage: `url(/assets/${service.image}.webp)`,
 							}}
-							className="bg-center bg-cover h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black"
+							className="bg-center bg-cover h-[200px] md:h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black"
 							key={service.title}
 						>
 							<div className="select-none bg-gray-200 p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem]  gap-2 hover:h-[50%] transition-all duration-5000 ease-in-out bg-opacity-75 hover:bg-opacity-90">
@@ -114,7 +114,7 @@ function DisplayServices() {
 							style={{
 								backgroundImage: `url(/assets/${service.image}.webp)`,
 							}}
-							className="bg-cover bg-center h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black "
+							className="bg-cover bg-center h-[200px] md:h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black "
 							key={service.title}
 						>
 							<div className="select-none bg-gray-200 p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem] gap-2 transition-all  duration-5000 ease-in-out hover:h-[50%] bg-opacity-75 hover:bg-opacity-90 ">
