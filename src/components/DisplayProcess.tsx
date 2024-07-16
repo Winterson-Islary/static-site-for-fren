@@ -4,7 +4,7 @@ function DisplayProcess() {
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
 					className="w-[200px] h-[150px] rounded-lg object-cover"
-					src="/assets/img2.webp"
+					src="/assets/step1.webp"
 					alt="step 1 of process"
 				/>
 				<section className="flex flex-col justify-center pt-5 pb-2 font-playfair text-center sm:text-left">
@@ -22,9 +22,9 @@ function DisplayProcess() {
 			</section>
 			<section className="flex flex-col sm:flex-row-reverse gap-6 items-center sm:items-start">
 				<img
-					className="w-[200px] h-[150px] object-cover rounded-lg"
-					src="/assets/img2.webp"
-					alt="step 1 of process"
+					className="w-[200px] md:w-[300px] h-[150px] object-cover rounded-lg"
+					src="/assets/step2.webp"
+					alt="step 2 of process"
 				/>
 				<section className="flex flex-col justify-center text-center sm:text-right pt-5 pb-2 font-playfair">
 					<span className="underline">
@@ -42,9 +42,9 @@ function DisplayProcess() {
 			</section>
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
-					className="w-[200px] h-[150px] object-cover rounded-lg"
-					src="/assets/img2.webp"
-					alt="step 1 of process"
+					className="w-[200px] md:w-[300px] h-[150px] object-cover rounded-lg"
+					src="/assets/step3.webp"
+					alt="step 3 of process"
 				/>
 				<section className="flex flex-col justify-center text-center sm:text-left py-2 lg:py-0 px-2 font-playfair">
 					<span className="underline">
