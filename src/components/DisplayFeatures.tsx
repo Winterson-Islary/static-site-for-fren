@@ -1,28 +1,28 @@
 function DisplayFeatures() {
 	const featureList = [
 		{
-			icon: "img2",
+			icon: "find",
 			title: "Find.",
 			desc: "Our service helps you find exactly what you need, quickly and efficiently.",
 			color: "#af9159",
 			number: 1,
 		},
 		{
-			icon: "img2",
+			icon: "img5",
 			title: "Book.",
 			desc: "Hassle-free and easy appointment bookings and reservations.",
 			color: "#efe9dd",
 			number: 2,
 		},
 		{
-			icon: "img2",
+			icon: "buy",
 			title: "Buy.",
 			desc: "Purchase items seamlessly with our reliable and secure buying service.",
 			color: "#af9159",
 			number: 3,
 		},
 		{
-			icon: "img2",
+			icon: "img3",
 			title: "Delivery.",
 			desc: "Get your items delivered promptly and safely right to your doorstep.",
 			color: "#efe9dd",
