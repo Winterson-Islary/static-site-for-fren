@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function DisplayServices() {
 	const serviceList = [
 		{
@@ -76,31 +77,39 @@ function DisplayServices() {
 	];
 
 	return (
-		<section className="w-full mx-auto md:w-[95%] xl:w-[80%]  p-10 ">
+		<section className="w-full mx-auto md:w-[95%]  p-10 ">
 			<div className="font-playfair pb-5 text-3xl md:text-4xl uppercase font-black underline underline-offset-4">
 				Personal Services
 			</div>
-			<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-1 ">
+			<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-1">
 				{serviceList.map((service) => {
 					return (
-						<div
-							style={{
-								backgroundImage: `url(/assets/${service.image}.webp)`,
-							}}
-							className="bg-center bg-cover h-[200px] md:h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black"
-							key={service.title}
-						>
-							<div className="select-none bg-gray-200 p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem]  gap-2 hover:h-[50%] transition-all duration-5000 ease-in-out bg-opacity-75 hover:bg-opacity-90">
-								<section className="font-playfair text-xl uppercase font-bold underline underline-offset-4">
-									{service.title}
-								</section>
-								<section className="font-playfair font-semibold text-sm md:text-base ">
-									<p className="leading-tight tracking-tighter">
-										{service.description}
-									</p>
-								</section>
+						<section key={service.title} className="flex flex-col gap-1">
+							<div
+								key={service.title}
+								className="overflow-hidden rounded-md border-2 border-black h-[200px] md:h-[300px]"
+							>
+								<img
+									src={`/assets/${service.image}.webp`}
+									alt={`${service.title} illustration`}
+									className="object-cover h-full w-full hover:scale-125 rounded-md transition-all duration-700 ease-in-out"
+								/>
 							</div>
-						</div>
+							<Link to="/services">
+								<div key={service.title} className="text-white">
+									<div className="select-none bg-black p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem]  gap-2 transition-all duration-5000 ease-in-out rounded-md">
+										<section className="font-playfair text-2xl uppercase font-bold underline underline-offset-4">
+											{service.title}
+										</section>
+										<section className="font-playfair font-semibold text-sm md:text-base ">
+											<p className="leading-tight tracking-tighter">
+												{service.description}
+											</p>
+										</section>
+									</div>
+								</div>
+							</Link>
+						</section>
 					);
 				})}
 			</div>
@@ -110,24 +119,32 @@ function DisplayServices() {
 			<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-1 ">
 				{corporateServiceList.map((service) => {
 					return (
-						<div
-							style={{
-								backgroundImage: `url(/assets/${service.image}.webp)`,
-							}}
-							className="bg-cover bg-center h-[200px] md:h-[320px]  xl:last-of-type:col-span-2 2xl:last-of-type:col-span-1 flex items-end hover:shadow-md ease-in-out duration-500 border border-black "
-							key={service.title}
-						>
-							<div className="select-none bg-gray-200 p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem] gap-2 transition-all  duration-5000 ease-in-out hover:h-[50%] bg-opacity-75 hover:bg-opacity-90 ">
-								<section className="font-playfair text-xl uppercase font-bold underline underline-offset-4">
-									{service.title}
-								</section>
-								<section className="font-playfair font-semibold text-sm md:text-base ">
-									<p className="leading-tight tracking-tighter">
-										{service.description}
-									</p>
-								</section>
+						<section key={service.title} className="flex flex-col gap-1">
+							<div
+								key={service.title}
+								className="overflow-hidden rounded-md border-2 border-black h-[200px] md:h-[300px]"
+							>
+								<img
+									src={`/assets/${service.image}.webp`}
+									alt={`${service.title} illustration`}
+									className="object-cover h-full w-full hover:scale-125 rounded-md transition-all duration-700 ease-in-out"
+								/>
 							</div>
-						</div>
+							<Link to="/services">
+								<div key={service.title} className="text-white">
+									<div className="select-none bg-black p-[1rem] w-full flex flex-col items-start justify-start min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem]  gap-2 transition-all duration-5000 ease-in-out rounded-md">
+										<section className="font-playfair text-2xl uppercase font-bold underline underline-offset-4">
+											{service.title}
+										</section>
+										<section className="font-playfair font-semibold text-sm md:text-base ">
+											<p className="leading-tight tracking-tighter">
+												{service.description}
+											</p>
+										</section>
+									</div>
+								</div>
+							</Link>
+						</section>
 					);
 				})}
 			</div>
