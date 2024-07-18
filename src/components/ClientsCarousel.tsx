@@ -42,6 +42,32 @@ function ClientsCarousel() {
 			image: "reviewer5",
 			stars: "🌟🌟🌟🌟🌟",
 		},
+		{
+			name: "Beau Johnson",
+			review:
+				"Great business. Came quick and delivered my items in a timely manner. Greatly appreciated Will use these guys again.",
+			image: "reviewer6",
+			stars: "🌟🌟🌟🌟🌟",
+		},
+		{
+			name: "SOMESH MATHAD",
+			review:
+				"Very accurate in time, great and quick service, recommend their service to parcel the things to Dubai to abudhabi.",
+			image: "reviewer7",
+			stars: "🌟🌟🌟🌟🌟",
+		},
+		{
+			name: "Usama Chahal",
+			review: "satisfied on this service,Deliver on time, Quick response.",
+			image: "reviewer8",
+			stars: "🌟🌟🌟🌟🌟",
+		},
+		{
+			name: "Cristina Fernando",
+			review: "Very nice service..easy transaction.",
+			image: "reviewer9",
+			stars: "🌟🌟🌟🌟🌟",
+		},
 	];
 	return (
 		<>
