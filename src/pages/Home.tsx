@@ -4,32 +4,92 @@ import DisplayFeatures from "@/components/DisplayFeatures";
 import DisplayProcess from "@/components/DisplayProcess";
 import DisplayServices from "@/components/DisplayServices";
 import MessageUs from "@/components/MessageUs";
+import { motion } from "framer-motion";
 
 const Home = () => {
+	const fadeInAnimationVariants = {
+		initial: {
+			opacity: 0,
+			y: 100,
+		},
+		animate1: {
+			opacity: 1,
+			y: 0,
+			transition: {
+				delay: 0.1,
+				x: { duration: 7000 },
+			},
+		},
+		animate2: {
+			opacity: 1,
+			y: 0,
+			transition: {
+				delay: 0.1 * 2,
+				x: { duration: 7000 },
+			},
+		},
+		animate3: {
+			opacity: 1,
+			y: 0,
+			transition: {
+				delay: 0.1 * 3,
+				x: { duration: 7000 },
+			},
+		},
+	};
 	return (
 		<>
 			<div
 				id="hero-section"
 				className=" py-[10rem] h-full lg:h-[115vh] sm:py-[15rem] md:py-[20rem] flex w-[100%] items-center  overflow-hidden bg-black relative z-0"
 			>
-				<section className="flex flex-col  text-white h-full w-[80%] xl:w-[50%] ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
-					<span className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl">
-						YOUR PREMIER PROFESSIONAL{" "}
-						<span className="underline text-[#cc3115]">ERRANDS</span> RUNNING
-						SERVICE.
-					</span>
-					<span className="font-thin py-5 md:text-xl xl:text-3xl">
+				<section className="flex flex-col  text-white h-full w-[80%] xl:w-[50%] 2xl:w-[60%]  ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
+					<motion.span
+						variants={fadeInAnimationVariants}
+						initial="initial"
+						whileInView="animate1"
+						viewport={{
+							once: true,
+						}}
+						className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl "
+					>
+						<span className="bg-black">YOUR PREMIER PROFESSIONAL</span>{" "}
+						<span className="underline text-[#cc3115]">ERRANDS</span>{" "}
+						<span className="bg-black">RUNNING SERVICE.</span>
+					</motion.span>
+					<motion.span
+						variants={fadeInAnimationVariants}
+						initial="initial"
+						whileInView="animate2"
+						viewport={{
+							once: true,
+						}}
+						className="font-thin py-5 md:text-xl xl:text-3xl"
+					>
 						<p className="tracking-tight leading-snug text-background font-tanker">
 							<span className=" bg-black">
 								Professional Errand Runners for All Your Needs : Finding,
 								Booking, Fixing, Buying, and Delivering anything ASAP.
 							</span>
 						</p>
-					</span>
-					<MessageUs />
+					</motion.span>
+					<motion.span
+						variants={fadeInAnimationVariants}
+						initial="initial"
+						whileInView="animate3"
+						viewport={{
+							once: true,
+						}}
+					>
+						<MessageUs />
+					</motion.span>
 				</section>
 				<section className=" hidden xl:block absolute z-0 right-0 ">
-					<img
+					<motion.img
+						variants={fadeInAnimationVariants}
+						initial="initial"
+						whileInView="animate1"
+						viewport={{ once: true }}
 						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px]"
 						src="/assets/delivery.svg"
 						alt="delivery illustration"
@@ -45,7 +105,7 @@ const Home = () => {
 				id="clients-container"
 				className="h-full flex flex-col justify-center "
 			>
-				<section className="">
+				<section className="w-full overflow-hidden">
 					<DisplayClients />
 				</section>
 			</div>
@@ -71,7 +131,7 @@ const Home = () => {
 			</div>
 			<div
 				id="services-container"
-				className=" h-full w-full mx-auto bg-gray-100 flex flex-col items-center py-20 md:py-[5rem]"
+				className=" h-full w-full mx-auto bg-gray-100 flex flex-col items-center py-20 md:py-[5rem] overflow-hidden"
 			>
 				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
 					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center z-10">
