@@ -1,7 +1,7 @@
 function MessageUs() {
 	return (
 		<a
-			href="https://wa.me/971508211455"
+			href="https://api.whatsapp.com/send/?phone=971508211455&text=Hey+there%21+%0AI+need+your+help+to+run+some+errands%2E+&app_absent=0"
 			target="_blank"
 			rel="noreferrer"
 			className="w-[200px] md:w-[250px]"

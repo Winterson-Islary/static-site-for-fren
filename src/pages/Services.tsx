@@ -92,7 +92,7 @@ function Services() {
 	return (
 		<div className="pt-[10rem] h-full w-[95%] md:w-[95%] xl:w-[70%] mx-auto pb-11">
 			<section className="flex flex-col">
-				<span className="font-playfair text-7xl w-full text-center pb-10 font-black">
+				<span className="font-playfair text-5xl md:text-7xl w-full text-center pb-10 font-black">
 					SERVICES
 				</span>
 				<section className="flex flex-col gap-2">
@@ -108,19 +108,19 @@ function Services() {
 									className="w-[20%] h-[200px] rounded-md object-cover hidden md:block"
 								/>
 								<div className="font-playfair flex flex-col items-left justify-center gap-5">
-									<section className="text-3xl font-bold underline uppercase">
+									<section className="text-2xl font-bold underline uppercase">
 										{item.title}
 									</section>
-									<section className="text-xl font-bold">
+									<section className="text-lg font-bold">
 										<span className="opacity-70">Description: </span>
 										{item.description}
 									</section>
-									<section className="text-xl font-bold">
+									<section className="text-lg font-bold">
 										<span className="opacity-70">Tag: </span>
 										{item.tag}
 									</section>
 									<a
-										href="https://wa.me/971508211455"
+										href="https://api.whatsapp.com/send/?phone=971508211455&text=Hey+there%21+%0AI+need+your+help+to+run+some+errands%2E+&app_absent=0"
 										target="_blank"
 										rel="noreferrer"
 										className="w-[200px] bg-green-500"
