@@ -27,7 +27,7 @@ function DisplayClients() {
 	];
 	return (
 		<>
-			<section className="flex pointer-events-none overflow-hidden text-black font-playfair font-black text-6xl md:text-7xl ">
+			<section className="flex pointer-events-none overflow-hidden text-black font-playfair font-black text-4xl md:text-5xl h-[5rem]">
 				<motion.div
 					className=" flex flex-shrink-0 gap-20 items-center"
 					initial={{ x: 0 }}
@@ -71,7 +71,7 @@ function DisplayClients() {
 					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
 				</motion.div>
 			</section>
-			<section className="flex pointer-events-none p-2 overflow-hidden border-y-2 border-black bg-white">
+			<section className="flex pointer-events-none p-2 overflow-hidden border-y-2 border-black bg-white h-full">
 				<motion.div
 					className="flex flex-shrink-0"
 					initial={{ x: 0 }}
@@ -85,7 +85,7 @@ function DisplayClients() {
 					{clientImages.map((image) => {
 						return (
 							<img
-								className=" h-20 w-40 mr-40 object-contain  px-2 "
+								className=" h-[5rem] w-[10rem] mr-40 object-contain  px-2 "
 								src={`/assets/clients/${image}.webp`}
 								alt="client-image"
 								key={image}
@@ -107,7 +107,7 @@ function DisplayClients() {
 					{clientImages.map((image) => {
 						return (
 							<img
-								className=" h-20 w-40 mr-40 object-contain  px-2 "
+								className=" h-[5rem] w-[10rem] mr-40 object-contain  px-2 "
 								src={`/assets/clients/${image}.webp`}
 								alt="client-image"
 								key={image}

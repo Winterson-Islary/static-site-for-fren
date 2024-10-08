@@ -10,14 +10,14 @@ const Home = () => {
 	const fadeInAnimationVariants = {
 		initial: {
 			opacity: 0,
-			y: 100,
+			y: 70,
 		},
 		animate1: {
 			opacity: 1,
 			y: 0,
 			transition: {
 				delay: 0.1,
-				x: { duration: 7000 },
+				x: { duration: 2000 },
 			},
 		},
 		animate2: {
@@ -25,7 +25,7 @@ const Home = () => {
 			y: 0,
 			transition: {
 				delay: 0.1 * 2,
-				x: { duration: 7000 },
+				x: { duration: 2000 },
 			},
 		},
 		animate3: {
@@ -33,7 +33,7 @@ const Home = () => {
 			y: 0,
 			transition: {
 				delay: 0.1 * 3,
-				x: { duration: 7000 },
+				x: { duration: 2000 },
 			},
 		},
 	};
@@ -41,9 +41,9 @@ const Home = () => {
 		<>
 			<div
 				id="hero-section"
-				className=" py-[10rem] h-full lg:h-[115vh] sm:py-[15rem] md:py-[20rem] flex w-[100%] items-center  overflow-hidden bg-black relative z-0"
+				className="relative h-screen flex w-full bg-[#f9f9f9]"
 			>
-				<section className="flex flex-col  text-white h-full w-[80%] xl:w-[50%] 2xl:w-[60%]  ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
+				<section className="flex flex-col text-black h-full w-[80%] xl:w-[50%] 2xl:w-[60%]  ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
 					<motion.span
 						variants={fadeInAnimationVariants}
 						initial="initial"
@@ -51,15 +51,13 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl "
+						className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl"
 					>
-						<span className="bg-black">
-							YOUR PREMIER PROFESSIONAL
-						</span>{" "}
+						<span className="">YOUR PREMIER PROFESSIONAL</span>{" "}
 						<span className="underline text-[#cc3115]">
 							ERRANDS
 						</span>{" "}
-						<span className="bg-black">RUNNING SERVICE.</span>
+						<span className="">RUNNING SERVICE.</span>
 					</motion.span>
 					<motion.span
 						variants={fadeInAnimationVariants}
@@ -71,7 +69,7 @@ const Home = () => {
 						className="font-thin py-5 md:text-xl xl:text-3xl"
 					>
 						<p className="tracking-tight leading-snug text-background font-tanker">
-							<span className=" bg-black">
+							<span className="text-black">
 								Professional Errand Runners for All Your Needs :
 								Finding, Booking, Fixing, Buying, and Delivering
 								anything ASAP.
@@ -85,17 +83,21 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
+						className="relative top-[2rem]"
 					>
 						<MessageUs />
 					</motion.span>
 				</section>
-				<section className=" hidden xl:block absolute z-0 right-0 ">
+				<section
+					id="hero-section-logo"
+					className=" hidden lg:block z-0 overflow-hidden h-full absolute right-0"
+				>
 					<motion.img
 						variants={fadeInAnimationVariants}
 						initial="initial"
 						whileInView="animate1"
 						viewport={{ once: true }}
-						className=" -ml-10 sm:ml-0 xl:ml-[5rem] h-[550px]"
+						className="md:top-20 xl:top-0 relative w-[50rem] xl:w-[60rem] h-full brightness-95 xl:brightness-100"
 						src="/assets/delivery.svg"
 						alt="delivery illustration"
 					/>
@@ -111,7 +113,7 @@ const Home = () => {
 			</div>
 			<div
 				id="clients-container"
-				className="h-full flex flex-col justify-center "
+				className="h-full flex flex-col justify-center border-t-2 border-black"
 			>
 				<section className="w-full overflow-hidden">
 					<DisplayClients />
@@ -119,7 +121,7 @@ const Home = () => {
 			</div>
 			<div
 				id="features-container"
-				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%] bg-white border border-slate-100"
+				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%]"
 			>
 				<section className="flex flex-col items-center justify-center w-full relative">
 					<span className=" font-playfair text-5xl md:text-7xl font-bold tracking-tight z-10">
@@ -138,9 +140,20 @@ const Home = () => {
 					<DisplayFeatures />
 				</section>
 			</div>
+			<div className="relative w-[95%] mx-auto">
+				<section id="divider" className="h-[1px] bg-[#787876] " />
+				<section className="flex justify-between">
+					<p className="font-black font-bigShoulders text-[#787876]">
+						03
+					</p>
+					<p className="font-black font-bigShoulders text-[#787876]">
+						06
+					</p>
+				</section>
+			</div>
 			<div
 				id="services-container"
-				className=" h-full w-full mx-auto bg-gray-100 flex flex-col items-center py-20 md:py-[5rem] overflow-hidden"
+				className=" h-full w-full mx-auto flex flex-col items-center py-20 md:py-[5rem] overflow-hidden"
 			>
 				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
 					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center z-10">
@@ -158,9 +171,20 @@ const Home = () => {
 					<DisplayServices />
 				</section>
 			</div>
+			<div className="relative w-[95%] mx-auto">
+				<section id="divider" className="h-[1px] bg-[#787876] " />
+				<section className="flex justify-between">
+					<p className="font-black font-bigShoulders text-[#787876]">
+						04
+					</p>
+					<p className="font-black font-bigShoulders text-[#787876]">
+						06
+					</p>
+				</section>
+			</div>
 			<div
 				id="process-holder"
-				className=" h-full overflow-hidden py-20 md:py-[10rem] border-t border-slate-100"
+				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
 					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight z-10">
@@ -178,10 +202,20 @@ const Home = () => {
 					<DisplayProcess />
 				</section>
 			</div>
-
+			<div className="relative w-[95%] mx-auto">
+				<section id="divider" className="h-[1px] bg-[#787876] " />
+				<section className="flex justify-between">
+					<p className="font-black font-bigShoulders text-[#787876]">
+						05
+					</p>
+					<p className="font-black font-bigShoulders text-[#787876]">
+						06
+					</p>
+				</section>
+			</div>
 			<div
 				id="about-holder"
-				className=" h-full overflow-hidden py-20 md:py-[10rem] border-t border-slate-100"
+				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
 					<span className="text-4xl md:text-7xl font-playfair font-bold tracking-tight z-10">
@@ -249,9 +283,20 @@ const Home = () => {
 					</div>
 				</section>
 			</div>
+			<div className="relative w-[95%] mx-auto">
+				<section id="divider" className="h-[1px] bg-[#787876] " />
+				<section className="flex justify-between">
+					<p className="font-black font-bigShoulders text-[#787876]">
+						06
+					</p>
+					<p className="font-black font-bigShoulders text-[#787876]">
+						06
+					</p>
+				</section>
+			</div>
 			<div
 				id="carousel-holder"
-				className=" h-full overflow-hidden py-20 md:pt-[10rem] border-t border-slate-100"
+				className=" h-full overflow-hidden py-20 md:pt-[10rem]"
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
 					<span className="text-4xl md:text-7xl font-playfair font-bold tracking-tight z-10">
