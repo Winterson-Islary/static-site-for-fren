@@ -7,6 +7,7 @@ const useDimension = () => {
 		setDimension({ width: innerWidth, height: innerHeight });
 	};
 
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
 	useEffect(() => {
 		updateDimension();
 		window.addEventListener("resize", updateDimension);

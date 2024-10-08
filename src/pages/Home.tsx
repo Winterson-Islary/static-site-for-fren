@@ -53,8 +53,12 @@ const Home = () => {
 						}}
 						className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl "
 					>
-						<span className="bg-black">YOUR PREMIER PROFESSIONAL</span>{" "}
-						<span className="underline text-[#cc3115]">ERRANDS</span>{" "}
+						<span className="bg-black">
+							YOUR PREMIER PROFESSIONAL
+						</span>{" "}
+						<span className="underline text-[#cc3115]">
+							ERRANDS
+						</span>{" "}
 						<span className="bg-black">RUNNING SERVICE.</span>
 					</motion.span>
 					<motion.span
@@ -68,8 +72,9 @@ const Home = () => {
 					>
 						<p className="tracking-tight leading-snug text-background font-tanker">
 							<span className=" bg-black">
-								Professional Errand Runners for All Your Needs : Finding,
-								Booking, Fixing, Buying, and Delivering anything ASAP.
+								Professional Errand Runners for All Your Needs :
+								Finding, Booking, Fixing, Buying, and Delivering
+								anything ASAP.
 							</span>
 						</p>
 					</motion.span>
@@ -95,7 +100,10 @@ const Home = () => {
 						alt="delivery illustration"
 					/>
 					<span className="text-slate-600 italic flex items-end justify-end -rotate-90 absolute bottom-[50%] -right-[5rem]">
-						<a href="https://storyset.com/business" className="text-[0.9rem]">
+						<a
+							href="https://storyset.com/business"
+							className="text-[0.9rem]"
+						>
 							Business illustrations by Storyset
 						</a>
 					</span>
@@ -121,8 +129,9 @@ const Home = () => {
 						{""}
 					</span>
 					<span className=" text-center pt-2 font-playfair text-sm  md:text-lg font-light italic underline z-10">
-						<strong>"</strong>Want to simplify your life with errand runners?{" "}
-						<strong>Go-Eazy </strong>is here to help.<strong>"</strong>
+						<strong>"</strong>Want to simplify your life with errand
+						runners? <strong>Go-Eazy </strong>is here to help.
+						<strong>"</strong>
 					</span>
 				</section>
 				<section className="pt-[5rem]">
@@ -202,32 +211,36 @@ const Home = () => {
 										<strong className="text-xl underline">
 											#1. Take Back Your Time:
 										</strong>{" "}
-										At Go-Eazy, we know your time is valuable. That's why we
-										exist - to help busy people like you conquer your to-do
+										At Go-Eazy, we know your time is
+										valuable. That's why we exist - to help
+										busy people like you conquer your to-do
 										list, one errand at a time.{" "}
 									</li>
 									<li className="pt-5 ">
 										<strong className="text-xl underline">
 											#2. Effortless Errands:
 										</strong>{" "}
-										Our platform connects you with pre-vetted, reliable errand
-										runners who can tackle anything from grocery shopping to
-										personal errands and beyond.{" "}
+										Our platform connects you with
+										pre-vetted, reliable errand runners who
+										can tackle anything from grocery
+										shopping to personal errands and beyond.{" "}
 									</li>
 									<li className="pt-5">
 										<strong className="text-xl underline">
 											#3. Seamless Convenience:
 										</strong>{" "}
-										We prioritize a smooth and convenient experience. Get back
-										your time and energy - let Go-Eazy handle the errands, so
-										you can focus on what truly matters.{" "}
+										We prioritize a smooth and convenient
+										experience. Get back your time and
+										energy - let Go-Eazy handle the errands,
+										so you can focus on what truly matters.{" "}
 									</li>
 									<li className="pt-5">
 										<strong className="text-xl underline">
 											#4. Focus on What Matters:
 										</strong>{" "}
-										Our passionate team is dedicated to helping you reclaim
-										control of your schedule. Leave the errands to us, and
+										Our passionate team is dedicated to
+										helping you reclaim control of your
+										schedule. Leave the errands to us, and
 										handle your life with ease.
 									</li>
 								</ul>

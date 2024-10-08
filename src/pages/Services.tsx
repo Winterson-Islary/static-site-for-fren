@@ -112,11 +112,15 @@ function Services() {
 										{item.title}
 									</section>
 									<section className="text-lg font-bold">
-										<span className="opacity-70">Description: </span>
+										<span className="opacity-70">
+											Description:{" "}
+										</span>
 										{item.description}
 									</section>
 									<section className="text-lg font-bold">
-										<span className="opacity-70">Tag: </span>
+										<span className="opacity-70">
+											Tag:{" "}
+										</span>
 										{item.tag}
 									</section>
 									<a
