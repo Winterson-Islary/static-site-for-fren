@@ -51,7 +51,7 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className=" font-clash font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl"
+						className=" font-tanker font-black text-[2.9rem] leading-[2.8rem] md:text-8xl  2xl:text-9xl"
 					>
 						<span className="">YOUR PREMIER PROFESSIONAL</span>{" "}
 						<span className="underline text-[#cc3115]">
@@ -124,13 +124,11 @@ const Home = () => {
 				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%]"
 			>
 				<section className="flex flex-col items-center justify-center w-full relative">
-					<span className=" font-playfair text-5xl md:text-7xl font-bold tracking-tight z-10">
+					<span className=" font-playfair text-4xl md:text-6xl font-bold tracking-tight z-10">
 						Features.
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
-						{""}
-					</span>
-					<span className=" text-center pt-2 font-playfair text-sm  md:text-lg font-light italic underline z-10">
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+					<span className=" text-center font-playfair text-sm  md:text-lg font-light z-10">
 						<strong>"</strong>Want to simplify your life with errand
 						runners? <strong>Go-Eazy </strong>is here to help.
 						<strong>"</strong>
@@ -156,18 +154,18 @@ const Home = () => {
 				className=" h-full w-full mx-auto flex flex-col items-center py-20 md:py-[5rem] overflow-hidden"
 			>
 				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
-					<span className="font-playfair tracking-tight text-5xl md:text-7xl font-bold text-center z-10">
+					<span className="font-playfair tracking-tight text-4xl md:text-6xl font-bold text-center z-10">
 						What we do.
 					</span>
 					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className=" text-center pt-2 font-playfair font-light text-sm md:text-lg italic underline z-10">
+					<span className=" text-center font-playfair font-light text-sm md:text-lg z-10">
 						<strong>"</strong>Simplifying life, one task at a time.
 						<strong>"</strong>
 					</span>
 				</section>
-				<section className="pt-[2rem]">
+				<section className="pt-[2rem] w-full">
 					<DisplayServices />
 				</section>
 			</div>
@@ -187,13 +185,11 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-5xl md:text-7xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 						Our Process.
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
-						{""}
-					</span>
-					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+					<span className="font-playfair text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Life made easy in 3 simple steps.
 						<strong>"</strong>
 					</span>
@@ -218,13 +214,11 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-7xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 						Why Choose Go-Eazy?
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
-						{""}
-					</span>
-					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
+					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+					<span className="font-playfair text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Errands Done Right, Every Time
 						<strong>"</strong>
 					</span>
@@ -299,7 +293,7 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:pt-[10rem]"
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-7xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 						Reviews From Clients.
 					</span>
 					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">

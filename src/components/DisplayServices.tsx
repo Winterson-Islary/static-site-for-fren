@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import styles from "@/styles/scrolls.module.css"
 function DisplayServices() {
 	const serviceList = [
 		{
@@ -76,111 +76,95 @@ function DisplayServices() {
 			image: "img12",
 		},
 	];
-	const fadeInAnimationVariants = (index: number) => ({
-		initial: {
-			opacity: 0,
-			y: 70,
-		},
-		animate: {
-			opacity: 1,
-			y: 0,
-			transition: {
-				delay: 0.1 * index,
-				x: { duration: 2000 },
-			},
-		},
-	});
+
 	return (
-		<section className="w-full mx-auto md:w-[95%] 2xl:w-[1500px] p-1 min-[1650px]:w-[1600px]">
-			<div className="font-playfair pb-5 text-3xl md:text-4xl uppercase font-black underline underline-offset-4">
-				Personal Services
+		<section className={`overflow-x-auto w-[90%] mx-auto`}>
+			<section className="2xl:w-[85%] mx-auto">
+			<div className="relative flex justify-between font-roboto mt-[3rem] mb-[1rem] text-sm md:text-md uppercase font-black underline underline-offset-4">
+				<p className="hidden md:block">Personal Services</p>
+				<p>Personal Services</p>
 			</div>
-			<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-1">
+			<div className={`flex justify-start overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2`}>
 				{serviceList.map((service, index) => {
 					return (
-						<motion.section
-							variants={fadeInAnimationVariants(index)}
-							initial="initial"
-							whileInView="animate"
-							viewport={{ once: true }}
-							key={service.title}
-							className="flex flex-col gap-1 "
+						<section key={index}
+							className="flex flex-col gap-1"
 						>
+							<Link to="/services">
 							<div
 								key={service.title}
-								className="overflow-hidden rounded-md border-2 border-black h-[200px] md:h-[300px] w-full"
+								className="overflow-hidden h-[200px] w-[300px] md:w-[500px] md:h-[600px]"
 							>
 								<img
 									src={`/assets/${service.image}.webp`}
 									alt={`${service.title} illustration`}
-									className="object-cover h-full w-full hover:scale-125 rounded-md transition-all duration-700 ease-in-out"
+									className="object-cover h-full w-full scale-110 hover:scale-100 transition-all duration-500 ease-in-out"
 								/>
 							</div>
-							<div className=" flex-1">
-								<Link to="/services">
-									<div key={service.title} className="text-white h-full">
-										<div className="select-none bg-black p-[1rem] w-full flex flex-col items-start justify-center h-full  gap-2 transition-all duration-5000 ease-in-out rounded-md">
-											<section className="font-playfair text-xl lg:text-2xl uppercase font-bold underline underline-offset-4">
+							<div className="">
+									<div key={service.title} className="text-black h-full">
+										<div className="pt-2 select-none w-full flex flex-col items-start justify-center h-full  gap-1 transition-all duration-5000 ease-in-out">
+											<section className="font-roboto font-black text-xl uppercase"> 
 												{service.title}
 											</section>
-											<section className="font-playfair font-semibold text-sm md:text-base h-full flex-1">
-												<p className="leading-tight tracking-tighter">
+											<section className="font-playfair font-semibold text-sm md:text-base h-full flex-1 pb-10">
+												<p className="leading-tight tracking-tighter text-[#252422]">
 													{service.description}
 												</p>
 											</section>
 										</div>
 									</div>
-								</Link>
 							</div>
-						</motion.section>
+							</Link>
+						</section>
 					);
 				})}
 			</div>
-			<div className=" font-playfair pt-20 pb-5 text-3xl md:text-4xl uppercase font-black underline underline-offset-4">
-				Corporate Services
+			</section>
+			<section className="2xl:w-[85%] mx-auto">
+			<div className="relative flex justify-between mt-[2rem] mb-[1rem] font-roboto text-sm md:text-md uppercase font-black underline underline-offset-4">
+				<p className="hidden md:block">Corporate Services</p>
+				<p>Corporate Services</p>
 			</div>
-			<div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-1 ">
+			<div className={`flex overflow-x-scroll ${styles.scroll} gap-3 w-full mx-auto pb-2`}>
 				{corporateServiceList.map((service, index) => {
 					return (
-						<motion.section
-							variants={fadeInAnimationVariants(index)}
-							initial="initial"
-							whileInView="animate"
-							viewport={{ once: true }}
-							key={service.title}
+						<section key={index}
 							className="flex flex-col gap-1"
 						>
+							<Link to="/services">
 							<div
 								key={service.title}
-								className="overflow-hidden rounded-md border-2 border-black h-[200px] md:h-[300px]"
+								className="overflow-hidden h-[200px] w-[300px] md:w-[500px] md:h-[600px]"
 							>
 								<img
 									src={`/assets/${service.image}.webp`}
 									alt={`${service.title} illustration`}
-									className="object-cover h-full w-full hover:scale-125 rounded-md transition-all duration-700 ease-in-out"
+									className="object-cover h-full w-full scale-110 hover:scale-100 transition-all duration-500 ease-in-out"
 								/>
 							</div>
-							<div className="flex-1">
-								<Link to="/services">
-									<div key={service.title} className="text-white h-full">
-										<div className="select-none bg-black p-[1rem] w-full flex flex-col items-start justify-center min-h-[5rem] md:min-h-[8.5rem] h-[8.5rem]  gap-2 transition-all duration-5000 ease-in-out rounded-md">
-											<section className="font-playfair text-lg lg:text-2xl uppercase font-bold underline underline-offset-4">
+							<div className="">
+									<div key={service.title} className="text-black h-full">
+										<div className="pt-2 select-none w-full flex flex-col items-start justify-center h-full  gap-1 transition-all duration-5000 ease-in-out">
+											<section className="font-roboto text-xl uppercase font-bold"> 
 												{service.title}
 											</section>
-											<section className="font-playfair font-semibold text-sm md:text-base ">
-												<p className="leading-tight tracking-tighter">
+											<section className="font-playfair font-semibold text-sm md:text-base pb-10">
+												<p className="leading-tight tracking-tighter text-[#252422]">
 													{service.description}
 												</p>
 											</section>
 										</div>
 									</div>
-								</Link>
 							</div>
-						</motion.section>
+							</Link>
+						</section>
 					);
 				})}
 			</div>
 		</section>
+		</section>
+
 	);
 }
 

@@ -67,12 +67,12 @@ function DisplayFeatures() {
 							/>
 						</section>
 
-						<div className="flex flex-col gap-2 items-start  w-full">
+						<div className="flex flex-col items-start  w-full">
 							<section className="text-left font-playfair flex flex-col gap-2">
 								<span className=" text-sm font-semibold">
 									[{feature.number}]
 								</span>
-								<span className="text-2xl font-semibold uppercase">
+								<span className="font-roboto text-2xl font-semibold uppercase">
 									{feature.title}
 								</span>
 							</section>
