@@ -5,7 +5,9 @@
     font-family: "Tanker Regular";
     src: url("/assets/fonts/Tanker-Regular.otf");
   }
- 
+  * {
+    user-select: none;
+  }
   body::-webkit-scrollbar {
     width: 0.9rem;
   }

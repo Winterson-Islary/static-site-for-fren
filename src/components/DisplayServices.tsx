@@ -78,17 +78,17 @@ function DisplayServices() {
 	];
 
 	return (
-		<section className={`overflow-x-auto w-[90%] mx-auto`}>
+		<section className={`w-[93%] mx-auto`}>
 			<section className="2xl:w-[85%] mx-auto">
 			<div className="relative flex justify-between font-roboto mt-[3rem] mb-[1rem] text-sm md:text-md uppercase font-black underline underline-offset-4">
 				<p className="hidden md:block">Personal Services</p>
 				<p>Personal Services</p>
 			</div>
-			<div className={`flex justify-start overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2`}>
+			<div className={`flex justify-start overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2 `}>
 				{serviceList.map((service, index) => {
 					return (
 						<section key={index}
-							className="flex flex-col gap-1"
+							className="flex flex-col gap-1 relative"
 						>
 							<Link to="/services">
 							<div
@@ -126,7 +126,7 @@ function DisplayServices() {
 				<p className="hidden md:block">Corporate Services</p>
 				<p>Corporate Services</p>
 			</div>
-			<div className={`flex overflow-x-scroll ${styles.scroll} gap-3 w-full mx-auto pb-2`}>
+			<div className={`flex overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2`}>
 				{corporateServiceList.map((service, index) => {
 					return (
 						<section key={index}

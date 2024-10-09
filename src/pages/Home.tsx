@@ -127,7 +127,7 @@ const Home = () => {
 					<span className=" font-playfair text-4xl md:text-6xl font-bold tracking-tight z-10">
 						Features.
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
 					<span className=" text-center font-playfair text-sm  md:text-lg font-light z-10">
 						<strong>"</strong>Want to simplify your life with errand
 						runners? <strong>Go-Eazy </strong>is here to help.
@@ -157,7 +157,7 @@ const Home = () => {
 					<span className="font-playfair tracking-tight text-4xl md:text-6xl font-bold text-center z-10">
 						What we do.
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
 					<span className=" text-center font-playfair font-light text-sm md:text-lg z-10">
@@ -188,7 +188,7 @@ const Home = () => {
 					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 						Our Process.
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
 					<span className="font-playfair text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Life made easy in 3 simple steps.
 						<strong>"</strong>
@@ -217,7 +217,7 @@ const Home = () => {
 					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 						Why Choose Go-Eazy?
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
 					<span className="font-playfair text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Errands Done Right, Every Time
 						<strong>"</strong>
@@ -233,43 +233,54 @@ const Home = () => {
 							/>
 						</section>
 						<section className=" w-full lg:w-[60%] xl:w-[50%] ">
-							<span className=" font-playfair text-sm md:text-lg ">
+							<span className="font-serif text-sm md:text-lg ">
 								<ul>
 									<li className="">
-										<strong className="text-xl underline">
-											#1. Take Back Your Time:
+										<strong className="font-roboto text-xl">
+											#1. Take Back Your Time :
 										</strong>{" "}
-										At Go-Eazy, we know your time is
-										valuable. That's why we exist - to help
-										busy people like you conquer your to-do
-										list, one errand at a time.{" "}
+										<span className="text-base">
+											At Go-Eazy, we know your time is
+											valuable. That's why we exist - to
+											help busy people like you conquer
+											your to-do list, one errand at a
+											time.{" "}
+										</span>
 									</li>
 									<li className="pt-5 ">
-										<strong className="text-xl underline">
-											#2. Effortless Errands:
+										<strong className="font-roboto text-xl">
+											#2. Effortless Errands :
 										</strong>{" "}
-										Our platform connects you with
-										pre-vetted, reliable errand runners who
-										can tackle anything from grocery
-										shopping to personal errands and beyond.{" "}
+										<span className="text-base">
+											Our platform connects you with
+											pre-vetted, reliable errand runners
+											who can tackle anything from grocery
+											shopping to personal errands and
+											beyond.{" "}
+										</span>
 									</li>
 									<li className="pt-5">
-										<strong className="text-xl underline">
-											#3. Seamless Convenience:
+										<strong className="text-xl font-roboto ">
+											#3. Seamless Convenience :
 										</strong>{" "}
-										We prioritize a smooth and convenient
-										experience. Get back your time and
-										energy - let Go-Eazy handle the errands,
-										so you can focus on what truly matters.{" "}
+										<span className="text-base">
+											We prioritize a smooth and
+											convenient experience. Get back your
+											time and energy - let Go-Eazy handle
+											the errands, so you can focus on
+											what truly matters.{" "}
+										</span>
 									</li>
 									<li className="pt-5">
-										<strong className="text-xl underline">
-											#4. Focus on What Matters:
+										<strong className="text-xl font-roboto">
+											#4. Focus on What Matters :
 										</strong>{" "}
-										Our passionate team is dedicated to
-										helping you reclaim control of your
-										schedule. Leave the errands to us, and
-										handle your life with ease.
+										<span className="text-base">
+											Our passionate team is dedicated to
+											helping you reclaim control of your
+											schedule. Leave the errands to us,
+											and handle your life with ease.
+										</span>
 									</li>
 								</ul>
 							</span>
@@ -296,7 +307,7 @@ const Home = () => {
 					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 						Reviews From Clients.
 					</span>
-					<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0">
+					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
 					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">

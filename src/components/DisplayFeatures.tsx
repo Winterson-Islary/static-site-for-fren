@@ -58,7 +58,7 @@ function DisplayFeatures() {
 							" flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13rem] md:min-h-[25rem] "
 						}
 					>
-						<section className="w-full overflow-hidden rounded-sm">
+						<section className="w-full overflow-hidden rounded">
 							<img
 								className="h-[200px] w-full object-cover  shadow-md hover:scale-110 duration-300"
 								src={`/assets/${feature.icon}.webp`}

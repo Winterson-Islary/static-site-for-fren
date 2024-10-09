@@ -21,8 +21,8 @@ const navItems = [
 function MobileNavbar() {
 	const [active, setActive] = useState(false);
 	return (
-		<div className="block md:hidden mx-auto border-separate bg-black fixed w-full z-20">
-			<nav className="container flex items-center justify-between px-8">
+		<div className="block md:hidden mx-auto border-separate bg-black fixed w-full h-[4rem] z-20">
+			<nav className="w-full h-full flex items-center justify-between px-8">
 				<div
 					id="logo-container-mobile"
 					className="font-tanker text-3xl text-white font-semibold"
@@ -68,7 +68,7 @@ function MobileNavbar() {
 					{active && (
 						<section
 							id="menu-container"
-							className="flex flex-col gap-1 items-center justify-center w-[240px] h-[250px]  p-5 bg-black rounded-sm absolute -right-2 top-[4.5rem] duration-1000 ease-in-out -z-10"
+							className="flex flex-col gap-1 items-center justify-center w-[240px] h-[250px]  p-5 bg-black rounded-xl absolute -right-2 top-[4rem] duration-1000 ease-in-out -z-10"
 						>
 							{navItems.map((item) => (
 								<NavbarItem
@@ -88,8 +88,8 @@ function MobileNavbar() {
 
 function DesktopNavbar() {
 	return (
-		<div className="hidden md:block  border-separate rounded-lg  fixed m-auto left-0 right-0 w-[90%] mt-5 bg-black z-20">
-			<nav className=" flex items-center justify-between px-8">
+		<div className="hidden md:block border-separate rounded-xl fixed m-auto left-0 right-0 w-[90%] mt-5 bg-black z-20 h-[3.7rem]">
+			<nav className=" flex w-full h-full items-center justify-between px-8">
 				<div className="flex h-[65px] min-h-[60px] items-center justify-between gap-x-4 w-full">
 					<div className="font-tanker text-3xl font-semibold text-white">
 						<Link to="/" className="text-[#cc3115]">

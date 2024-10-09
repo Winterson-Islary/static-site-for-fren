@@ -3,7 +3,7 @@ function DisplayProcess() {
 		<div className="flex flex-col w-[95%] lg:w-[60%] 2xl:w-[50%] mx-auto gap-11">
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
-					className="w-[200px] h-[150px] rounded-lg object-cover"
+					className="w-[200px] h-[150px] rounded-xl object-cover"
 					src="/assets/step1.webp"
 					alt="step 1 of process"
 				/>
@@ -22,7 +22,7 @@ function DisplayProcess() {
 			</section>
 			<section className="flex flex-col sm:flex-row-reverse gap-6 items-center sm:items-start">
 				<img
-					className="w-[200px] md:w-[300px] h-[150px] object-cover rounded-lg"
+					className="w-[200px] md:w-[300px] h-[150px] object-cover rounded-xl"
 					src="/assets/step2.webp"
 					alt="step 2 of process"
 				/>
@@ -42,7 +42,7 @@ function DisplayProcess() {
 			</section>
 			<section className="flex flex-col sm:flex-row  gap-6 items-center sm:items-start">
 				<img
-					className="w-[200px] md:w-[300px] h-[150px] object-cover rounded-lg"
+					className="w-[200px] md:w-[300px] h-[150px] object-cover rounded-xl"
 					src="/assets/step3.webp"
 					alt="step 3 of process"
 				/>

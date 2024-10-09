@@ -8,7 +8,7 @@ function About() {
 				<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
 					About Us.
 				</span>
-				<span className="absolute h-[150px] w-[150px] rounded-full bg-[#cc3115] center-0 z-0" />
+				<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
 				<span className="font-playfair text-center text-lg z-10">
 					<strong>" </strong>Your satisfaction, our Goal.
 					<strong> "</strong>
@@ -24,7 +24,7 @@ function About() {
 						/>
 					</section>
 					<section className=" w-full lg:w-[60%] xl:w-[50%] ">
-						<span className="md:leading-loose font-playfair text-sm md:text-xl">
+						<span className="md:leading-loose font-serif text-sm md:text-xl">
 							<p className="">
 								<strong>Go-Eazy </strong>is the new personal
 								assistant of choice for thousands of users

@@ -1,12 +1,14 @@
 .scroll::-webkit-scrollbar {
-    height: 3px
+    height: 3.5px
 }
 
 .scroll::-webkit-scrollbar-thumb {
     border-radius: 1px;
+    height: 3px;
     background-color: #252422;
 }
 
 .scroll::-webkit-scrollbar-track {
+    height: 2px;
     background-color: #bdbdbd;
 }

@@ -127,11 +127,11 @@ function Services() {
 										href="https://api.whatsapp.com/send/?phone=971508211455&text=Hey+there%21+%0AI+need+your+help+to+run+some+errands%2E+&app_absent=0"
 										target="_blank"
 										rel="noreferrer"
-										className="w-[200px] bg-green-500"
+										className="w-[200px]"
 									>
 										<button
 											type="button"
-											className="bg-black w-[200px] p-2 rounded-md text-xl text-white  uppercase hover:w-[220px] duration-300 ease-in-out"
+											className="bg-black rounded-xl w-[200px] p-2 text-xl text-white  uppercase hover:w-[220px] duration-300 ease-in-out"
 										>
 											Avail Service
 										</button>
