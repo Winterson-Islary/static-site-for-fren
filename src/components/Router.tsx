@@ -6,6 +6,7 @@ import About from "@/pages/About";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Terms from "@/pages/Terms";
 import Contact from "@/pages/Contact";
+import Welcome from "./Welcome";
 
 const router = createBrowserRouter([
 	{
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
 			{
 				path: "/contact",
 				element: <Contact />,
+				index: true,
+			},
+			{
+				path: "/thankyou",
+				element: <Welcome />,
 				index: true,
 			}
 		],
