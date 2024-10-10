@@ -89,7 +89,7 @@ function DisplayServices() {
 					className={`flex justify-start overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2 `}
 				>
 					{serviceList.map((service, index) => {
-						const indexing = `${index}key`;
+						const indexing = `${index}personal`;
 						return (
 							<section
 								key={indexing}
@@ -138,7 +138,7 @@ function DisplayServices() {
 					className={`flex overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2`}
 				>
 					{corporateServiceList.map((service, index) => {
-						const indexing = `${index}key`;
+						const indexing = `${index}corporate`;
 						return (
 							<section
 								key={indexing}

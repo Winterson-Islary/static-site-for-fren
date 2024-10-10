@@ -5,12 +5,7 @@ import Contact from "@/pages/Contact";
 import Home from "@/pages/Home";
 import Services from "@/pages/Services";
 import Terms from "@/pages/Terms";
-import { AnimatePresence } from "framer-motion";
-import {
-	RouterProvider,
-	createBrowserRouter,
-	useLocation,
-} from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import PageTransition from "./PageTransition";
 import Welcome from "./Welcome";
 

@@ -102,13 +102,14 @@ function DisplayClients() {
 						ease: "linear",
 					}}
 				>
-					{clientImages.map((image) => {
+					{clientImages.map((image, index) => {
+						const indexing = `${index}key`;
 						return (
 							<img
 								className=" h-[5rem] w-[10rem] mr-40 object-contain  px-2 "
 								src={`/assets/clients/${image}.webp`}
 								alt="client-image"
-								key={image}
+								key={indexing}
 							/>
 						);
 					})}
@@ -124,13 +125,14 @@ function DisplayClients() {
 						ease: "linear",
 					}}
 				>
-					{clientImages.map((image) => {
+					{clientImages.map((image, index) => {
+						const indexing = `${index}key`;
 						return (
 							<img
 								className=" h-[5rem] w-[10rem] mr-40 object-contain  px-2 "
 								src={`/assets/clients/${image}.webp`}
 								alt="client-image"
-								key={image}
+								key={indexing}
 							/>
 						);
 					})}
