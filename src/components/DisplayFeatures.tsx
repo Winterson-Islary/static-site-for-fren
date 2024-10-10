@@ -77,7 +77,9 @@ function DisplayFeatures() {
 								</span>
 							</section>
 							<section className="font-playfair font-semibold ">
-								<p className="leading-tight tracking-tighter">{feature.desc}</p>
+								<p className="leading-tight tracking-tighter">
+									{feature.desc}
+								</p>
 							</section>
 						</div>
 					</motion.div>

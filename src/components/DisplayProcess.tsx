@@ -15,8 +15,8 @@ function DisplayProcess() {
 						Reach us on WhatsApp.
 					</span>
 					<span>
-						Connect directly with your dedicated virtual assistant via WhatsApp
-						for personalized, one-on-one assistance.
+						Connect directly with your dedicated virtual assistant
+						via WhatsApp for personalized, one-on-one assistance.
 					</span>
 				</section>
 			</section>
@@ -34,9 +34,9 @@ function DisplayProcess() {
 						We get to work.
 					</span>
 					<span className="">
-						The moment you reach out, we spring into action! Our dedicated team
-						will promptly begin working to find the ideal solution for your
-						specific needs.
+						The moment you reach out, we spring into action! Our
+						dedicated team will promptly begin working to find the
+						ideal solution for your specific needs.
 					</span>
 				</section>
 			</section>
@@ -54,9 +54,9 @@ function DisplayProcess() {
 						Your guaranteed satisfaction.
 					</span>
 					<span>
-						Our dedicated team is committed to exceeding your expectations. We
-						take the time to understand your needs, develop a tailored plan, and
-						execute it flawlessly.
+						Our dedicated team is committed to exceeding your
+						expectations. We take the time to understand your needs,
+						develop a tailored plan, and execute it flawlessly.
 					</span>
 				</section>
 			</section>

@@ -39,15 +39,25 @@ function DisplayClients() {
 					}}
 				>
 					<span className="ml-20  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 				</motion.div>
 				<motion.div
 					className="flex flex-shrink-0 gap-20 items-center"
@@ -60,15 +70,25 @@ function DisplayClients() {
 					}}
 				>
 					<span className="ml-20 mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 					<span className="  mr-20">CLIENTS</span>
-					<span className=" h-[90px] w-[5px]  bg-black mr-20">{""}</span>
+					<span className=" h-[90px] w-[5px]  bg-black mr-20">
+						{""}
+					</span>
 				</motion.div>
 			</section>
 			<section className="flex pointer-events-none p-2 overflow-hidden border-y-2 border-black bg-white h-full">

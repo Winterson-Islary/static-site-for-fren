@@ -1,9 +1,9 @@
 import useDimension from "@/hooks/useDimension";
 import {
 	type MotionValue,
+	motion,
 	useScroll,
 	useTransform,
-	motion,
 } from "framer-motion";
 import { useRef } from "react";
 
@@ -37,10 +37,22 @@ function DisplayServiceImage() {
 			ref={refContainer}
 			className="h-[175vh] bg-[#2D2D2D] flex p-[2vw] box-border gap-[2vw]"
 		>
-			<GetImages images={[images[0], images[1], images[2]]} y={scrollY1} />
-			<GetImages images={[images[3], images[4], images[5]]} y={scrollY2} />
-			<GetImages images={[images[6], images[7], images[8]]} y={scrollY3} />
-			<GetImages images={[images[9], images[10], images[11]]} y={scrollY4} />
+			<GetImages
+				images={[images[0], images[1], images[2]]}
+				y={scrollY1}
+			/>
+			<GetImages
+				images={[images[3], images[4], images[5]]}
+				y={scrollY2}
+			/>
+			<GetImages
+				images={[images[6], images[7], images[8]]}
+				y={scrollY3}
+			/>
+			<GetImages
+				images={[images[9], images[10], images[11]]}
+				y={scrollY4}
+			/>
 		</div>
 	);
 }
@@ -57,7 +69,10 @@ function GetImages({
 		>
 			{images.map((src) => {
 				return (
-					<div className="w-full h-full relative overflow-hidden" key={src}>
+					<div
+						className="w-full h-full relative overflow-hidden"
+						key={src}
+					>
 						<img
 							className="bg-black object-cover w-full h-full rounded-md"
 							src={`./src/assets/${src}.webp`}

@@ -15,13 +15,13 @@ const mobileNavItems = [
 	{ label: "Services", link: "/services" },
 	{ label: "Blogs", link: "/blogs" },
 	{ label: "About", link: "/about" },
-	{ label: "Contact us" , link: "/contact"}
+	{ label: "Contact us", link: "/contact" },
 ];
 const navItems = [
 	{ label: "Home", link: "/" },
 	{ label: "Services", link: "/services" },
 	{ label: "About", link: "/about" },
-	{ label: "Contact us" , link: "/contact"}
+	{ label: "Contact us", link: "/contact" },
 ];
 
 function MobileNavbar() {
