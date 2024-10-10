@@ -30,24 +30,55 @@ function Footer() {
 					</section>
 				</section>
 				<section id="payments" className="flex flex-col">
-					<div id="socials" className="text-white mb-10 xl:my-10 flex flex-col">
-					<p className="font-bold font-roboto text-xl md:text-2xl pb-2">SOCIALS</p>
-					<div className="flex gap-5 relative">
-						{/* <a className="cursor-pointer">
+					<div
+						id="socials"
+						className="text-white mb-10 xl:my-10 flex flex-col"
+					>
+						<p className="font-bold font-roboto text-xl md:text-2xl pb-2">
+							SOCIALS
+						</p>
+						<div className="flex gap-5 relative">
+							{/* <a className="cursor-pointer">
 							<img src="/assets/socials/twitter.svg" alt="twitter logo" className="w-[30px]" />
 						</a> */}
-						<a href="https://www.instagram.com/goeazyuae/profilecard/" target="_blank" className="cursor-pointer">
-							<img src="/assets/socials/instagram.svg" alt="instagram logo" className="w-[30px]" />
-						</a>
-						<a href="https://www.facebook.com/share/mR94S6niTdqZQWaH/" target="_blank" className="cursor-pointer">
-							<img src="/assets/socials/facebook.svg" alt="instagram logo" className="w-[30px] " />
-						</a>
-						<a href="https://www.linkedin.com/company/go-eazy/" target="_blank" className="cursor-pointer">
-							<img src="/assets/socials/linkedin.svg" alt="instagram logo" className="w-[30px] " />
-						</a>
-			
+							<a
+								href="https://www.instagram.com/goeazyuae/profilecard/"
+								target="_blank"
+								rel="noreferrer"
+								className="cursor-pointer"
+							>
+								<img
+									src="/assets/socials/instagram.svg"
+									alt="instagram logo"
+									className="w-[30px]"
+								/>
+							</a>
+							<a
+								href="https://www.facebook.com/share/mR94S6niTdqZQWaH/"
+								target="_blank"
+								rel="noreferrer"
+								className="cursor-pointer"
+							>
+								<img
+									src="/assets/socials/facebook.svg"
+									alt="instagram logo"
+									className="w-[30px] "
+								/>
+							</a>
+							<a
+								href="https://www.linkedin.com/company/go-eazy/"
+								target="_blank"
+								rel="noreferrer"
+								className="cursor-pointer"
+							>
+								<img
+									src="/assets/socials/linkedin.svg"
+									alt="instagram logo"
+									className="w-[30px] "
+								/>
+							</a>
+						</div>
 					</div>
-				</div>
 					<section className="flex items-end pb-10">
 						<div className="flex flex-col gap-2 ">
 							<section className="text-white font-roboto text-xl md:text-2xl font-bold">
@@ -64,7 +95,11 @@ function Footer() {
 									src="/assets/mastercard.png"
 									alt="mastercard"
 								/>
-								<img className="h-8" src="/assets/visa.png" alt="visa card" />
+								<img
+									className="h-8"
+									src="/assets/visa.png"
+									alt="visa card"
+								/>
 								<img
 									className="h-8 w-12 bg-white"
 									src="/assets/cod.png"
@@ -92,14 +127,14 @@ function Footer() {
 					</span>
 					<span className="font-montserrat uppercase">
 						The Binary by Omniyat - tower 1 32 Marasi Drive Street -
-						Business Bay - Dubai
+						Business Bay - Dubai
 					</span>
 				</section>
 				<section className="font-roboto font-medium text-md text-white text-center mx-auto md:w-[70%]">
-					Go-Eazy, its services and its websites, www.Go-Eazy.com, is owned
-					wholly by Go-Eazy Limited, Therefore, any referral to Go-Eazy or its
-					services, directly refers to Go-Eazy Limited. United Arab of Emirates
-					is our country of domicile
+					Go-Eazy, its services and its websites, www.Go-Eazy.com, is
+					owned wholly by Go-Eazy Limited, Therefore, any referral to
+					Go-Eazy or its services, directly refers to Go-Eazy Limited.
+					United Arab of Emirates is our country of domicile
 				</section>
 			</div>
 		</footer>

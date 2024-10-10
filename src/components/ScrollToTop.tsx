@@ -5,6 +5,7 @@ function ScrollToTop() {
 			onClick={() => {
 				window.scrollTo({ top: 0, behavior: "smooth" });
 			}}
+			onKeyDown={() => {}}
 		>
 			<p className="font-black font-bigShoulders text-2xl leading-tight tracking-tighter flex items-center justify-center h-[100%]  ease-in-out duration-200">
 				SCROLL UP

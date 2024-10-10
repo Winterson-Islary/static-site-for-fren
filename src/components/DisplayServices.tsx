@@ -1,5 +1,5 @@
+import styles from "@/styles/scrolls.module.css";
 import { Link } from "react-router-dom";
-import styles from "@/styles/scrolls.module.css"
 function DisplayServices() {
 	const serviceList = [
 		{
@@ -46,7 +46,8 @@ function DisplayServices() {
 		},
 		{
 			title: "Much More...",
-			description: "Anything, anywhere, anytime. Ready to simplify your life.",
+			description:
+				"Anything, anywhere, anytime. Ready to simplify your life.",
 			image: "img8",
 		},
 	];
@@ -78,93 +79,106 @@ function DisplayServices() {
 	];
 
 	return (
-		<section className={`w-[93%] mx-auto`}>
+		<section className={"w-[93%] mx-auto"}>
 			<section className="2xl:w-[85%] mx-auto">
-			<div className="relative flex justify-between font-roboto mt-[3rem] mb-[1rem] text-sm md:text-md uppercase font-black underline underline-offset-4">
-				<p className="hidden md:block">Personal Services</p>
-				<p>Personal Services</p>
-			</div>
-			<div className={`flex justify-start overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2 `}>
-				{serviceList.map((service, index) => {
-					return (
-						<section key={index}
-							className="flex flex-col gap-1 relative"
-						>
-							<Link to="/services">
-							<div
-								key={service.title}
-								className="overflow-hidden h-[200px] w-[300px] md:w-[500px] md:h-[600px]"
+				<div className="relative flex justify-between font-roboto mt-[3rem] mb-[1rem] text-sm md:text-md uppercase font-black underline underline-offset-4">
+					<p className="hidden md:block">Personal Services</p>
+					<p>Personal Services</p>
+				</div>
+				<div
+					className={`flex justify-start overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2 `}
+				>
+					{serviceList.map((service, index) => {
+						const indexing = `${index}key`;
+						return (
+							<section
+								key={indexing}
+								className="flex flex-col gap-1 relative"
 							>
-								<img
-									src={`/assets/${service.image}.webp`}
-									alt={`${service.title} illustration`}
-									className="object-cover h-full w-full scale-110 hover:scale-100 transition-all duration-500 ease-in-out"
-								/>
-							</div>
-							<div className="">
-									<div key={service.title} className="text-black h-full">
-										<div className="pt-2 select-none w-full flex flex-col items-start justify-center h-full  gap-1 transition-all duration-5000 ease-in-out">
-											<section className="font-roboto font-black text-xl uppercase"> 
-												{service.title}
-											</section>
-											<section className="font-playfair font-semibold text-sm md:text-base h-full flex-1 pb-10">
-												<p className="leading-tight tracking-tighter text-[#252422]">
-													{service.description}
-												</p>
-											</section>
+								<Link to="/services">
+									<div
+										key={service.title}
+										className="overflow-hidden h-[200px] w-[300px] md:w-[500px] md:h-[600px]"
+									>
+										<img
+											src={`/assets/${service.image}.webp`}
+											alt={`${service.title} illustration`}
+											className="object-cover h-full w-full scale-110 hover:scale-100 transition-all duration-500 ease-in-out"
+										/>
+									</div>
+									<div className="">
+										<div
+											key={service.title}
+											className="text-black h-full"
+										>
+											<div className="pt-2 select-none w-full flex flex-col items-start justify-center h-full  gap-1 transition-all duration-5000 ease-in-out">
+												<section className="font-roboto font-black text-xl uppercase">
+													{service.title}
+												</section>
+												<section className="font-playfair font-semibold text-sm md:text-base h-full flex-1 pb-10">
+													<p className="leading-tight tracking-tighter text-[#252422]">
+														{service.description}
+													</p>
+												</section>
+											</div>
 										</div>
 									</div>
-							</div>
-							</Link>
-						</section>
-					);
-				})}
-			</div>
+								</Link>
+							</section>
+						);
+					})}
+				</div>
 			</section>
 			<section className="2xl:w-[85%] mx-auto">
-			<div className="relative flex justify-between mt-[2rem] mb-[1rem] font-roboto text-sm md:text-md uppercase font-black underline underline-offset-4">
-				<p className="hidden md:block">Corporate Services</p>
-				<p>Corporate Services</p>
-			</div>
-			<div className={`flex overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2`}>
-				{corporateServiceList.map((service, index) => {
-					return (
-						<section key={index}
-							className="flex flex-col gap-1"
-						>
-							<Link to="/services">
-							<div
-								key={service.title}
-								className="overflow-hidden h-[200px] w-[300px] md:w-[500px] md:h-[600px]"
+				<div className="relative flex justify-between mt-[2rem] mb-[1rem] font-roboto text-sm md:text-md uppercase font-black underline underline-offset-4">
+					<p className="hidden md:block">Corporate Services</p>
+					<p>Corporate Services</p>
+				</div>
+				<div
+					className={`flex overflow-x-scroll ${styles.scroll} gap-4 w-full mx-auto pb-2`}
+				>
+					{corporateServiceList.map((service, index) => {
+						const indexing = `${index}key`;
+						return (
+							<section
+								key={indexing}
+								className="flex flex-col gap-1"
 							>
-								<img
-									src={`/assets/${service.image}.webp`}
-									alt={`${service.title} illustration`}
-									className="object-cover h-full w-full scale-110 hover:scale-100 transition-all duration-500 ease-in-out"
-								/>
-							</div>
-							<div className="">
-									<div key={service.title} className="text-black h-full">
-										<div className="pt-2 select-none w-full flex flex-col items-start justify-center h-full  gap-1 transition-all duration-5000 ease-in-out">
-											<section className="font-roboto text-xl uppercase font-bold"> 
-												{service.title}
-											</section>
-											<section className="font-playfair font-semibold text-sm md:text-base pb-10">
-												<p className="leading-tight tracking-tighter text-[#252422]">
-													{service.description}
-												</p>
-											</section>
+								<Link to="/services">
+									<div
+										key={service.title}
+										className="overflow-hidden h-[200px] w-[300px] md:w-[500px] md:h-[600px]"
+									>
+										<img
+											src={`/assets/${service.image}.webp`}
+											alt={`${service.title} illustration`}
+											className="object-cover h-full w-full scale-110 hover:scale-100 transition-all duration-500 ease-in-out"
+										/>
+									</div>
+									<div className="">
+										<div
+											key={service.title}
+											className="text-black h-full"
+										>
+											<div className="pt-2 select-none w-full flex flex-col items-start justify-center h-full  gap-1 transition-all duration-5000 ease-in-out">
+												<section className="font-roboto text-xl uppercase font-bold">
+													{service.title}
+												</section>
+												<section className="font-playfair font-semibold text-sm md:text-base pb-10">
+													<p className="leading-tight tracking-tighter text-[#252422]">
+														{service.description}
+													</p>
+												</section>
+											</div>
 										</div>
 									</div>
-							</div>
-							</Link>
-						</section>
-					);
-				})}
-			</div>
+								</Link>
+							</section>
+						);
+					})}
+				</div>
+			</section>
 		</section>
-		</section>
-
 	);
 }
 

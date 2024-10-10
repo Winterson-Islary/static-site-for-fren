@@ -3,7 +3,6 @@ import { Navbar } from "@/components/Navbar";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-// import ScrollToTop from "./components/ScrollToTop";
 import FixedMessageUs from "./components/FixedMessageUs";
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
 		<>
 			<Navbar />
 			<FixedMessageUs />
-			{/* <ScrollToTop /> */}
 			<Outlet />
 			<Footer />
 		</>
