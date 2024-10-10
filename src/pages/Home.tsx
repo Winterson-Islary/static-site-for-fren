@@ -51,7 +51,7 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className=" font-tanker font-black text-[2.9rem] leading-[2.8rem] md:text-8xl  2xl:text-9xl"
+						className=" font-tanker font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-9xl"
 					>
 						<span className="">YOUR PREMIER PROFESSIONAL</span>{" "}
 						<span className="underline text-[#cc3115]">
