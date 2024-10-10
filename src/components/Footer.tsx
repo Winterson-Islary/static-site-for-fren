@@ -4,14 +4,14 @@ function Footer() {
 	return (
 		<footer className="w-full bg-[#000000]">
 			<div className="w-[80%] mx-auto border-t-4 border-white xl:flex md:gap-48 justify-between">
-				<section className="md:flex md:gap-48">
+				<section id="links" className="md:flex md:gap-48">
 					<section className="text-white font-roboto text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap flex-shrink">
 						<Link to="/about" className="hover:underline">
 							ABOUT US
 						</Link>
-						<a href="mailto:info@go-eazy.com" className="hover:underline">
+						<Link to="/contact" className="hover:underline">
 							CONTACT US
-						</a>
+						</Link>
 
 						<Link to="/terms" className="hover:underline">
 							TERMS OF SERVICES
@@ -29,7 +29,24 @@ function Footer() {
 						</Link>
 					</section>
 				</section>
-				<section className="flex items-end">
+				<section id="socials" className="text-white mb-10 flex flex-col">
+					<p className="font-bold font-roboto text-2xl pb-2">SOCIALS</p>
+					<div className="flex gap-5 relative left-5">
+						<a className="cursor-pointer">
+							<img src="/assets/socials/twitter.svg" alt="twitter logo" className="w-[30px]" />
+						</a>
+						<a className="cursor-pointer">
+							<img src="/assets/socials/instagram.svg" alt="instagram logo" className="w-[30px] " />
+						</a>
+						<a className="cursor-pointer">
+							<img src="/assets/socials/facebook.svg" alt="instagram logo" className="w-[30px] " />
+						</a>
+
+			
+					</div>
+				</section>
+
+				<section id="payments" className="flex items-end">
 					<section className="flex items-end pb-10">
 						<div className="flex flex-col gap-2 ">
 							<section className="text-white font-roboto text-2xl font-bold">
