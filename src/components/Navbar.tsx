@@ -10,12 +10,18 @@ export const Navbar = () => {
 		</>
 	);
 };
-
-const navItems = [
+const mobileNavItems = [
 	{ label: "Home", link: "/" },
 	{ label: "Services", link: "/services" },
 	{ label: "Blogs", link: "/blogs" },
-	{ label: "About us", link: "/about" },
+	{ label: "About", link: "/about" },
+	{ label: "Contact us" , link: "/contact"}
+];
+const navItems = [
+	{ label: "Home", link: "/" },
+	{ label: "Services", link: "/services" },
+	{ label: "About", link: "/about" },
+	{ label: "Contact us" , link: "/contact"}
 ];
 
 function MobileNavbar() {
@@ -70,7 +76,7 @@ function MobileNavbar() {
 							id="menu-container"
 							className="flex flex-col gap-1 items-center justify-center w-[240px] h-[250px]  p-5 bg-black rounded-xl absolute -right-2 top-[4rem] duration-1000 ease-in-out -z-10"
 						>
-							{navItems.map((item) => (
+							{mobileNavItems.map((item) => (
 								<NavbarItem
 									key={item.label}
 									label={item.label}

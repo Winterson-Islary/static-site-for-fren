@@ -5,7 +5,7 @@ function Footer() {
 		<footer className="w-full bg-[#000000]">
 			<div className="w-[80%] mx-auto border-t-4 border-white xl:flex md:gap-48 justify-between">
 				<section id="links" className="md:flex md:gap-48">
-					<section className="text-white font-roboto text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap flex-shrink">
+					<section className="text-white font-roboto text-xl md:text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap flex-shrink">
 						<Link to="/about" className="hover:underline">
 							ABOUT US
 						</Link>
@@ -20,7 +20,7 @@ function Footer() {
 							PRIVACY POLICY
 						</Link>
 					</section>
-					<section className="text-white font-roboto text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap">
+					<section className="text-white font-roboto text-xl md:text-3xl flex flex-col gap-2 my-10 font-bold text-nowrap">
 						<Link to="/services" className="hover:underline">
 							SERVICES
 						</Link>
@@ -29,27 +29,28 @@ function Footer() {
 						</Link>
 					</section>
 				</section>
-				<section id="socials" className="text-white mb-10 flex flex-col">
-					<p className="font-bold font-roboto text-2xl pb-2">SOCIALS</p>
-					<div className="flex gap-5 relative left-5">
-						<a className="cursor-pointer">
+				<section id="payments" className="flex flex-col">
+					<div id="socials" className="text-white mb-10 xl:my-10 flex flex-col">
+					<p className="font-bold font-roboto text-xl md:text-2xl pb-2">SOCIALS</p>
+					<div className="flex gap-5 relative">
+						{/* <a className="cursor-pointer">
 							<img src="/assets/socials/twitter.svg" alt="twitter logo" className="w-[30px]" />
+						</a> */}
+						<a href="https://www.instagram.com/goeazyuae/profilecard/" target="_blank" className="cursor-pointer">
+							<img src="/assets/socials/instagram.svg" alt="instagram logo" className="w-[30px]" />
 						</a>
-						<a className="cursor-pointer">
-							<img src="/assets/socials/instagram.svg" alt="instagram logo" className="w-[30px] " />
-						</a>
-						<a className="cursor-pointer">
+						<a href="https://www.facebook.com/share/mR94S6niTdqZQWaH/" target="_blank" className="cursor-pointer">
 							<img src="/assets/socials/facebook.svg" alt="instagram logo" className="w-[30px] " />
 						</a>
-
+						<a href="https://www.linkedin.com/company/go-eazy/" target="_blank" className="cursor-pointer">
+							<img src="/assets/socials/linkedin.svg" alt="instagram logo" className="w-[30px] " />
+						</a>
 			
 					</div>
-				</section>
-
-				<section id="payments" className="flex items-end">
+				</div>
 					<section className="flex items-end pb-10">
 						<div className="flex flex-col gap-2 ">
-							<section className="text-white font-roboto text-2xl font-bold">
+							<section className="text-white font-roboto text-xl md:text-2xl font-bold">
 								PAYMENTS
 							</section>
 							<section className="flex gap-2 flex-wrap">
