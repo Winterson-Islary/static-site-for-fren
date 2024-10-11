@@ -1,9 +1,9 @@
-import ClientsCarousel from "@/components/ClientsCarousel";
 import DisplayClients from "@/components/DisplayClients";
 import DisplayFeatures from "@/components/DisplayFeatures";
 import DisplayProcess from "@/components/DisplayProcess";
 import DisplayServices from "@/components/DisplayServices";
 import MessageUs from "@/components/MessageUs";
+import ClientsCarousel from "@/components/ReviewCarousel";
 import { motion } from "framer-motion";
 
 const Home = () => {
