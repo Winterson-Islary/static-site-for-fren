@@ -13,6 +13,7 @@ function DisplayClients() {
 		"client9",
 		"client10",
 		"client11",
+		"client12",
 		"client1",
 		"client2",
 		"client3",
@@ -24,6 +25,7 @@ function DisplayClients() {
 		"client9",
 		"client10",
 		"client11",
+		"client12",
 	];
 	return (
 		<>

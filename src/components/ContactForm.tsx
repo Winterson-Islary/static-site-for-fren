@@ -8,7 +8,7 @@ const ContactForm = () => {
 	}
 	return (
 		<article className="relative flex w-full mx-auto h-full items-center justify-center gap-5">
-			<section className=" w-[40rem] h-full flex flex-col justify-center">
+			<section className=" w-[37rem] h-full flex flex-col justify-center">
 				<header className="mb-[5rem] md:mb-[8rem]">
 					<h1 className="font-serif font-bold text-4xl md:text-7xl md:pb-3 text-center md:text-start">
 						Contact Us.
@@ -72,11 +72,11 @@ const ContactForm = () => {
 					</Link>
 				</main>
 			</section>
-			<section className="w-[40rem] h-full hidden lg:block">
+			<section className="w-[37rem] h-[70%] overflow-hidden hidden lg:block">
 				<div className="h-full flex items-center">
 					<img
 						src="/assets/contact_us.webp"
-						className="w-full h-[890px] brightness-75 object-cover opacity-90 rounded-[5px]"
+						className="w-full h-full brightness-75 object-cover opacity-90 rounded-[3px]"
 						alt=""
 					/>
 				</div>
