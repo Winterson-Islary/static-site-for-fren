@@ -8,7 +8,7 @@ const ContactForm = () => {
 	}
 	return (
 		<article className="relative flex w-full mx-auto h-full items-center justify-center gap-5">
-			<section className=" w-[37rem] h-full flex flex-col justify-center">
+			<section className=" w-[37rem] h-[70%] flex flex-col justify-center">
 				<header className="mb-[5rem] md:mb-[8rem]">
 					<h1 className="font-serif font-bold text-4xl md:text-7xl md:pb-3 text-center md:text-start">
 						Contact Us.
@@ -74,10 +74,13 @@ const ContactForm = () => {
 			</section>
 			<section className="w-[37rem] h-[70%] overflow-hidden hidden lg:block">
 				<div className="h-full flex items-center">
-					<img
-						src="/assets/contact_us.webp"
-						className="w-full h-full brightness-75 object-cover opacity-90 rounded-[3px]"
-						alt=""
+					<iframe
+						className="w-full h-full rounded-[2px]"
+						title="go-eazy office location"
+						src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d585.2746682237026!2d55.266428812058884!3d25.187447340095737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3e5f69e157416ff3%3A0x30402e548488e6d0!2sThe%20Binary%20by%20Omniyat%20-%20tower%201%2032%20Marasi%20Drive%20Street%20-%20Business%20Bay%20-%20Dubai%20-%20United%20Arab%20Emirates!3m2!1d25.1876174!2d55.266769999999994!5e0!3m2!1sen!2sin!4v1728750066509!5m2!1sen!2sin"
+						allowFullScreen
+						loading="lazy"
+						referrerPolicy="no-referrer-when-downgrade"
 					/>
 				</div>
 			</section>
