@@ -134,7 +134,7 @@ const Home = () => {
 						<strong>"</strong>
 					</span>
 				</section>
-				<section className="pt-[5rem]">
+				<section className="pt-[5rem] w-full">
 					<DisplayFeatures />
 				</section>
 			</div>

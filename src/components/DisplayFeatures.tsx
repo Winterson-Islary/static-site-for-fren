@@ -45,7 +45,7 @@ function DisplayFeatures() {
 		},
 	});
 	return (
-		<section className=" flex flex-col md:flex-row flex-wrap gap-2 md:gap-[1rem] xl:gap-[1rem] w-[95%] md:w-[90%] xl:w-[90%] 2xl:w-[70%] mx-auto">
+		<section className=" w-[90%] flex  flex-wrap justify-start sm:justify-center mx-auto gap-5">
 			{featureList.map((feature, index) => {
 				return (
 					<motion.div
@@ -55,12 +55,12 @@ function DisplayFeatures() {
 						whileInView="animate"
 						viewport={{ once: true }}
 						className={
-							" flex flex-col flex-1 p-3 gap-4 md:gap-0 items-center justify-around md:items-start min-w-[13rem] md:min-h-[25rem] "
+							"h-full flex flex-col overflow-hidden basis-[100%] sm:basis-[17rem] rounded-[3px] gap-2"
 						}
 					>
-						<section className="w-full overflow-hidden rounded">
+						<section className="h-full w-full overflow-hidden">
 							<img
-								className="h-[200px] w-full object-cover  shadow-md hover:scale-110 duration-300"
+								className="h-[150px] sm:h-[200px] w-full object-cover  shadow-md scale-110 hover:scale-100 duration-300"
 								src={`/assets/${feature.icon}.webp`}
 								alt={`feature ${feature.title}`}
 								key={feature.title}
@@ -72,12 +72,12 @@ function DisplayFeatures() {
 								<span className="hidden md:block text-sm font-semibold">
 									[{feature.number}]
 								</span>
-								<span className="font-roboto text-xl md:text-2xl font-semibold uppercase">
+								<span className="font-serif text-xl uppercase font-semibold">
 									{feature.title}
 								</span>
 							</section>
-							<section className="font-playfair font-semibold ">
-								<p className="leading-tight text-sm md:text-xl tracking-tighter">
+							<section className="font-playfair font-semibold">
+								<p className="leading-tight text-sm md:text-base tracking-tighter">
 									{feature.desc}
 								</p>
 							</section>
