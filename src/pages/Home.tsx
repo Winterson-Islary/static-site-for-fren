@@ -41,9 +41,9 @@ const Home = () => {
 		<>
 			<div
 				id="hero-section"
-				className="relative h-screen flex w-full bg-[#f9f9f9]"
+				className="relative h-screen flex w-full 2xl:w-[80%] mx-auto"
 			>
-				<section className="flex flex-col text-black h-full w-[80%] xl:w-[50%] 2xl:w-[60%]  ml-5 md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
+				<section className="flex flex-col text-black h-full w-[80%] xl:w-[50%] 2xl:w-[60%] mx-auto md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
 					<motion.span
 						variants={fadeInAnimationVariants}
 						initial="initial"
@@ -51,7 +51,7 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className=" font-tanker font-black text-[2.9rem] leading-[2.8rem] md:text-7xl  2xl:text-8xl"
+						className=" font-tanker font-black text-5xl sm:text-6xl text-center md:text-left leading-[2.8rem] md:text-7xl  2xl:text-8xl"
 					>
 						<span className="">YOUR PREMIER PROFESSIONAL</span>{" "}
 						<span className="underline text-[#cc3115]">
@@ -68,8 +68,8 @@ const Home = () => {
 						}}
 						className="font-thin py-5 md:text-xl xl:text-3xl"
 					>
-						<p className="tracking-tight leading-snug text-background font-tanker">
-							<span className="text-black">
+						<p className="tracking-tight text-center md:text-left leading-snug text-background font-tanker">
+							<span className="text-black md:text-xl">
 								Professional Errand Runners for All Your Needs :
 								Finding, Booking, Fixing, Buying, and Delivering
 								anything ASAP.
@@ -83,7 +83,7 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className="relative top-[2rem]"
+						className="relative top-[2rem] w-full"
 					>
 						<MessageUs />
 					</motion.span>
