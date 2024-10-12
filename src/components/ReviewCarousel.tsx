@@ -90,13 +90,13 @@ function ClientsCarousel() {
 										alt={`reviewer ${item.name}`}
 									/>
 								</span>
-								<span className="text-2xl underline">
+								<span className="text-xl md:text-2xl underline">
 									{item.name}
 								</span>
 								<span className="text-xl">{item.stars}</span>
 							</section>
 							<section className="py-5 flex items-center justify-center text-center">
-								<p className="text-xl italic">
+								<p className="text-sm md:text-xl italic">
 									"{item.review}"
 								</p>
 							</section>
