@@ -11,10 +11,10 @@ function DisplayProcess() {
 					<span className="underline">
 						STEP <span className="font-montserrat">1.</span>
 					</span>
-					<span className="font-semibold text-xl uppercase">
+					<span className="font-semibold md:text-xl uppercase">
 						Reach us on WhatsApp.
 					</span>
-					<span>
+					<span className="text-sm md:text-base">
 						Connect directly with your dedicated virtual assistant
 						via WhatsApp for personalized, one-on-one assistance.
 					</span>
@@ -30,10 +30,10 @@ function DisplayProcess() {
 					<span className="underline">
 						STEP <span className="font-montserrat">2.</span>
 					</span>
-					<span className="font-semibold text-xl uppercase">
+					<span className="font-semibold md:text-xl uppercase">
 						We get to work.
 					</span>
-					<span className="">
+					<span className="text-sm md:text-base">
 						The moment you reach out, we spring into action! Our
 						dedicated team will promptly begin working to find the
 						ideal solution for your specific needs.
@@ -50,10 +50,10 @@ function DisplayProcess() {
 					<span className="underline">
 						STEP <span className="font-montserrat">3.</span>{" "}
 					</span>
-					<span className="text-xl font-semibold uppercase">
+					<span className="md:text-xl font-semibold uppercase">
 						Your guaranteed satisfaction.
 					</span>
-					<span>
+					<span className="text-sm md:text-base">
 						Our dedicated team is committed to exceeding your
 						expectations. We take the time to understand your needs,
 						develop a tailored plan, and execute it flawlessly.
