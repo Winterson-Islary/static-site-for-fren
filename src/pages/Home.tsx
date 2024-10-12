@@ -236,10 +236,10 @@ const Home = () => {
 							<span className="font-serif text-sm md:text-lg ">
 								<ul>
 									<li className="">
-										<strong className="font-roboto text-xl">
+										<strong className="font-roboto text-base md:text-xl">
 											#1. Take Back Your Time :
 										</strong>{" "}
-										<span className="text-base">
+										<span className="text-sm md:text-base">
 											At Go-Eazy, we know your time is
 											valuable. That's why we exist - to
 											help busy people like you conquer
@@ -248,10 +248,10 @@ const Home = () => {
 										</span>
 									</li>
 									<li className="pt-5 ">
-										<strong className="font-roboto text-xl">
+										<strong className="font-roboto text-base md:text-xl">
 											#2. Effortless Errands :
 										</strong>{" "}
-										<span className="text-base">
+										<span className="text-sm md:text-base">
 											Our platform connects you with
 											pre-vetted, reliable errand runners
 											who can tackle anything from grocery
@@ -260,10 +260,10 @@ const Home = () => {
 										</span>
 									</li>
 									<li className="pt-5">
-										<strong className="text-xl font-roboto ">
+										<strong className="text-base md:text-xl font-roboto ">
 											#3. Seamless Convenience :
 										</strong>{" "}
-										<span className="text-base">
+										<span className="text-sm md:text-base">
 											We prioritize a smooth and
 											convenient experience. Get back your
 											time and energy - let Go-Eazy handle
@@ -272,10 +272,10 @@ const Home = () => {
 										</span>
 									</li>
 									<li className="pt-5">
-										<strong className="text-xl font-roboto">
+										<strong className="text-base md:text-xl font-roboto">
 											#4. Focus on What Matters :
 										</strong>{" "}
-										<span className="text-base">
+										<span className="text-sm md:text-base">
 											Our passionate team is dedicated to
 											helping you reclaim control of your
 											schedule. Leave the errands to us,
