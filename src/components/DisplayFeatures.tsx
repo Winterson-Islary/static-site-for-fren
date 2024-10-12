@@ -69,15 +69,15 @@ function DisplayFeatures() {
 
 						<div className="flex flex-col items-start  w-full">
 							<section className="text-left font-playfair flex flex-col gap-2">
-								<span className=" text-sm font-semibold">
+								<span className="hidden md:block text-sm font-semibold">
 									[{feature.number}]
 								</span>
-								<span className="font-roboto text-2xl font-semibold uppercase">
+								<span className="font-roboto text-xl md:text-2xl font-semibold uppercase">
 									{feature.title}
 								</span>
 							</section>
 							<section className="font-playfair font-semibold ">
-								<p className="leading-tight tracking-tighter">
+								<p className="leading-tight text-sm md:text-xl tracking-tighter">
 									{feature.desc}
 								</p>
 							</section>
