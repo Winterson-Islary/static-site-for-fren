@@ -130,11 +130,24 @@ function Footer() {
 						Business Bay - Dubai
 					</span>
 				</section>
-				<section className="font-roboto font-medium text-md text-white text-center mx-auto md:w-[70%]">
+				<section className="font-bigShoulders font-medium text-lg text-white text-center mx-auto md:w-[70%]">
 					Go-Eazy, its services and its websites, www.Go-Eazy.com, is
 					owned wholly by Go-Eazy Limited, Therefore, any referral to
 					Go-Eazy or its services, directly refers to Go-Eazy Limited.
 					United Arab of Emirates is our country of domicile
+				</section>
+				<section className="font-bigShoulders font-medium text-lg text-white text-left mx-auto pt-5">
+					[ developed&managed by{" "}
+					<span className="underline">
+						<a
+							href="https://techbuild.org.in"
+							target="_blank"
+							rel="noreferrer"
+						>
+							TechBuild
+						</a>
+					</span>{" "}
+					]
 				</section>
 			</div>
 		</footer>

@@ -73,6 +73,23 @@ const SVG = ({ width, height }: { width: number; height: number }) => {
 			style={{ height: "calc(100vh + 600px)" }}
 		>
 			<title>Page transition medium</title>
+			<defs>
+				<filter id="displacementFilter" x="0%" y="0%">
+					<feTurbulence
+						type="fractalNoise"
+						baseFrequency="0.03"
+						numOctaves="1"
+						result="noise"
+					/>
+					<feDisplacementMap
+						in="SourceGraphic"
+						in2="noise"
+						scale="50"
+						xChannelSelector="R"
+						yChannelSelector="G"
+					/>
+				</filter>
+			</defs>
 			<motion.path
 				initial={{ d: initialPath }}
 				animate={{
@@ -90,6 +107,8 @@ const SVG = ({ width, height }: { width: number; height: number }) => {
 						ease: [0.76, 0, 0.24, 1],
 					},
 				}}
+				// filter="url(#displacementFilter)"
+				id="transitionPath"
 			/>
 		</motion.svg>
 	);
