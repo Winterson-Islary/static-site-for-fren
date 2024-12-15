@@ -8,8 +8,9 @@ import Terms from "@/pages/Terms";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import PageTransition from "./PageTransition";
 import Welcome from "./Welcome";
-
-const router = createBrowserRouter([
+import Blog1 from "./blogs/BlogA";
+import HomeBlog from "./blogs/HomeBlog";
+export const router = createBrowserRouter([
 	{
 		element: <App />,
 		children: [
@@ -29,7 +30,24 @@ const router = createBrowserRouter([
 						<Blogs />
 					</PageTransition>
 				),
-				index: true,
+				children: [
+					{
+						index: true,
+						element: (
+							<PageTransition>
+								<HomeBlog />
+							</PageTransition>
+						),
+					},
+					{
+						path: "blog1",
+						element: (
+							<PageTransition>
+								<Blog1 />
+							</PageTransition>
+						),
+					},
+				],
 			},
 			{
 				path: "/services",

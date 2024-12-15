@@ -45,7 +45,7 @@ function DisplayFeatures() {
 		},
 	});
 	return (
-		<section className=" w-[90%] flex  flex-wrap justify-start sm:justify-center mx-auto gap-5">
+		<section className="w-[90%] grid grid-cols-[repeat(auto-fit,_1fr)] md:[grid-template-columns:repeat(auto-fit,_300px)] justify-center mx-auto gap-5">
 			{featureList.map((feature, index) => {
 				return (
 					<motion.div
