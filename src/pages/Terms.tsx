@@ -1,7 +1,7 @@
 function Terms() {
 	return (
 		<div className="w-full overflow-hidden py-[10rem]">
-			<div className="font-playfair text-md lg:text-xl w-[95%] xl:w-[60%] mx-auto border-x-2 p-1 md:p-10 h-full">
+			<div className="font-satoshi font-light text-md lg:text-xl w-[95%] xl:w-[60%] mx-auto border-x-2 p-1 md:p-10 h-full">
 				<header className="w-full text-center pb-5">
 					<strong className="text-4xl underline">
 						Terms and Conditions

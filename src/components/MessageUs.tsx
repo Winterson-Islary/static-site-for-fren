@@ -8,9 +8,9 @@ function MessageUs() {
 				className="w-full sm:w-[250px]"
 			>
 				<div className="w-full flex">
-					<div className="w-full bg-[#cc3115] flex items-center rounded-xl p-2 justify-center gap-2 hover:bg-black  hover:cursor-pointer  duration-500 ease-in-out select-none">
-						<span className="text-white font-tanker text-xl md:text-2xl flex items-center justify-center gap-2">
-							Hire A Runner{" "}
+					<div className="w-full bg-[#cc3115] flex items-center p-2  justify-center gap-2 hover:bg-black  hover:cursor-pointer  duration-500 ease-in-out select-none">
+						<span className="text-white font-satoshi font-light text-xl md:text-2xl flex items-center justify-center gap-2">
+							Hire a runner{" "}
 							<span className="text-3xl">&rarr;</span>
 						</span>
 					</div>

@@ -20,15 +20,9 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				bigShoulders: [
-					'"Big Shoulders Display"',
-					...defaultTheme.fontFamily.sans,
-				],
-				roboto: ['"Roboto Condensed"', ...defaultTheme.fontFamily.sans],
-				tanker: ["Tanker Regular", ...defaultTheme.fontFamily.sans],
-				poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
-				playfair: ["Playfair Display", ...defaultTheme.fontFamily.sans],
-				clash: ["Clash Grotesk", ...defaultTheme.fontFamily.serif],
+				boska: ["Boska", ...defaultTheme.fontFamily.serif],
+				satoshi: ["Satoshi", ...defaultTheme.fontFamily.serif],
+				roboto: ["Roboto Condensed", ...defaultTheme.fontFamily.sans],
 			},
 			colors: {
 				border: "hsl(var(--border))",

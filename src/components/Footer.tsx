@@ -122,29 +122,29 @@ function Footer() {
 			</div>
 			<div className="w-[80%]  mx-auto border-t-4 border-white py-10">
 				<section className="flex flex-col md:flex-row gap-5 justify-between  text-white pb-10">
-					<span className=" font-montserrat ">
+					<span className=" font-satoshi font-light ">
 						2024 © GO-EAZY, ALL RIGHTS RESERVED
 					</span>
-					<span className="font-montserrat uppercase">
+					<span className="font-satoshi font-light uppercase">
 						The Binary by Omniyat - tower 1 32 Marasi Drive Street -
 						Business Bay - Dubai
 					</span>
 				</section>
-				<section className="font-bigShoulders font-medium text-lg text-white text-center mx-auto md:w-[70%]">
+				<section className="font-satoshi font-light text-base text-white text-center mx-auto md:w-[70%]">
 					Go-Eazy, its services and its websites, www.Go-Eazy.com, is
 					owned wholly by Go-Eazy Limited, Therefore, any referral to
 					Go-Eazy or its services, directly refers to Go-Eazy Limited.
 					United Arab of Emirates is our country of domicile
 				</section>
-				<section className="font-bigShoulders font-medium text-lg text-white text-left mx-auto pt-5">
-					[ developed&managed by{" "}
+				<section className="font-satoshi font-light text-lg text-white text-left mx-auto pt-5">
+					[ developed by{" "}
 					<span className="underline">
 						<a
-							href="https://techbuild.org.in"
+							href="https://www.blackryce.com"
 							target="_blank"
 							rel="noreferrer"
 						>
-							TechBuild
+							BlackRyce
 						</a>
 					</span>{" "}
 					]

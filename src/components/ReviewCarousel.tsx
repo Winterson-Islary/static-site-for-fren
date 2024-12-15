@@ -81,7 +81,7 @@ function ClientsCarousel() {
 					return (
 						<SwiperSlide
 							key={item.name}
-							className=" select-none font-playfair h-full w-full p-2 md:p-5 hover:cursor-grab active:cursor-grabbing"
+							className=" select-none font-satoshi h-full w-full p-2 md:p-5 hover:cursor-grab active:cursor-grabbing"
 						>
 							<section className="flex flex-col items-center justify-center">
 								<span>
@@ -90,13 +90,13 @@ function ClientsCarousel() {
 										alt={`reviewer ${item.name}`}
 									/>
 								</span>
-								<span className="text-xl md:text-2xl underline">
+								<span className="text-xl font-boska md:text-2xl">
 									{item.name}
 								</span>
 								<span className="text-xl">{item.stars}</span>
 							</section>
 							<section className="py-5 flex items-center justify-center text-center">
-								<p className="text-sm md:text-xl italic">
+								<p className="text-sm md:text-xl font-light">
 									"{item.review}"
 								</p>
 							</section>

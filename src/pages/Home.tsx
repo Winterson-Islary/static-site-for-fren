@@ -51,13 +51,13 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className=" font-tanker font-black text-5xl sm:text-6xl text-center md:text-left leading-[2.8rem] md:text-7xl  2xl:text-8xl"
+						className=" font-light uppercase font-satoshi text-5xl sm:text-6xl text-center md:text-left leading-[2.8rem] md:text-7xl  2xl:text-8xl"
 					>
-						<span className="">YOUR PREMIER PROFESSIONAL</span>{" "}
+						<span className="">Your Premier Professional</span>{" "}
 						<span className="underline text-[#cc3115]">
-							ERRANDS
+							Errands
 						</span>{" "}
-						<span className="">RUNNING SERVICE.</span>
+						<span className="">Running Service.</span>
 					</motion.span>
 					<motion.span
 						variants={fadeInAnimationVariants}
@@ -66,10 +66,10 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className="font-thin py-5 md:text-xl xl:text-3xl"
+						className="font-satoshi font-light py-5 md:text-xl xl:text-3xl"
 					>
-						<p className="tracking-tight text-center md:text-left leading-snug text-background font-tanker">
-							<span className="text-black md:text-xl">
+						<p className="tracking-tight text-center md:text-left leading-snug text-background">
+							<span className="text-black text-lg md:text-3xl">
 								Professional Errand Runners for All Your Needs :
 								Finding, Booking, Fixing, Buying, and Delivering
 								anything ASAP.
@@ -124,11 +124,11 @@ const Home = () => {
 				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%]"
 			>
 				<section className="flex flex-col items-center justify-center w-full relative">
-					<span className=" font-playfair text-4xl md:text-6xl font-bold tracking-tight z-10">
+					<span className=" font-boska text-4xl md:text-6xl font-bold tracking-tight z-10">
 						Features.
 					</span>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-					<span className=" text-center font-playfair text-sm  md:text-lg font-light z-10">
+					<span className=" text-center font-satoshi text-sm  md:text-lg font-light z-10">
 						<strong>"</strong>Want to simplify your life with errand
 						runners? <strong>Go-Eazy </strong>is here to help.
 						<strong>"</strong>
@@ -141,12 +141,8 @@ const Home = () => {
 			<div className="relative w-[95%] mx-auto">
 				<section id="divider" className="h-[1px] bg-[#787876] " />
 				<section className="flex justify-between">
-					<p className="font-black font-bigShoulders text-[#787876]">
-						03
-					</p>
-					<p className="font-black font-bigShoulders text-[#787876]">
-						06
-					</p>
+					<p className="font-black font-roboto text-[#787876]">03</p>
+					<p className="font-black font-robot text-[#787876]">06</p>
 				</section>
 			</div>
 			<div
@@ -154,13 +150,13 @@ const Home = () => {
 				className=" h-full w-full mx-auto flex flex-col items-center py-20 md:py-[5rem] overflow-hidden"
 			>
 				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
-					<span className="font-playfair tracking-tight text-4xl md:text-6xl font-bold text-center z-10">
+					<span className="font-boska tracking-tight text-4xl md:text-6xl font-bold text-center z-10">
 						What we do.
 					</span>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className=" text-center font-playfair font-light text-sm md:text-lg z-10">
+					<span className=" text-center font-satoshi font-light text-sm md:text-lg z-10">
 						<strong>"</strong>Simplifying life, one task at a time.
 						<strong>"</strong>
 					</span>
@@ -172,12 +168,8 @@ const Home = () => {
 			<div className="relative w-[95%] mx-auto">
 				<section id="divider" className="h-[1px] bg-[#787876] " />
 				<section className="flex justify-between">
-					<p className="font-black font-bigShoulders text-[#787876]">
-						04
-					</p>
-					<p className="font-black font-bigShoulders text-[#787876]">
-						06
-					</p>
+					<p className="font-black font-roboto text-[#787876]">04</p>
+					<p className="font-black font-roboto text-[#787876]">06</p>
 				</section>
 			</div>
 			<div
@@ -185,11 +177,11 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 						Our Process.
 					</span>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-					<span className="font-playfair text-center text-sm md:text-lg z-10">
+					<span className="font-satoshi font-light text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Life made easy in 3 simple steps.
 						<strong>"</strong>
 					</span>
@@ -201,12 +193,8 @@ const Home = () => {
 			<div className="relative w-[95%] mx-auto">
 				<section id="divider" className="h-[1px] bg-[#787876] " />
 				<section className="flex justify-between">
-					<p className="font-black font-bigShoulders text-[#787876]">
-						05
-					</p>
-					<p className="font-black font-bigShoulders text-[#787876]">
-						06
-					</p>
+					<p className="font-black font-roboto text-[#787876]">05</p>
+					<p className="font-black font-roboto text-[#787876]">06</p>
 				</section>
 			</div>
 			<div
@@ -214,11 +202,11 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 						Why Choose Go-Eazy?
 					</span>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-					<span className="font-playfair text-center text-sm md:text-lg z-10">
+					<span className="font-satoshi font-light text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Errands Done Right, Every Time
 						<strong>"</strong>
 					</span>
@@ -233,13 +221,13 @@ const Home = () => {
 							/>
 						</section>
 						<section className=" w-full lg:w-[60%] xl:w-[50%] ">
-							<span className="font-serif text-sm md:text-lg ">
+							<span className="font-satoshi text-sm md:text-lg tracking-tight">
 								<ul>
 									<li className="">
-										<strong className="font-roboto text-base md:text-xl">
-											#1. Take Back Your Time :
+										<strong className="font-satoshi font-light text-xl md:text-3xl">
+											1. Take Back Your Time :
 										</strong>{" "}
-										<span className="text-sm md:text-base">
+										<span className="font-light text-sm md:text-lg">
 											At Go-Eazy, we know your time is
 											valuable. That's why we exist - to
 											help busy people like you conquer
@@ -248,10 +236,10 @@ const Home = () => {
 										</span>
 									</li>
 									<li className="pt-5 ">
-										<strong className="font-roboto text-base md:text-xl">
-											#2. Effortless Errands :
+										<strong className="font-satoshi font-light  text-xl md:text-3xl">
+											2. Effortless Errands :
 										</strong>{" "}
-										<span className="text-sm md:text-base">
+										<span className="font-light text-sm md:text-lg">
 											Our platform connects you with
 											pre-vetted, reliable errand runners
 											who can tackle anything from grocery
@@ -260,10 +248,10 @@ const Home = () => {
 										</span>
 									</li>
 									<li className="pt-5">
-										<strong className="text-base md:text-xl font-roboto ">
-											#3. Seamless Convenience :
+										<strong className="text-xl md:text-3xl font-satoshi font-light">
+											3. Seamless Convenience :
 										</strong>{" "}
-										<span className="text-sm md:text-base">
+										<span className="font-light text-sm md:text-lg">
 											We prioritize a smooth and
 											convenient experience. Get back your
 											time and energy - let Go-Eazy handle
@@ -272,10 +260,10 @@ const Home = () => {
 										</span>
 									</li>
 									<li className="pt-5">
-										<strong className="text-base md:text-xl font-roboto">
-											#4. Focus on What Matters :
+										<strong className="text-base md:text-3xl font-satoshi font-light">
+											4. Focus on What Matters :
 										</strong>{" "}
-										<span className="text-sm md:text-base">
+										<span className="text-sm md:text-lg font-light">
 											Our passionate team is dedicated to
 											helping you reclaim control of your
 											schedule. Leave the errands to us,
@@ -291,12 +279,8 @@ const Home = () => {
 			<div className="relative w-[95%] mx-auto">
 				<section id="divider" className="h-[1px] bg-[#787876] " />
 				<section className="flex justify-between">
-					<p className="font-black font-bigShoulders text-[#787876]">
-						06
-					</p>
-					<p className="font-black font-bigShoulders text-[#787876]">
-						06
-					</p>
+					<p className="font-black font-roboto text-[#787876]">06</p>
+					<p className="font-black font-roboto text-[#787876]">06</p>
 				</section>
 			</div>
 			<div
@@ -304,13 +288,13 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:pt-[10rem]"
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
+					<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 						Reviews From Clients.
 					</span>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className="font-playfair text-center italic text-sm md:text-lg pt-2 underline z-10">
+					<span className="font-satoshi text-center font-light text-sm md:text-lg pt-2 z-10">
 						<strong>"</strong>Hear from our happy clients.
 						<strong>" </strong>
 					</span>

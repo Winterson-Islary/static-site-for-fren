@@ -5,6 +5,15 @@
     font-family: "Tanker Regular";
     src: url("/assets/fonts/Tanker-Regular.otf");
   }
+  @font-face {
+    font-family: "Satoshi";
+    src: url("/assets/fonts/satoshi/Satoshi-Variable.ttf");
+  }
+  @font-face {
+    font-family: "Boska";
+    src: url("/assets/fonts/boska/Boska-Variable.ttf");
+  }
+
   * {
     user-select: none;
   }

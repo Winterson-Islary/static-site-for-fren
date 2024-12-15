@@ -115,7 +115,7 @@ function DisplayServices() {
 												<section className="font-roboto font-black text-xl uppercase">
 													{service.title}
 												</section>
-												<section className="font-playfair font-semibold text-sm md:text-base h-full flex-1 pb-10">
+												<section className="font-satoshi font-normal text-sm md:text-base h-full flex-1 pb-10">
 													<p className="leading-tight tracking-tighter text-[#252422]">
 														{service.description}
 													</p>
@@ -164,7 +164,7 @@ function DisplayServices() {
 												<section className="font-roboto text-xl uppercase font-bold">
 													{service.title}
 												</section>
-												<section className="font-playfair font-semibold text-sm md:text-base pb-10">
+												<section className="font-satoshi font-normal text-sm md:text-base pb-10">
 													<p className="leading-tight tracking-tighter text-[#252422]">
 														{service.description}
 													</p>

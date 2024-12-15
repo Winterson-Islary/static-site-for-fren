@@ -140,7 +140,7 @@ function NavbarItem({
 			<Link
 				to={link}
 				className={cn(
-					"font-tanker w-full justify-start text-3xl md:text-lg text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115]",
+					"font-satoshi font-normal uppercase w-full justify-start text-3xl md:text-sm text-white hover:border-t-2 hover:border-[#cc3115] hover:text-[#cc3115]",
 					isActive && "text-[#cc3115] border-t-2 border-[#cc3115]",
 				)}
 				onClick={() => {

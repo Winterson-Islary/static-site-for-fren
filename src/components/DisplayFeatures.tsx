@@ -3,28 +3,28 @@ function DisplayFeatures() {
 	const featureList = [
 		{
 			icon: "find",
-			title: "Find.",
+			title: "Find",
 			desc: "Our service helps you find exactly what you need, quickly and efficiently.",
 			color: "#af9159",
 			number: 1,
 		},
 		{
 			icon: "booking",
-			title: "Book.",
+			title: "Book",
 			desc: "Hassle-free and easy appointment bookings and reservations.",
 			color: "#efe9dd",
 			number: 2,
 		},
 		{
 			icon: "buy",
-			title: "Buy.",
+			title: "Buy",
 			desc: "Purchase items seamlessly with our reliable and secure buying service.",
 			color: "#af9159",
 			number: 3,
 		},
 		{
 			icon: "delivery",
-			title: "Delivery.",
+			title: "Delivery",
 			desc: "Get your items delivered promptly and safely right to your doorstep.",
 			color: "#efe9dd",
 			number: 4,
@@ -67,17 +67,17 @@ function DisplayFeatures() {
 							/>
 						</section>
 
-						<div className="flex flex-col items-start  w-full">
-							<section className="text-left font-playfair flex flex-col gap-2">
-								<span className="hidden md:block text-sm font-semibold">
+						<div className="flex flex-col items-start  w-full gap-2">
+							<section className="text-left font-satoshi flex flex-col gap-2">
+								<span className="hidden md:block text-sm">
 									[{feature.number}]
 								</span>
-								<span className="font-serif text-xl uppercase font-semibold">
+								<span className="font-satoshi text-4xl font-thin">
 									{feature.title}
 								</span>
 							</section>
-							<section className="font-playfair font-semibold">
-								<p className="leading-tight text-sm md:text-base tracking-tighter">
+							<section className="font-satoshi font-normal tracking-wide">
+								<p className="text-sm md:text-base">
 									{feature.desc}
 								</p>
 							</section>

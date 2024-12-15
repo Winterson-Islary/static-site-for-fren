@@ -5,13 +5,13 @@ function About() {
 			className=" h-full overflow-hidden py-[10rem] md:pt-[15rem] border-t border-slate-100"
 		>
 			<section className="text-center flex flex-col relative justify-center items-center">
-				<span className="text-4xl md:text-6xl font-playfair font-bold tracking-tight z-10">
+				<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 					About Us.
 				</span>
 				<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-				<span className="font-playfair text-center text-lg z-10">
-					<strong>" </strong>Your satisfaction, our Goal.
-					<strong> "</strong>
+				<span className="font-satoshi text-center text-lg z-10">
+					<strong>"</strong>Your satisfaction, our Goal.
+					<strong>"</strong>
 				</span>
 			</section>
 			<section className=" w-full h-full pt-11">
@@ -24,7 +24,7 @@ function About() {
 						/>
 					</section>
 					<section className=" w-full lg:w-[60%] xl:w-[50%] ">
-						<span className="md:leading-loose font-serif text-sm md:text-xl">
+						<span className="md:leading-normal tracking-tight font-satoshi text-sm md:text-xl font-light">
 							<p className="">
 								<strong>Go-Eazy </strong>is the new personal
 								assistant of choice for thousands of users
