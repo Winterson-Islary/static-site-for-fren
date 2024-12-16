@@ -53,11 +53,9 @@ const Home = () => {
 						}}
 						className=" font-light uppercase font-satoshi text-5xl sm:text-6xl text-center md:text-left leading-[2.8rem] md:text-7xl  2xl:text-8xl"
 					>
-						<span className="">Your Premier Professional</span>{" "}
-						<span className="underline text-[#cc3115]">
-							Errands
-						</span>{" "}
-						<span className="">Running Service.</span>
+						<h1 className="">Your Premier Professional</h1>{" "}
+						<h1 className="underline text-[#cc3115]">Errands</h1>{" "}
+						<h1 className="">Running Service.</h1>
 					</motion.span>
 					<motion.span
 						variants={fadeInAnimationVariants}
@@ -69,11 +67,11 @@ const Home = () => {
 						className="font-satoshi font-light py-5 md:text-xl xl:text-3xl"
 					>
 						<p className="tracking-tight text-center md:text-left leading-snug text-background">
-							<span className="text-black text-lg md:text-3xl">
+							<h2 className="text-black text-lg md:text-3xl">
 								Professional Errand Runners for All Your Needs :
 								Finding, Booking, Fixing, Buying, and Delivering
 								anything ASAP.
-							</span>
+							</h2>
 						</p>
 					</motion.span>
 					<motion.span
@@ -124,15 +122,15 @@ const Home = () => {
 				className=" h-full flex flex-col py-20 md:py-[10rem] mx-auto w-[100%]"
 			>
 				<section className="flex flex-col items-center justify-center w-full relative">
-					<span className=" font-boska text-4xl md:text-6xl font-bold tracking-tight z-10">
+					<h1 className=" font-boska text-4xl md:text-6xl font-bold tracking-tight z-10">
 						Features.
-					</span>
+					</h1>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-					<span className=" text-center font-satoshi text-sm  md:text-lg font-light z-10">
+					<h2 className=" text-center font-satoshi text-sm  md:text-lg font-light z-10">
 						<strong>"</strong>Want to simplify your life with errand
 						runners? <strong>Go-Eazy </strong>is here to help.
 						<strong>"</strong>
-					</span>
+					</h2>
 				</section>
 				<section className="pt-[5rem] w-full">
 					<DisplayFeatures />
@@ -150,16 +148,16 @@ const Home = () => {
 				className=" h-full w-full mx-auto flex flex-col items-center py-20 md:py-[5rem] overflow-hidden"
 			>
 				<section className="flex flex-col w-full xl:w-[45%] justify-center items-center md:px-1 rounded-lg relative">
-					<span className="font-boska tracking-tight text-4xl md:text-6xl font-bold text-center z-10">
+					<h1 className="font-boska tracking-tight text-4xl md:text-6xl font-bold text-center z-10">
 						What we do.
-					</span>
+					</h1>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className=" text-center font-satoshi font-light text-sm md:text-lg z-10">
+					<h2 className=" text-center font-satoshi font-light text-sm md:text-lg z-10">
 						<strong>"</strong>Simplifying life, one task at a time.
 						<strong>"</strong>
-					</span>
+					</h2>
 				</section>
 				<section className="pt-[2rem] w-full">
 					<DisplayServices />
@@ -177,14 +175,14 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
+					<h1 className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 						Our Process.
-					</span>
+					</h1>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-					<span className="font-satoshi font-light text-center text-sm md:text-lg z-10">
+					<h2 className="font-satoshi font-light text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Life made easy in 3 simple steps.
 						<strong>"</strong>
-					</span>
+					</h2>
 				</section>
 				<section className="pt-16 md:pb-10">
 					<DisplayProcess />
@@ -202,14 +200,14 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:py-[10rem] "
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
+					<h1 className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 						Why Choose Go-Eazy?
-					</span>
+					</h1>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-					<span className="font-satoshi font-light text-center text-sm md:text-lg z-10">
+					<h2 className="font-satoshi font-light text-center text-sm md:text-lg z-10">
 						<strong>"</strong>Errands Done Right, Every Time
 						<strong>"</strong>
-					</span>
+					</h2>
 				</section>
 				<section className=" w-full h-full pt-11">
 					<div className="flex flex-col items-center gap-11 w-[80%] h-full mx-auto">
@@ -224,51 +222,51 @@ const Home = () => {
 							<span className="font-satoshi text-sm md:text-lg tracking-tight">
 								<ul>
 									<li className="">
-										<strong className="font-satoshi font-light text-xl md:text-3xl">
-											1. Take Back Your Time :
-										</strong>{" "}
-										<span className="font-light text-sm md:text-lg">
+										<h3 className="font-satoshi font-light text-xl md:text-3xl pb-2">
+											1. Take Back Your Time
+										</h3>{" "}
+										<p className="font-light text-sm md:text-lg">
 											At Go-Eazy, we know your time is
 											valuable. That's why we exist - to
 											help busy people like you conquer
 											your to-do list, one errand at a
 											time.{" "}
-										</span>
+										</p>
 									</li>
 									<li className="pt-5 ">
-										<strong className="font-satoshi font-light  text-xl md:text-3xl">
-											2. Effortless Errands :
-										</strong>{" "}
-										<span className="font-light text-sm md:text-lg">
+										<h3 className="font-satoshi font-light  text-xl md:text-3xl pb-2">
+											2. Effortless Errands
+										</h3>{" "}
+										<p className="font-light text-sm md:text-lg">
 											Our platform connects you with
 											pre-vetted, reliable errand runners
 											who can tackle anything from grocery
 											shopping to personal errands and
 											beyond.{" "}
-										</span>
+										</p>
 									</li>
 									<li className="pt-5">
-										<strong className="text-xl md:text-3xl font-satoshi font-light">
-											3. Seamless Convenience :
-										</strong>{" "}
-										<span className="font-light text-sm md:text-lg">
+										<h3 className="text-xl md:text-3xl font-satoshi font-light pb-2">
+											3. Seamless Convenience
+										</h3>{" "}
+										<p className="font-light text-sm md:text-lg">
 											We prioritize a smooth and
 											convenient experience. Get back your
 											time and energy - let Go-Eazy handle
 											the errands, so you can focus on
 											what truly matters.{" "}
-										</span>
+										</p>
 									</li>
 									<li className="pt-5">
-										<strong className="text-base md:text-3xl font-satoshi font-light">
-											4. Focus on What Matters :
-										</strong>{" "}
-										<span className="text-sm md:text-lg font-light">
+										<h3 className="text-base md:text-3xl font-satoshi font-light pb-2">
+											4. Focus on What Matters
+										</h3>{" "}
+										<p className="text-sm md:text-lg font-light">
 											Our passionate team is dedicated to
 											helping you reclaim control of your
 											schedule. Leave the errands to us,
 											and handle your life with ease.
-										</span>
+										</p>
 									</li>
 								</ul>
 							</span>
@@ -288,16 +286,16 @@ const Home = () => {
 				className=" h-full overflow-hidden py-20 md:pt-[10rem]"
 			>
 				<section className="text-center flex flex-col relative justify-center items-center">
-					<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
+					<h1 className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 						Reviews From Clients.
-					</span>
+					</h1>
 					<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0">
 						{""}
 					</span>
-					<span className="font-satoshi text-center font-light text-sm md:text-lg pt-2 z-10">
+					<h2 className="font-satoshi text-center font-light text-sm md:text-lg pt-2 z-10">
 						<strong>"</strong>Hear from our happy clients.
 						<strong>" </strong>
-					</span>
+					</h2>
 				</section>
 				<section className="w-full h-full pt-20">
 					<ClientsCarousel />

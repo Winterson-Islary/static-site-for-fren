@@ -3,9 +3,9 @@ function Terms() {
 		<div className="w-full overflow-hidden py-[10rem]">
 			<div className="font-satoshi font-light text-md lg:text-xl w-[95%] xl:w-[60%] mx-auto border-x-2 p-1 md:p-10 h-full">
 				<header className="w-full text-center pb-5">
-					<strong className="text-4xl underline">
-						Terms and Conditions
-					</strong>
+					<h1 className="text-4xl underline">
+						<strong className="">Terms and Conditions</strong>
+					</h1>
 				</header>
 				<p className="py-5 ml-5">
 					Welcome to Go-Eazy ("go-eazy," "we," or "us"). This page
@@ -30,16 +30,20 @@ function Terms() {
 					Go-Eazy or its services, directly refers to Go-Eazy Limited.
 					United Arab of Emirates is our country of domicile
 				</p>
-				<strong className="text-2xl underline">
-					1. Use of Our Services
-				</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						1. Use of Our Services
+					</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					Go-Eazy provides a platform that enables users of Go-Eazy
 					Services to arrange and schedule the fulfillment of many
 					different kinds of requests by third party providers of
 					various services (each a "Third Party Provider").
 				</p>
-				<strong className="ml-5">A. Eligibility</strong>
+				<h3>
+					<strong className="ml-5">A. Eligibility</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					This is a contract between you and Go-Eazy. You must read
 					and agree to these terms before using the Services. If you
@@ -73,7 +77,9 @@ function Terms() {
 					terminate this license at any time for any reason or no
 					reason.
 				</p>
-				<strong className="ml-5">C. Go-Eazy Accounts</strong>
+				<h3>
+					<strong className="ml-5">C. Go-Eazy Accounts</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					Your Go-Eazyaccount gives you access to the services and
 					functionality that we may establish and maintain from time
@@ -112,7 +118,9 @@ function Terms() {
 					address to send you other messages, such as changes to
 					features of the Services and special offers.
 				</p>
-				<strong className="ml-5">D. Services Rules</strong>
+				<h2>
+					<strong className="ml-5">D. Services Rules</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					You agree not to engage in any of the following prohibited
 					activities: (i) copying, distributing, or disclosing any
@@ -168,9 +176,11 @@ function Terms() {
 					have no liability for your interactions with other Users, or
 					for any User's action or inaction.
 				</p>
-				<strong className="text-2xl underline">
-					2. Our Proprietary Rights
-				</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						2. Our Proprietary Rights
+					</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					The Services and all materials therein or transferred
 					thereby, including, without limitation, software, images,
@@ -203,15 +213,23 @@ function Terms() {
 					known to go-eazy or developed by its employees, or obtained
 					from sources other than you.
 				</p>
-				<strong className="text-2xl underline">3. Paid Services</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						3. Paid Services
+					</strong>
+				</h2>
 				<p className="pb-5">{}</p>
-				<strong className="ml-5">A. Pricing.</strong>
+				<h3>
+					<strong className="ml-5">A. Pricing.</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					When you order something, we'll let you know the total price
 					so you can confirm it before you are billed. The price
 					provided is viable for 10 mins.{" "}
 				</p>
-				<strong className="ml-5">B. Billing Policies.</strong>
+				<h3>
+					<strong className="ml-5">B. Billing Policies.</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					Certain aspects of the Services may be provided for a fee or
 					other charge. Go-Eazy may add new services for additional
@@ -224,9 +242,11 @@ function Terms() {
 					binding. We accept payments online using Visa and MasterCard
 					credit/debit card in AED.{" "}
 				</p>
-				<strong className="ml-5">
-					C. Refund and Cancellation Policy.
-				</strong>
+				<h3>
+					<strong className="ml-5">
+						C. Refund and Cancellation Policy.
+					</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					You may cancel your Go-Eazy account or any requests at any
 					time; however, Go-Eazy will provide refunds for purchases
@@ -255,7 +275,9 @@ function Terms() {
 					refunded amount will not be processed in not less than 30
 					days.
 				</p>
-				<strong className="ml-5">D. Payment Information.</strong>
+				<h3>
+					<strong className="ml-5">D. Payment Information.</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					All information that you provide in connection with a
 					purchase or transaction or other monetary transaction
@@ -270,7 +292,9 @@ function Terms() {
 					interactions. The cardholder must retain a copy of
 					transaction records and Merchant policies and rules.
 				</p>
-				<strong className="ml-5">E. Delivery Policy.</strong>
+				<h3>
+					<strong className="ml-5">E. Delivery Policy.</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					Go-Eazy will use third party delivery services on a best
 					effort basis to connect sellers with buyers.{" "}
@@ -291,7 +315,9 @@ function Terms() {
 					You will receive payment confirmation through email and in
 					less than 24 hours
 				</p>
-				<strong className="text-2xl underline">4. Privacy</strong>
+				<h2>
+					<strong className="text-2xl underline">4. Privacy</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					We care about the privacy of our Users. You understand that
 					by using the Services you consent to the collection, use and
@@ -301,7 +327,9 @@ function Terms() {
 					used, transferred to and processed in the United Arab
 					Emirates.
 				</p>
-				<strong className="text-2xl underline">5. Security</strong>
+				<h2>
+					<strong className="text-2xl underline">5. Security</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					Go-Eazy cares about the integrity and security of your
 					personal information. However, we cannot guarantee that
@@ -310,9 +338,11 @@ function Terms() {
 					improper purposes. You acknowledge that you provide your
 					personal information at your own risk.
 				</p>
-				<strong className="text-2xl underline">
-					6. Third-Party Links and Information
-				</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						6. Third-Party Links and Information
+					</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					The Services may contain links to third-party materials that
 					are not owned or controlled by go-Eazy. Go-Eazy does not
@@ -331,7 +361,9 @@ function Terms() {
 					Go-Eazy shall not be responsible for any loss or damage of
 					any sort relating to your dealings with such advertisers.{" "}
 				</p>
-				<strong className="text-2xl underline">7. Indemnity</strong>
+				<h2>
+					<strong className="text-2xl underline">7. Indemnity</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					You agree to defend, indemnify and hold harmless Go-Eazy and
 					its subsidiaries, agents, licensors, managers, and other
@@ -354,7 +386,11 @@ function Terms() {
 					access and use of the Services with your unique username,
 					password or other appropriate security code.
 				</p>
-				<strong className="text-2xl underline">8. No Warranty</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						8. No Warranty
+					</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					The service is provided on an "as is" and "as available"
 					basis. The use of the service is at your own risk. To the
@@ -397,9 +433,11 @@ function Terms() {
 					The disclaimers and exclusions under this agreement will not
 					apply to the extent prohibited by applicable law.
 				</p>
-				<strong className="text-2xl underline">
-					9. Limitation of Liability
-				</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						9. Limitation of Liability
+					</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					To the maximum extent permitted by applicable law, in no
 					event shall Go-Eazy, its affiliates, agents, directors,
@@ -454,9 +492,11 @@ function Terms() {
 					unauthorized use as subject to the terms and conditions of
 					this User Agreement.
 				</p>
-				<strong className="text-2xl ml-5">
-					Platform for Communication
-				</strong>
+				<h1>
+					<strong className="text-2xl ml-5">
+						Platform for Communication
+					</strong>
+				</h1>
 				<p className="py-5 ml-5">
 					The Service is only a platform for communication whereby
 					users may request for a service or a product to be provided.
@@ -470,9 +510,11 @@ function Terms() {
 					Product representations using the Service are those of the
 					third party supplier and are not made by Go-Eazy.{" "}
 				</p>
-				<strong className="text-2xl underline">
-					10. Governing Law and Arbitration
-				</strong>
+				<h2>
+					<strong className="text-2xl underline">
+						10. Governing Law and Arbitration
+					</strong>
+				</h2>
 				<p className="py-5 ml-5">
 					This User Agreement is governed by and construed in
 					accordance with, UAE law. This clause will survive any
@@ -481,7 +523,9 @@ function Terms() {
 					products to any of OFAC sanction countries in accordance
 					with the law of the UAE.
 				</p>
-				<strong className="text-2xl ml-5">Disputes</strong>
+				<h1>
+					<strong className="text-2xl ml-5">Disputes</strong>
+				</h1>
 				<p className="py-5 ml-5">
 					If any dispute, claim, controversy or difference (including
 					in relation to any tortious or statutory claim) ("Dispute")
@@ -524,9 +568,13 @@ function Terms() {
 					deemed to have breached this arbitration agreement or
 					infringed the powers of the arbitrator for having done so.
 				</p>
-				<strong className="text-2xl underline">11. General</strong>
+				<h2>
+					<strong className="text-2xl underline">11. General</strong>
+				</h2>
 				<p className="pb-5">{}</p>
-				<strong className="ml-5">A. Assignment</strong>
+				<h3>
+					<strong className="ml-5">A. Assignment</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					This Agreement, and any rights and licenses granted
 					hereunder, may not be transferred or assigned by you but may
@@ -534,9 +582,11 @@ function Terms() {
 					transfer or assignment in violation hereof shall be null and
 					void.{" "}
 				</p>
-				<strong className="ml-5">
-					B. Notification Procedures and Changes to the Agreement
-				</strong>
+				<h3>
+					<strong className="ml-5">
+						B. Notification Procedures and Changes to the Agreement
+					</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					Go-Eazy may provide notifications, whether such
 					notifications are required by law or are for marketing or
@@ -558,9 +608,11 @@ function Terms() {
 					Use, do not use or access (or continue to access) the
 					Services.
 				</p>
-				<strong className="ml-5">
-					C. Entire Agreement/Severability
-				</strong>
+				<h3>
+					<strong className="ml-5">
+						C. Entire Agreement/Severability
+					</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					This Agreement, together with any amendments and any
 					additional agreements you may enter into with Go-Eazy in
@@ -572,7 +624,9 @@ function Terms() {
 					provisions of this Agreement, which shall remain in full
 					force and effect.
 				</p>
-				<strong className="ml-5">D. No Waiver.</strong>
+				<h3>
+					<strong className="ml-5">D. No Waiver.</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					No waiver of any term of this Agreement shall be deemed a
 					further or continuing waiver of such term or any other term,
@@ -580,7 +634,9 @@ function Terms() {
 					this Agreement shall not constitute a waiver of such right
 					or provision.
 				</p>
-				<strong className="ml-5">E. Contact.</strong>
+				<h3>
+					<strong className="ml-5">E. Contact.</strong>
+				</h3>
 				<p className="py-5 ml-5">
 					Please contact us at <strong>info@go-eazy.com</strong> with
 					any questions regarding this Agreement. This Agreement was

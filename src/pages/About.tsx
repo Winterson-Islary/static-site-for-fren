@@ -5,14 +5,14 @@ function About() {
 			className=" h-full overflow-hidden py-[10rem] md:pt-[15rem] border-t border-slate-100"
 		>
 			<section className="text-center flex flex-col relative justify-center items-center">
-				<span className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
+				<h1 className="text-4xl md:text-6xl font-boska font-bold tracking-tight z-10">
 					About Us.
-				</span>
+				</h1>
 				<span className="absolute h-[110px] w-[110px] rounded-full bg-[#cc3115] center-0 z-0" />
-				<span className="font-satoshi text-center text-lg z-10">
+				<h2 className="font-satoshi text-center text-lg z-10">
 					<strong>"</strong>Your satisfaction, our Goal.
 					<strong>"</strong>
-				</span>
+				</h2>
 			</section>
 			<section className=" w-full h-full pt-11">
 				<div className="flex flex-col items-center gap-11 w-[80%] h-full mx-auto">

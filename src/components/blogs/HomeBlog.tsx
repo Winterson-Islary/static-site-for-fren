@@ -17,10 +17,10 @@ const HomeBlog = () => {
 						className="grid grid-cols-1 [grid-template-rows:auto_auto_1fr] border p-2"
 					>
 						<img src={item.image} alt={`${item.blog} preview`} />
-						<h1 className="text-3xl font-light">{item.title}</h1>
-						<h2 className="text-lg font-light tracking-tight leading-7 pt-2">
+						<h2 className="text-3xl font-light">{item.title}</h2>
+						<h3 className="text-lg font-light tracking-tight leading-7 pt-2">
 							{item.preview}
-						</h2>
+						</h3>
 					</Link>
 				))}
 			</section>
