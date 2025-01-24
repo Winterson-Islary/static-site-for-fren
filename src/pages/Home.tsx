@@ -43,7 +43,7 @@ const Home = () => {
 				id="hero-section"
 				className="relative h-screen flex w-full 2xl:w-[80%] mx-auto"
 			>
-				<section className="flex flex-col text-black h-full w-[80%] xl:w-[50%] 2xl:w-[60%] mx-auto md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
+				<section className="flex flex-col text-black h-full w-[85%] xl:w-[50%] 2xl:w-[60%] mx-auto md:ml-10 2xl:ml-32 sm:ml-[5rem] md:px-8 justify-center text-left z-10">
 					<motion.span
 						variants={fadeInAnimationVariants}
 						initial="initial"
@@ -51,7 +51,7 @@ const Home = () => {
 						viewport={{
 							once: true,
 						}}
-						className=" font-light uppercase font-satoshi text-5xl sm:text-6xl text-center md:text-left leading-[2.8rem] md:text-7xl  2xl:text-8xl"
+						className=" font-light uppercase font-satoshi text-4xl sm:text-6xl text-center md:text-left leading-[2.8rem] md:text-7xl  2xl:text-8xl"
 					>
 						<h1 className="">Your Premier Professional</h1>{" "}
 						<h1 className="underline text-[#cc3115]">Errands</h1>{" "}

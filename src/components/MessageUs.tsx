@@ -10,7 +10,7 @@ function MessageUs() {
 				<div className="w-full flex">
 					<div className="w-full bg-[#cc3115] flex items-center p-2  justify-center gap-2 hover:bg-black  hover:cursor-pointer  duration-500 ease-in-out select-none">
 						<span className="text-white font-satoshi font-light text-xl md:text-2xl flex items-center justify-center gap-2">
-							Hire a runner{" "}
+							Hire Runners{" "}
 							<span className="text-3xl">&rarr;</span>
 						</span>
 					</div>
